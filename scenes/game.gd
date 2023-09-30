@@ -1,11 +1,18 @@
 extends Node2D
 
+const map_selection_scene: PackedScene = preload("res://scenes/ui/map_selection/map_selection.tscn")
+var map_selection_instance = map_selection_scene.instantiate()
 
-# Called when the node enters the scene tree for the first time.
+const lava_map_scene: PackedScene = preload("res://scenes/maps/lava_map/lava_map.tscn")
+
+
 func _ready():
-	pass # Replace with function body.
+	add_child(map_selection_instance)
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	$Score.text = str(Time.get_ticks_msec()/1000.0)
+	pass
+
+
+func start_game(map):
+	add_child(map)
