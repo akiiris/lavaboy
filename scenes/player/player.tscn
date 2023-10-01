@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_thwwh"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uxixv"]
-size = Vector2(4, 17)
+size = Vector2(12, 106)
 
 [sub_resource type="Animation" id="Animation_54h4s"]
 length = 0.001
@@ -28,11 +28,11 @@ collision_layer = 2
 script = ExtResource("1_thwwh")
 
 [node name="Col" type="CollisionShape2D" parent="."]
-position = Vector2(0, 1.5)
+position = Vector2(0, 7)
 shape = SubResource("RectangleShape2D_uxixv")
 
 [node name="SprPlayer" type="Sprite2D" parent="."]
-position = Vector2(0, -33)
+position = Vector2(-3, 20)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
