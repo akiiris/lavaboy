@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://ch6xgpm84hglf"]
+
+[node name="PlayerModel" type="Node3D"]
+
+[node name="CSGTorus3D" type="CSGTorus3D" parent="."]
+transform = Transform3D(-0.701022, -0.178034, 0.69056, 0.71098, -0.0991733, 0.696184, -0.0554594, 0.979014, 0.196101, 0, 0, 0)
+metadata/_edit_lock_ = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 9.34758)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)
+metadata/_edit_lock_ = true
