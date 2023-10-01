@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqqo4cy2gtay8"]
+
+[ext_resource type="PackedScene" uid="uid://bx811aemaib1n" path="res://assets/lava_boy_shrine.glb" id="1_6dr8m"]
+[ext_resource type="Script" path="res://scenes/shrine/shrine.gd" id="1_c4neb"]
+
+[node name="Shrine" type="Node2D"]
+script = ExtResource("1_c4neb")
+
+[node name="SubViewport" type="SubViewport" parent="."]
+own_world_3d = true
+transparent_bg = true
+
+[node name="lava_boy_shrine" parent="SubViewport" instance=ExtResource("1_6dr8m")]
+
+[node name="Camera3D" type="Camera3D" parent="SubViewport"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.92714, 17.853)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewport"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 9)

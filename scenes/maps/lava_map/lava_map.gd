@@ -6,8 +6,5 @@ func _ready():
 	pass
 
 
-func _process(delta):
-	var texture = $SubViewport.get_texture()
-	$Player/SprPlayer.texture = texture
-	
+func _process(delta):	
 	$Score.text = str(Time.get_ticks_msec()/1000.0)
