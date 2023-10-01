@@ -154,7 +154,7 @@ size = Vector2(537.813, 46.4688)
 size = Vector2(56, 247.617)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yiyxx"]
-size = Vector2(56, 55.75)
+size = Vector2(56, 56)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i0ecb"]
 size = Vector2(417, 55.75)
@@ -262,7 +262,7 @@ size = Vector2(115.25, 5.5)
 size = Vector2(115.25, 5.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r6x7f"]
-size = Vector2(115.25, 5.5)
+size = Vector2(115, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qg0i7"]
 size = Vector2(115.25, 5.5)
@@ -775,7 +775,7 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group39"]
-position = Vector2(1589, -173)
+position = Vector2(1587, -175)
 shape = SubResource("RectangleShape2D_yiyxx")
 
 [node name="Group40" type="StaticBody2D" parent="MapCollisions/Floors"]
