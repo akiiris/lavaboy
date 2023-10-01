@@ -4,6 +4,7 @@ extends CharacterBody2D
 const SPEED = 300.0
 const JUMP_VELOCITY = -575.0
 
+
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
@@ -45,5 +46,9 @@ func _physics_process(delta):
 		model_anim.play("renderwire")
 		model_anim.stop()
 		
+	if Input.is_action_pressed("down"):
+		set_collision_mask_value(1, false)
+	else:
+		set_collision_mask_value(1, true)
 	
 	move_and_slide()
