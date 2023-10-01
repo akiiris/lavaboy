@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 @onready var model_anim = get_node("SubViewport/PlayerModel/lava_boy_skeleton/AnimationPlayer")
 const SPEED = 300.0
-const JUMP_VELOCITY = -550.0
+const JUMP_VELOCITY = -575.0
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")

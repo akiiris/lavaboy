@@ -1,9 +1,10 @@
-[gd_scene load_steps=114 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=115 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
-[ext_resource type="Texture2D" uid="uid://dwl1x2x0ff1gk" path="res://assets/bg/kuntibackground.png" id="4_opi3h"]
+[ext_resource type="PackedScene" uid="uid://dqqo4cy2gtay8" path="res://scenes/shrine/shrine.tscn" id="4_muj75"]
 [ext_resource type="PackedScene" uid="uid://da4xy24jmwh6l" path="res://scenes/player/player.tscn" id="4_wlk3s"]
+[ext_resource type="PackedScene" uid="uid://o2ha4gcgrkac" path="res://scenes/skeledoor/skeledoor.tscn" id="5_5f1hb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q3dd8"]
 size = Vector2(376, 84)
@@ -341,13 +342,63 @@ scale = Vector2(0.708942, 0.717054)
 texture = ExtResource("2_h760f")
 metadata/_edit_lock_ = true
 
-[node name="w" type="Sprite2D" parent="."]
-position = Vector2(530, -675)
-scale = Vector2(0.354505, 0.354505)
-texture = ExtResource("4_opi3h")
+[node name="Shrines" type="Node2D" parent="."]
+
+[node name="Shrine" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(-1155, -619)
+
+[node name="Shrine2" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(-722, -300)
+
+[node name="Shrine3" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(-732, -1215)
+
+[node name="Shrine4" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(1865, -1309)
+
+[node name="Shrine5" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(2439, -500)
+
+[node name="Shrine6" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(2665, 122)
+
+[node name="Shrine7" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(-16, 4)
+
+[node name="Shrine8" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(1158, 152)
+
+[node name="Shrine9" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(144, -779)
+
+[node name="Shrine12" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(1089, -680)
+
+[node name="Shrine10" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(-44, -1153)
+
+[node name="Shrine11" parent="Shrines" instance=ExtResource("4_muj75")]
+position = Vector2(1118, -1362)
+
+[node name="Doors" type="Node2D" parent="."]
+
+[node name="Skeledoor" parent="Doors" instance=ExtResource("5_5f1hb")]
+position = Vector2(-193, -373)
+
+[node name="Skeledoor2" parent="Doors" instance=ExtResource("5_5f1hb")]
+position = Vector2(-1273, -1567)
+
+[node name="Skeledoor3" parent="Doors" instance=ExtResource("5_5f1hb")]
+position = Vector2(572, -1561)
+
+[node name="Skeledoor4" parent="Doors" instance=ExtResource("5_5f1hb")]
+position = Vector2(2722, -1517)
+
+[node name="Skeledoor5" parent="Doors" instance=ExtResource("5_5f1hb")]
+position = Vector2(1305, -270)
 
 [node name="Player" parent="." instance=ExtResource("4_wlk3s")]
-position = Vector2(121, 8)
+position = Vector2(1300, -334)
 
 [node name="Camera" type="Camera2D" parent="Player"]
 
@@ -356,6 +407,7 @@ offset_left = -568.0
 offset_top = -324.0
 offset_right = -528.0
 offset_bottom = -274.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 36
 
 [node name="MapCollisions" type="Node2D" parent="."]
@@ -645,7 +697,7 @@ shape = SubResource("RectangleShape2D_xgfv4")
 [node name="Group39" type="StaticBody2D" parent="MapCollisions/Floors"]
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group39"]
-position = Vector2(1589, -225)
+position = Vector2(1589, -173)
 shape = SubResource("RectangleShape2D_yiyxx")
 
 [node name="Group40" type="StaticBody2D" parent="MapCollisions/Floors"]
