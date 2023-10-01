@@ -1,7 +1,8 @@
-[gd_scene load_steps=113 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=114 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
+[ext_resource type="Texture2D" uid="uid://dwl1x2x0ff1gk" path="res://assets/bg/kuntibackground.png" id="4_opi3h"]
 [ext_resource type="PackedScene" uid="uid://da4xy24jmwh6l" path="res://scenes/player/player.tscn" id="4_wlk3s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q3dd8"]
@@ -339,6 +340,11 @@ position = Vector2(522, -176)
 scale = Vector2(0.708942, 0.717054)
 texture = ExtResource("2_h760f")
 metadata/_edit_lock_ = true
+
+[node name="w" type="Sprite2D" parent="."]
+position = Vector2(530, -675)
+scale = Vector2(0.354505, 0.354505)
+texture = ExtResource("4_opi3h")
 
 [node name="Player" parent="." instance=ExtResource("4_wlk3s")]
 position = Vector2(121, 8)
