@@ -4,6 +4,7 @@ extends CharacterBody2D
 const SPEED = 300.0
 const JUMP_VELOCITY = -575.0
 
+
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
@@ -50,5 +51,9 @@ func _physics_process(delta):
 	elif not is_on_floor() and velocity.y > 0 and not model_anim.current_animation == "jump" and not model_anim.current_animation == "Skeleton_001Action":
 		model_anim.play("Skeleton_001Action")
 		
+	if Input.is_action_pressed("down"):
+		set_collision_mask_value(1, false)
+	else:
+		set_collision_mask_value(1, true)
 	
 	move_and_slide()
