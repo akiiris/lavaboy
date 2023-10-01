@@ -11,7 +11,9 @@ func _ready():
 
 
 func _process(delta):
-	pass
+	var ws = DisplayServer.window_get_size()
+	ProjectSettings.set("display/window/size/viewport_height", ws.y)
+	ProjectSettings.set("display/window/size/viewport_width", ws.x)
 
 
 func start_game(map):
