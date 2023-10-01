@@ -33,7 +33,7 @@ position = Vector2(0, 7)
 shape = SubResource("RectangleShape2D_uxixv")
 
 [node name="SprPlayer" type="Sprite2D" parent="."]
-position = Vector2(-3, 20)
+position = Vector2(1, 20)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
