@@ -35,11 +35,15 @@ func _physics_process(delta):
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		
-	if is_on_floor() and not (model_anim.is_playing() and model_anim.current_animation == "jump"):
+	if is_on_floor() and not model_anim.is_playing() and not model_anim.current_animation == "jump":
 		if direction:
 			model_anim.play("renderwire")
 		else:
 			model_anim.play("renderwire")
 			model_anim.stop()
+	elif is_on_floor() and model_anim.is_playing() and model_anim.current_animation == "renderwire" and not direction:
+		model_anim.play("renderwire")
+		model_anim.stop()
+		
 	
 	move_and_slide()

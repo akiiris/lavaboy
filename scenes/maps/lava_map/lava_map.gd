@@ -7,4 +7,4 @@ func _ready():
 
 
 func _process(delta):	
-	$Score.text = str(Time.get_ticks_msec()/1000.0)
+	get_node("Player/Camera/Score").text = str(Time.get_ticks_msec()/1000.0)
