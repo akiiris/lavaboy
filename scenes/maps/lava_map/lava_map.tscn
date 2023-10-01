@@ -1,10 +1,11 @@
-[gd_scene load_steps=115 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=116 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
 [ext_resource type="PackedScene" uid="uid://dqqo4cy2gtay8" path="res://scenes/shrine/shrine.tscn" id="4_muj75"]
 [ext_resource type="PackedScene" uid="uid://da4xy24jmwh6l" path="res://scenes/player/player.tscn" id="4_wlk3s"]
 [ext_resource type="PackedScene" uid="uid://o2ha4gcgrkac" path="res://scenes/skeledoor/skeledoor.tscn" id="5_5f1hb"]
+[ext_resource type="PackedScene" uid="uid://bthywae6yhefp" path="res://scenes/zone/zone.tscn" id="6_bqfg3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q3dd8"]
 size = Vector2(376, 84)
@@ -1237,3 +1238,53 @@ collision_mask = 0
 position = Vector2(572.749, -1478)
 shape = SubResource("RectangleShape2D_eck0n")
 one_way_collision = true
+
+[node name="Zones" type="Node2D" parent="."]
+
+[node name="Zone" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(-1741, -1688)
+metadata/_edit_lock_ = true
+
+[node name="Zone2" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(-593, -1688)
+metadata/_edit_lock_ = true
+
+[node name="Zone3" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(555, -1688)
+metadata/_edit_lock_ = true
+
+[node name="Zone4" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(1703, -1688)
+metadata/_edit_lock_ = true
+
+[node name="Zone5" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(-1741, -1042)
+metadata/_edit_lock_ = true
+
+[node name="Zone6" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(-593, -1042)
+metadata/_edit_lock_ = true
+
+[node name="Zone7" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(555, -1042)
+metadata/_edit_lock_ = true
+
+[node name="Zone8" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(1703, -1042)
+metadata/_edit_lock_ = true
+
+[node name="Zone9" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(-1741, -396)
+metadata/_edit_lock_ = true
+
+[node name="Zone10" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(-593, -396)
+metadata/_edit_lock_ = true
+
+[node name="Zone11" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(555, -396)
+metadata/_edit_lock_ = true
+
+[node name="Zone12" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(1703, -396)
+metadata/_edit_lock_ = true
