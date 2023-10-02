@@ -23,3 +23,7 @@ func _on_btn_play_pressed():
 func _on_btn_quit_pressed():
 	if $BtnQuit.is_hovered():
 		get_tree().quit()
+
+
+func _on_audio_stream_player_finished():
+	$AudioStreamPlayer.play()

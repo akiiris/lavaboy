@@ -1,7 +1,8 @@
-[gd_scene load_steps=123 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=125 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
+[ext_resource type="Texture2D" uid="uid://0vaflj1t8tsw" path="res://assets/bg/kuntibackground5.png" id="3_ybcf1"]
 [ext_resource type="PackedScene" uid="uid://dqqo4cy2gtay8" path="res://scenes/shrine/shrine.tscn" id="4_muj75"]
 [ext_resource type="PackedScene" uid="uid://da4xy24jmwh6l" path="res://scenes/player/player.tscn" id="4_wlk3s"]
 [ext_resource type="PackedScene" uid="uid://o2ha4gcgrkac" path="res://scenes/skeledoor/skeledoor.tscn" id="5_5f1hb"]
@@ -359,6 +360,11 @@ position = Vector2(522, -176)
 scale = Vector2(0.708942, 0.717054)
 texture = ExtResource("2_h760f")
 metadata/_edit_lock_ = true
+
+[node name="Kuntibackground5" type="Sprite2D" parent="."]
+position = Vector2(554, -952)
+scale = Vector2(0.766, 0.766)
+texture = ExtResource("3_ybcf1")
 
 [node name="LevelWalls" type="StaticBody2D" parent="."]
 
