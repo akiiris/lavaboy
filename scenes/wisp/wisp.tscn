@@ -72,7 +72,7 @@ lifetime = 5.0
 [node name="SprWisp" type="Sprite2D" parent="."]
 
 [node name="DespawnTimer" type="Timer" parent="."]
-wait_time = 10.0
+wait_time = 40.0
 autostart = true
 
 [connection signal="body_entered" from="CollectionRadius" to="." method="_on_collection_radius_body_entered"]
