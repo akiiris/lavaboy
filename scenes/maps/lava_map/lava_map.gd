@@ -68,3 +68,7 @@ func _on_meteor_timer_timeout():
 func _on_saw_activate_delay_timeout():
 	for s in $Saws.get_children():
 		s.activate()
+
+
+func _on_meteor_start_delay_timeout():
+	$MeteorTimer.start()

@@ -3,7 +3,7 @@ extends Node2D
 @export var lock_alpha_curve: CurveTexture
 
 func _ready():
-	$LockTimer.wait_time = randf_range(60, 200)
+	$LockTimer.wait_time = randf_range(60, 360)
 	$LockTimer.start()
 
 
