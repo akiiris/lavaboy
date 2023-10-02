@@ -1,23 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://85fshduucm4d"]
+[gd_scene load_steps=2 format=3 uid="uid://85fshduucm4d"]
 
 [ext_resource type="Script" path="res://scenes/platform/platform.gd" id="1_uub5m"]
-[ext_resource type="PackedScene" uid="uid://73ypxefimjai" path="res://assets/map/platsq.glb" id="2_hg0eb"]
 
 [node name="Floor" type="Node2D"]
 script = ExtResource("1_uub5m")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-
-[node name="SubViewport" type="SubViewport" parent="."]
-own_world_3d = true
-transparent_bg = true
-size = Vector2i(1152, 648)
-
-[node name="Camera3D" type="Camera3D" parent="SubViewport"]
-transform = Transform3D(-4.36848e-08, -1.52551e-09, -1, -0.0348995, 0.999391, 0, 0.999391, 0.0348995, -4.37114e-08, -4.488, -0.085, 0.194)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewport"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
-
-[node name="platsq" parent="SubViewport" instance=ExtResource("2_hg0eb")]
-transform = Transform3D(1, 0, 0, 0, 1.65, 0, 0, 0, 1, 0, 0, 0)
