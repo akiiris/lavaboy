@@ -940,20 +940,24 @@ position = Vector2(1118, -1362)
 
 [node name="Doors" type="Node2D" parent="."]
 
-[node name="Skeledoor" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="BS" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(-193, -373)
+other_door_np = NodePath("../BP")
 
-[node name="Skeledoor2" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="AP" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(-1273, -1567)
+other_door_np = NodePath("../AS")
 
-[node name="Skeledoor3" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="LP" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(572, -1561)
 
-[node name="Skeledoor4" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="BP" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(2722, -1517)
+other_door_np = NodePath("../BS")
 
-[node name="Skeledoor5" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="AS" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(1305, -270)
+other_door_np = NodePath("../AP")
 
 [node name="Effects" type="Node2D" parent="."]
 
