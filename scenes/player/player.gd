@@ -153,9 +153,11 @@ func move_player(delta):
 	if Input.is_action_just_pressed("jump") and Time.get_ticks_msec() - last_on_floor <= coyote_time:
 		velocity.y = JUMP_VELOCITY
 		model_anim.play("jump")
+		$JumpSound.play()
 	elif is_on_floor() and Time.get_ticks_msec() - jump_buffer_time < JUMP_BUFFER_TIME:
 		velocity.y = JUMP_VELOCITY
 		model_anim.play("jump")
+		$JumpSound.play()
 	elif Input.is_action_just_pressed("jump"):
 		jump_buffer_time = Time.get_ticks_msec()
 	
@@ -166,6 +168,7 @@ func move_player(delta):
 		$BoostParticles.restart()
 		is_in_boost = true
 		model_anim.play("jump")
+		$BoostSound.play()
 	
 	# Sprint input
 	if is_on_floor():
@@ -183,7 +186,7 @@ func move_player(delta):
 	if not Input.is_action_pressed("down") or is_on_floor():
 		fastfall = false
 	if fastfall:
-		velocity.y += gravity * fastfall_multiplier * delta;
+		velocity.y += gravity * fastfall_multiplier * delta
 
 func die():
 	var time = get_tree().root.get_node("Game/LavaMap").time_score_thing

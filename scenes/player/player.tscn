@@ -1,8 +1,10 @@
-[gd_scene load_steps=22 format=3 uid="uid://da4xy24jmwh6l"]
+[gd_scene load_steps=24 format=3 uid="uid://da4xy24jmwh6l"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_thwwh"]
 [ext_resource type="Texture2D" uid="uid://csn7wtq4m3bg2" path="res://assets/player/lava_boy_skeleton4_Bone2-equus_hemionus.png" id="2_70hqg"]
 [ext_resource type="AudioStream" uid="uid://btn7pjg41g70m" path="res://assets/player/boneclink.mp3" id="3_55bsu"]
+[ext_resource type="AudioStream" uid="uid://cbff8e6pljoo5" path="res://assets/player/kuntijump.mp3" id="4_upnyg"]
+[ext_resource type="AudioStream" uid="uid://bwarp2hxt3evk" path="res://assets/player/kuntiboost.mp3" id="5_ux7v2"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uxixv"]
 size = Vector2(12, 106)
@@ -3225,6 +3227,14 @@ libraries = {
 
 [node name="WalkSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3_55bsu")
+max_polyphony = 10
+
+[node name="JumpSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_upnyg")
+max_polyphony = 10
+
+[node name="BoostSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_ux7v2")
 max_polyphony = 10
 
 [node name="WalkTimer" type="Timer" parent="."]
