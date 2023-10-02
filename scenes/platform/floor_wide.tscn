@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://bydyddi1ngc6t"]
+
+[ext_resource type="Script" path="res://scenes/platform/platform.gd" id="1_aq610"]
+[ext_resource type="PackedScene" uid="uid://7wnjumm2wv35" path="res://assets/map/plat3.glb" id="2_bej70"]
+
+[node name="FloorWise" type="Node2D"]
+script = ExtResource("1_aq610")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="SubViewport" type="SubViewport" parent="."]
+own_world_3d = true
+transparent_bg = true
+size = Vector2i(1152, 648)
+
+[node name="Camera3D" type="Camera3D" parent="SubViewport"]
+transform = Transform3D(-4.36848e-08, -1.52551e-09, -1, -0.0348995, 0.999391, 0, 0.999391, 0.0348995, -4.37114e-08, -2.865, -0.143, 0.194)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewport"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+
+[node name="plat3" parent="SubViewport" instance=ExtResource("2_bej70")]
+transform = Transform3D(0.51446, -0.17345, 0, 0.104604, 0.852015, -0.0465908, 0.00365287, 0.029753, 1.33419, 0, -0.01, 0)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=117 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=121 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
@@ -6,7 +6,20 @@
 [ext_resource type="PackedScene" uid="uid://da4xy24jmwh6l" path="res://scenes/player/player.tscn" id="4_wlk3s"]
 [ext_resource type="PackedScene" uid="uid://o2ha4gcgrkac" path="res://scenes/skeledoor/skeledoor.tscn" id="5_5f1hb"]
 [ext_resource type="PackedScene" uid="uid://bthywae6yhefp" path="res://scenes/zone/zone.tscn" id="6_bqfg3"]
-[ext_resource type="PackedScene" uid="uid://85fshduucm4d" path="res://scenes/platform/platform.tscn" id="6_eb4p7"]
+[ext_resource type="PackedScene" uid="uid://85fshduucm4d" path="res://scenes/platform/floor.tscn" id="6_h06s7"]
+[ext_resource type="PackedScene" uid="uid://bydyddi1ngc6t" path="res://scenes/platform/floor_wide.tscn" id="7_usr5o"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_hfrd3"]
+normal = Vector2(1, 0)
+distance = -1744.85
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_isgf4"]
+normal = Vector2(-1, 0)
+distance = -2852.0
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_py0dd"]
+normal = Vector2(0, 1)
+distance = -1688.4
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q3dd8"]
 size = Vector2(376, 84)
@@ -344,6 +357,38 @@ scale = Vector2(0.708942, 0.717054)
 texture = ExtResource("2_h760f")
 metadata/_edit_lock_ = true
 
+[node name="LevelWalls" type="StaticBody2D" parent="."]
+
+[node name="FarLeft" type="CollisionShape2D" parent="LevelWalls"]
+shape = SubResource("WorldBoundaryShape2D_hfrd3")
+
+[node name="FarRight" type="CollisionShape2D" parent="LevelWalls"]
+shape = SubResource("WorldBoundaryShape2D_isgf4")
+
+[node name="FarAbove" type="CollisionShape2D" parent="LevelWalls"]
+shape = SubResource("WorldBoundaryShape2D_py0dd")
+
+[node name="LeftWall" type="ColorRect" parent="LevelWalls"]
+offset_left = -3362.0
+offset_top = -1817.0
+offset_right = -1743.0
+offset_bottom = 1506.0
+color = Color(0, 0, 0, 1)
+
+[node name="RightWall" type="ColorRect" parent="LevelWalls"]
+offset_left = 2851.0
+offset_top = -1742.0
+offset_right = 4470.0
+offset_bottom = 1581.0
+color = Color(0, 0, 0, 1)
+
+[node name="RightWall2" type="ColorRect" parent="LevelWalls"]
+offset_left = -2752.0
+offset_top = -5010.0
+offset_right = 4667.0
+offset_bottom = -1687.0
+color = Color(0, 0, 0, 1)
+
 [node name="Shrines" type="Node2D" parent="."]
 
 [node name="Shrine" parent="Shrines" instance=ExtResource("4_muj75")]
@@ -480,8 +525,8 @@ collision_mask = 0
 position = Vector2(-871, -353)
 shape = SubResource("RectangleShape2D_i34rw")
 
-[node name="Platform" parent="MapCollisions/Floors/Group7" instance=ExtResource("6_eb4p7")]
-position = Vector2(-796, -353)
+[node name="Platform" parent="MapCollisions/Floors/Group7" instance=ExtResource("6_h06s7")]
+position = Vector2(-870, -353)
 
 [node name="Group8" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -490,6 +535,12 @@ collision_mask = 0
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group8"]
 position = Vector2(-1214, -70.4375)
 shape = SubResource("RectangleShape2D_0qtx4")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group8" instance=ExtResource("7_usr5o")]
+position = Vector2(-1312, -74)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group8" instance=ExtResource("7_usr5o")]
+position = Vector2(-1047, -74)
 
 [node name="Group9" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
