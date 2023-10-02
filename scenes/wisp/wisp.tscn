@@ -52,6 +52,7 @@ size = Vector2i(1152, 648)
 transform = Transform3D(0.601556, 0.288655, -0.744855, -0.00203605, 0.932982, 0.359916, 0.798828, -0.214993, 0.561829, -12.5962, 6.10072, 9.42866)
 
 [node name="lb_wisp" parent="SubViewport" instance=ExtResource("2_svbrq")]
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 0, 0)
 
 [node name="Col" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_iub71")
@@ -70,4 +71,9 @@ lifetime = 5.0
 
 [node name="SprWisp" type="Sprite2D" parent="."]
 
+[node name="DespawnTimer" type="Timer" parent="."]
+wait_time = 40.0
+autostart = true
+
 [connection signal="body_entered" from="CollectionRadius" to="." method="_on_collection_radius_body_entered"]
+[connection signal="timeout" from="DespawnTimer" to="." method="_on_despawn_timer_timeout"]

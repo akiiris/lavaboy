@@ -17,6 +17,10 @@ func _process(_delta):
 	$SubViewport.size = ws
 	$SprWisp.scale = Vector2( 1152.0 / ws.x, 648.0 / ws.y)
 
+	var alpha = min($DespawnTimer.time_left, 5) / 5.0
+	$SprWisp.modulate.a = alpha
+	$Particles.modulate.a = alpha
+
 
 func _physics_process(delta):
 	if abs(global_position - player.global_position).length() < RANGE:
@@ -32,3 +36,7 @@ func _on_collection_radius_body_entered(body):
 	if body.get_collision_layer_value(2):
 		player.collect_wisp()
 		queue_free()
+
+
+func _on_despawn_timer_timeout():
+	queue_free()
