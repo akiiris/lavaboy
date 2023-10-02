@@ -220,7 +220,7 @@ transparent_bg = true
 size = Vector2i(1152, 648)
 
 [node name="saw" type="MeshInstance3D" parent="SubViewport"]
-transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0)
+transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 mesh = SubResource("ArrayMesh_1k280")
 skeleton = NodePath("")
 
@@ -243,6 +243,7 @@ collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_sr2vt")
+disabled = true
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("2_xvbxb")
