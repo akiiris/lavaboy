@@ -15,10 +15,11 @@ var direction: float = 1
 var acceleration: float = 600
 var deceleration: float = 3
 var speed_cap: float = 300
+var is_in_boost: bool = false
 
 var last_on_floor: int = 0
 
-var wisps: int = 0
+var wisps: float = 0
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
@@ -72,6 +73,9 @@ func _physics_process(delta):
 
 
 func move_player(delta):
+	if is_on_floor():
+		is_in_boost = false
+	
 	# Drop through platforms
 	if Input.is_action_pressed("down"):
 		set_collision_mask_value(1, false)
@@ -90,11 +94,12 @@ func move_player(delta):
 	if Input.is_action_pressed("right") and direction == 1:
 		velocity.x += acceleration * delta
 	
-	# Cap horizontal speed
-	if velocity.x > speed_cap:
-		velocity.x = speed_cap
-	if velocity.x < -speed_cap:
-		velocity.x = -speed_cap
+	if not is_in_boost:
+		# Cap horizontal speed
+		if velocity.x > speed_cap:
+			velocity.x = speed_cap
+		if velocity.x < -speed_cap:
+			velocity.x = -speed_cap
 	
 	# Decelerate toward 0 when not holding left
 	if not Input.is_action_pressed("left") or direction == 1:
@@ -102,7 +107,6 @@ func move_player(delta):
 			velocity.x = 0
 		if velocity.x <= -acceleration * deceleration * delta:
 			velocity.x += acceleration * deceleration * delta
-	
 	# Decelerate toward 0 when not holding right
 	if not Input.is_action_pressed("right") or direction == -1:
 		if velocity.x < acceleration * deceleration * delta and velocity.x > 0:
@@ -125,10 +129,11 @@ func move_player(delta):
 		jump_buffer_time = Time.get_ticks_msec()
 	
 	# Boost
-	if Input.is_action_just_pressed("boost") and wisps > 0:
-		wisps -= 1
-		velocity.y = BOOST_VELOCITY
+	if Input.is_action_just_pressed("boost") and not is_on_floor() and wisps > 0:
+		wisps -= 0.5
+		velocity = BOOST_VELOCITY * Input.get_vector("right", "left", "down", "up")
 		$BoostParticles.restart()
+		is_in_boost = true
 		model_anim.play("jump")
 	
 	# Gravity

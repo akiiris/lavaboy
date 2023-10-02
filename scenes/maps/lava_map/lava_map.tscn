@@ -2700,7 +2700,7 @@ stream = ExtResource("107_841f2")
 volume_db = -20.0
 
 [node name="MeteorTimer" type="Timer" parent="."]
-wait_time = 10.0
+wait_time = 22.0
 autostart = true
 
 [node name="MeteorStrikes" type="Node2D" parent="."]
