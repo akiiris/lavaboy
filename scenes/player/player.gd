@@ -15,7 +15,10 @@ var direction: float = 1
 var acceleration: float = 600
 var deceleration: float = 3
 var speed_cap: float = 300
+var sprint_acceleration: float = 1200
+var sprint_speed_cap: float = 600
 var is_in_boost: bool = false
+var sprinting: bool = false
 
 var last_on_floor: int = 0
 
@@ -89,30 +92,55 @@ func move_player(delta):
 		direction = 1
 	
 	# Move left/right
-	if Input.is_action_pressed("left") and direction == -1:
-		velocity.x -= acceleration * delta
-	if Input.is_action_pressed("right") and direction == 1:
-		velocity.x += acceleration * delta
+	if not sprinting:
+		if Input.is_action_pressed("left") and direction == -1:
+			velocity.x -= acceleration * delta
+		if Input.is_action_pressed("right") and direction == 1:
+			velocity.x += acceleration * delta
+	else:
+		if Input.is_action_pressed("left") and direction == -1:
+			velocity.x -= sprint_acceleration * delta
+		if Input.is_action_pressed("right") and direction == 1:
+			velocity.x += sprint_acceleration * delta
 	
 	if not is_in_boost:
 		# Cap horizontal speed
-		if velocity.x > speed_cap:
-			velocity.x = speed_cap
-		if velocity.x < -speed_cap:
-			velocity.x = -speed_cap
+		if not sprinting:
+			if velocity.x > speed_cap:
+				velocity.x = speed_cap
+			if velocity.x < -speed_cap:
+				velocity.x = -speed_cap
+		else:
+			if velocity.x > sprint_speed_cap:
+				velocity.x = sprint_speed_cap
+			if velocity.x < -sprint_speed_cap:
+				velocity.x = -sprint_speed_cap
 	
-	# Decelerate toward 0 when not holding left
-	if not Input.is_action_pressed("left") or direction == 1:
-		if velocity.x > -acceleration * deceleration * delta and velocity.x < 0:
-			velocity.x = 0
-		if velocity.x <= -acceleration * deceleration * delta:
-			velocity.x += acceleration * deceleration * delta
-	# Decelerate toward 0 when not holding right
-	if not Input.is_action_pressed("right") or direction == -1:
-		if velocity.x < acceleration * deceleration * delta and velocity.x > 0:
-			velocity.x = 0
-		if velocity.x >= acceleration * deceleration * delta:
-			velocity.x -= acceleration * deceleration * delta
+	if not sprinting:
+		# Decelerate toward 0 when not holding left
+		if not Input.is_action_pressed("left") or direction == 1:
+			if velocity.x > -acceleration * deceleration * delta and velocity.x < 0:
+				velocity.x = 0
+			if velocity.x <= -acceleration * deceleration * delta:
+				velocity.x += acceleration * deceleration * delta
+		# Decelerate toward 0 when not holding right
+		if not Input.is_action_pressed("right") or direction == -1:
+			if velocity.x < acceleration * deceleration * delta and velocity.x > 0:
+				velocity.x = 0
+			if velocity.x >= acceleration * deceleration * delta:
+				velocity.x -= acceleration * deceleration * delta
+	else:
+		if not Input.is_action_pressed("left") or direction == 1:
+			if velocity.x > -sprint_acceleration * deceleration * delta and velocity.x < 0:
+				velocity.x = 0
+			if velocity.x <= -sprint_acceleration * deceleration * delta:
+				velocity.x += sprint_acceleration * deceleration * delta
+		# Decelerate toward 0 when not holding right
+		if not Input.is_action_pressed("right") or direction == -1:
+			if velocity.x < sprint_acceleration * deceleration * delta and velocity.x > 0:
+				velocity.x = 0
+			if velocity.x >= sprint_acceleration * deceleration * delta:
+				velocity.x -= sprint_acceleration * deceleration * delta
 	
 	# Coyote time
 	if is_on_floor():
@@ -135,6 +163,12 @@ func move_player(delta):
 		$BoostParticles.restart()
 		is_in_boost = true
 		model_anim.play("jump")
+	
+	# Sprint input
+	if is_on_floor():
+		sprinting = false
+		if Input.is_action_pressed("boost"):
+			sprinting = true
 	
 	# Gravity
 	if not is_on_floor():
