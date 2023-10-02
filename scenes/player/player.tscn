@@ -3231,7 +3231,6 @@ max_polyphony = 10
 
 [node name="JumpSound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_upnyg")
-volume_db = -8.0
 max_polyphony = 10
 
 [node name="BoostSound" type="AudioStreamPlayer" parent="."]

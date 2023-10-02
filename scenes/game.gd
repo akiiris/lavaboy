@@ -13,6 +13,9 @@ func _process(delta):
 	var ws = DisplayServer.window_get_size()
 	ProjectSettings.set("display/window/size/viewport_height", ws.y)
 	ProjectSettings.set("display/window/size/viewport_width", ws.x)
+	
+	if Input.is_action_just_pressed("quit"):
+		get_tree().quit()
 
 
 func start_game():
