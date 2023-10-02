@@ -7,8 +7,10 @@ func _ready():
 func _on_lock_timer_timeout():
 	var tween = create_tween()
 	tween.tween_property($Sprite2D, "modulate", Color("ec646097"), 2.0)
-	if not $Area2D.get_overlapping_bodies().is_empty():
-		print("Kunti died!")
-	
 	$Sprite2D.visible = true
-	$StaticBody/Col.disabled = false
+	$Area2D/Col.disabled = false
+
+
+func _on_area_2d_body_entered(body):
+	if body.has_method("die"):
+		body.die()

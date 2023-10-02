@@ -7,7 +7,7 @@ const lava_map_scene: PackedScene = preload("res://scenes/maps/lava_map/lava_map
 
 func _on_btn_play_pressed():
 	if $BtnPlay.is_hovered():
-		game_node.start_game(lava_map_scene.instantiate())
+		game_node.start_game()
 		queue_free()
 
 

@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+const death_screen = preload("res://assets/menu/death_screen/death_screen.tscn")
+
 @onready var model_anim = get_node("SubViewport/lava_boy_skeleton/AnimationPlayer")
 const SPEED = 300.0
 const JUMP_VELOCITY = -575.0
@@ -47,6 +49,8 @@ func _physics_process(delta):
 	
 	
 	move_and_slide()
+	
+	
 
 
 func move_player(delta):
@@ -100,3 +104,10 @@ func move_player(delta):
 	# Gravity
 	if not is_on_floor():
 		velocity.y += gravity * delta
+
+func die():
+	var time = get_tree().root.get_node("Game/LavaMap").time_score_thing
+	get_tree().root.get_node("Game/LavaMap").queue_free()
+	var dsi = death_screen.instantiate()
+	dsi.get_node("Time").text = str(time) + " s"
+	get_tree().root.add_child(dsi)

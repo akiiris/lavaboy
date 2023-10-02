@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://85fshduucm4d"]
 
 [ext_resource type="Script" path="res://scenes/platform/platform.gd" id="1_uub5m"]
-[ext_resource type="PackedScene" uid="uid://cepe5da6ssbcd" path="res://assets/map/plat1.glb" id="2_dvava"]
+[ext_resource type="PackedScene" uid="uid://7wnjumm2wv35" path="res://assets/map/plat3.glb" id="2_dnbh6"]
 
 [node name="Platform" type="Node2D"]
 script = ExtResource("1_uub5m")
@@ -14,10 +14,10 @@ transparent_bg = true
 size = Vector2i(1152, 648)
 
 [node name="Camera3D" type="Camera3D" parent="SubViewport"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -371.882, 0, 0)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -58.3706, 0, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewport"]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
 
-[node name="plat1" parent="SubViewport" instance=ExtResource("2_dvava")]
-transform = Transform3D(1, 0, 0, 0, 2.5, 0, 0, 0, 1, -0.932458, 0, -1.01809)
+[node name="plat3" parent="SubViewport" instance=ExtResource("2_dnbh6")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)

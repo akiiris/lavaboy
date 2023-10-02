@@ -481,7 +481,7 @@ position = Vector2(-871, -353)
 shape = SubResource("RectangleShape2D_i34rw")
 
 [node name="Platform" parent="MapCollisions/Floors/Group7" instance=ExtResource("6_eb4p7")]
-position = Vector2(-872, -354)
+position = Vector2(-796, -353)
 
 [node name="Group8" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
