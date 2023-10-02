@@ -153,7 +153,7 @@ func move_player(delta):
 	if Input.is_action_just_pressed("jump") and Time.get_ticks_msec() - last_on_floor <= coyote_time:
 		velocity.y = JUMP_VELOCITY
 		model_anim.play("jump")
-		$JumpSound.play()
+		$JumpSound.play(0.05)
 	elif is_on_floor() and Time.get_ticks_msec() - jump_buffer_time < JUMP_BUFFER_TIME:
 		velocity.y = JUMP_VELOCITY
 		model_anim.play("jump")
