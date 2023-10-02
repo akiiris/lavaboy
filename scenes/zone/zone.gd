@@ -19,6 +19,10 @@ func _on_lock_timer_timeout():
 
 func add_time(amt):
 	$LockTimer.start($LockTimer.time_left + amt)
+	
+
+func reset_time():
+	$LockTimer.start()
 
 
 func get_percent():
