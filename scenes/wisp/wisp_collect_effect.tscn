@@ -54,9 +54,11 @@ pitch_scale = 1.2
 autoplay = true
 
 [node name="Particles" type="GPUParticles2D" parent="."]
+emitting = false
 amount = 30
 process_material = SubResource("ParticleProcessMaterial_ylqmq")
 lifetime = 3.0
+one_shot = true
 explosiveness = 1.0
 
 [connection signal="timeout" from="SelfDeleteTimer" to="." method="_on_self_delete_timer_timeout"]

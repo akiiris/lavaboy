@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://bjdpb5rosta1l"]
+[gd_scene load_steps=11 format=3 uid="uid://bjdpb5rosta1l"]
 
 [ext_resource type="Script" path="res://scenes/wisp/wisp.gd" id="1_j1fse"]
 [ext_resource type="PackedScene" uid="uid://bgfeyv8lxyfdw" path="res://scenes/wisp/lb_wisp.tscn" id="2_svbrq"]
+[ext_resource type="AudioStream" uid="uid://dw6bqdjv6s5ey" path="res://assets/wisp/wisp-spawn.mp3" id="3_n20bw"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_iub71"]
 
@@ -76,6 +77,11 @@ one_shot = true
 [node name="DespawnTimer" type="Timer" parent="."]
 wait_time = 40.0
 autostart = true
+
+[node name="SpawnSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_n20bw")
+autoplay = true
+panning_strength = 2.0
 
 [connection signal="body_entered" from="CollectionRadius" to="." method="_on_collection_radius_body_entered"]
 [connection signal="timeout" from="DespawnTimer" to="." method="_on_despawn_timer_timeout"]
