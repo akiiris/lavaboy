@@ -20,6 +20,9 @@ var sprint_speed_cap: float = 600
 var is_in_boost: bool = false
 var sprinting: bool = false
 
+var fastfall: bool = false
+var fastfall_multiplier: float = 1.2
+
 var last_on_floor: int = 0
 
 var wisps: float = 0
@@ -173,6 +176,14 @@ func move_player(delta):
 	# Gravity
 	if not is_on_floor():
 		velocity.y += gravity * delta
+		
+	# Fastfall
+	if Input.is_action_just_pressed("down") and not is_on_floor():
+		fastfall = true
+	if not Input.is_action_pressed("down") or is_on_floor():
+		fastfall = false
+	if fastfall:
+		velocity.y += gravity * fastfall_multiplier * delta;
 
 func die():
 	var time = get_tree().root.get_node("Game/LavaMap").time_score_thing
