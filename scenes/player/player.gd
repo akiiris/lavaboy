@@ -3,6 +3,8 @@ extends CharacterBody2D
 const death_screen = preload("res://assets/menu/death_screen/death_screen.tscn")
 const death_sound_scene = preload("res://scenes/player/player_death_sound.tscn")
 
+const font_diablo = preload("res://assets/menu/inferno.ttf")
+
 @onready var model_anim = get_node("SubViewport/lava_boy_skeleton/AnimationPlayer")
 const SPEED = 300.0
 const JUMP_VELOCITY = -575.0
@@ -36,6 +38,9 @@ func _process(_delta):
 	$SubViewport.size = ws
 	$SprPlayer.scale = Vector2( 1152.0 / ws.x, 648.0 / ws.y)
 	
+	if not $WispSpendTimer.is_stopped():
+		$WispSpend.position.y -= 0.25
+		$WispSpend.self_modulate.a -= 0.005
 	
 	# Lava death
 	if global_position.y > 310:
@@ -162,8 +167,7 @@ func move_player(delta):
 		jump_buffer_time = Time.get_ticks_msec()
 	
 	# Boost
-	if Input.is_action_just_pressed("boost") and not is_on_floor() and wisps > 0:
-		wisps -= 0.5
+	if Input.is_action_just_pressed("boost") and not is_on_floor() and try_consume_wisp(0.5):
 		velocity = BOOST_VELOCITY * Input.get_vector("right", "left", "down", "up")
 		$BoostParticles.restart()
 		is_in_boost = true
@@ -201,15 +205,28 @@ func die():
 
 func collect_wisp():
 	wisps += 1
-	
+	push_wisp_count_text(1)
+
 
 func try_consume_wisp(num) -> bool:
 	if wisps >= num:
 		wisps -= num
+		push_wisp_count_text(-num)
 		return true
 	return false
+
+
+func push_wisp_count_text(size):
+	$WispSpend.text = str(size)
+	$WispSpendTimer.start()
+	$WispSpend.position = Vector2(-20, -100)
+	$WispSpend.self_modulate.a = 1.0
 
 
 func _on_walk_timer_timeout():
 	if is_on_floor() and abs(velocity.x) > 0.1:
 		$WalkSound.play()
+
+
+func _on_wisp_spend_timer_timeout():
+	$WispSpend.text = ""
