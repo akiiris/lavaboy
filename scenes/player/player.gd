@@ -191,13 +191,10 @@ func move_player(delta):
 		velocity.y += gravity * fastfall_multiplier * delta
 
 func die():
-	var time = get_tree().root.get_node("Game/LavaMap").time_score_thing
-	get_tree().root.get_node("Game/LavaMap").queue_free()
-	var dsi = death_screen.instantiate()
-	dsi.get_node("Time").text = str(time) + " s"
-	get_tree().root.add_child(dsi)
-	var dsoundi = death_sound_scene.instantiate()
-	get_tree().root.add_child(dsoundi)
+	process_mode = Node.PROCESS_MODE_DISABLED
+	set_physics_process(false)
+	set_physics_process_internal(false)
+	$DeathTimer.start()
 	
 	
 
@@ -224,6 +221,16 @@ func push_wisp_count_text(size):
 func _on_walk_timer_timeout():
 	if is_on_floor() and abs(velocity.x) > 0.1:
 		$WalkSound.play()
+
+
+func _on_death_timer_timeout():
+	var time = get_tree().root.get_node("Game/LavaMap").time_score_thing
+	get_tree().root.get_node("Game/LavaMap").queue_free()
+	var dsi = death_screen.instantiate()
+	dsi.get_node("Time").text = str(time) + " s"
+	get_tree().root.add_child(dsi)
+	var dsoundi = death_sound_scene.instantiate()
+	get_tree().root.add_child(dsoundi)
 
 
 func _on_wisp_spend_timer_timeout():
