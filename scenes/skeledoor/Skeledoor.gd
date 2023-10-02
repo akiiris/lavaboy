@@ -4,10 +4,12 @@ var other_door
 @export var other_door_np: NodePath
 
 func _ready():
-	other_door = get_node(other_door_np)
+	other_door = get_node_or_null(other_door_np)
 
 func interact(user):
-	user.global_position = other_door.global_position
+	if other_door:
+		user.global_position = other_door.global_position
+		user.get_node("DoorCreak").play()
 
 func _process(_delta):
 	$Sprite2D.texture = $SubViewport.get_texture()
