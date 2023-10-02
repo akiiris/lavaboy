@@ -1,4 +1,4 @@
-[gd_scene load_steps=222 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=219 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
@@ -394,19 +394,19 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q3dd8"]
-size = Vector2(376, 84)
+size = Vector2(371, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3lu7l"]
 size = Vector2(56, 56)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vrhyp"]
-size = Vector2(383, 79)
+size = Vector2(383, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5b58e"]
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_efqs4"]
-size = Vector2(384, 80)
+size = Vector2(384, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cyner"]
 size = Vector2(56, 55.75)
@@ -415,16 +415,16 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0qtx4"]
-size = Vector2(592, 50)
+size = Vector2(592, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w1p4b"]
-size = Vector2(592, 48)
+size = Vector2(592, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vvde2"]
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vty8e"]
-size = Vector2(592, 50)
+size = Vector2(592, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_acs05"]
 size = Vector2(56, 55.75)
@@ -436,22 +436,22 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b6e3s"]
-size = Vector2(226, 30)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5bo6r"]
 size = Vector2(44, 472)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wwlvo"]
-size = Vector2(593, 50)
+size = Vector2(593, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ohhww"]
-size = Vector2(383, 82)
+size = Vector2(383, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wbkfj"]
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kektn"]
-size = Vector2(198, 29)
+size = Vector2(198, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g56eu"]
 size = Vector2(56, 55.75)
@@ -463,43 +463,43 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b6e74"]
-size = Vector2(141, 32)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f7wtb"]
-size = Vector2(141, 32)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d2lnx"]
-size = Vector2(141, 32)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b0y7a"]
-size = Vector2(141, 32)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xfma1"]
-size = Vector2(141, 31.5)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h5tsh"]
-size = Vector2(198, 31.5)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_npgfm"]
-size = Vector2(141, 31.5)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4lx5q"]
-size = Vector2(141, 31.5)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3py7b"]
-size = Vector2(141, 31.5)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mo88b"]
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uemog"]
-size = Vector2(324, 58)
+size = Vector2(316, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kvlpo"]
-size = Vector2(324, 58)
+size = Vector2(324, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tqdav"]
-size = Vector2(296, 169)
+size = Vector2(280, 168)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4jc62"]
 size = Vector2(56, 55.75)
@@ -511,16 +511,16 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qsqmx"]
-size = Vector2(198, 29)
+size = Vector2(280, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cctmu"]
-size = Vector2(385, 80)
+size = Vector2(385, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kh2a6"]
-size = Vector2(56.5, 129.125)
+size = Vector2(56, 130)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8ofxf"]
-size = Vector2(56.5, 129.125)
+size = Vector2(56, 130)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mw6io"]
 size = Vector2(42, 472)
@@ -529,10 +529,10 @@ size = Vector2(42, 472)
 size = Vector2(56, 286)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n4vta"]
-size = Vector2(383, 80)
+size = Vector2(383, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sbf6i"]
-size = Vector2(538, 46)
+size = Vector2(538, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xgfv4"]
 size = Vector2(56, 248)
@@ -541,7 +541,7 @@ size = Vector2(56, 248)
 size = Vector2(56, 56)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i0ecb"]
-size = Vector2(416, 56)
+size = Vector2(416, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0h8k4"]
 size = Vector2(56, 55.75)
@@ -553,7 +553,7 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vrdvv"]
-size = Vector2(383, 80)
+size = Vector2(364, 42)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mlovy"]
 size = Vector2(231, 6)
@@ -633,9 +633,6 @@ size = Vector2(116, 6)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_epes4"]
 size = Vector2(116, 6)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_0r8iy"]
-size = Vector2(116, 6)
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lgqn2"]
 size = Vector2(116, 6)
 
@@ -688,12 +685,6 @@ size = Vector2(114, 6)
 size = Vector2(60, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dn4iy"]
-size = Vector2(114, 6)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ieu0i"]
-size = Vector2(114, 6)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_6h3mg"]
 size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6fqwi"]
@@ -958,7 +949,7 @@ position = Vector2(1305, -270)
 [node name="Effects" type="Node2D" parent="."]
 
 [node name="Player" parent="." instance=ExtResource("4_wlk3s")]
-position = Vector2(-656, -347)
+position = Vector2(313, -676)
 
 [node name="Camera" type="Camera2D" parent="Player"]
 metadata/_edit_lock_ = true
@@ -990,9 +981,11 @@ metadata/_edit_lock_ = true
 [node name="Floors" type="Node2D" parent="MapCollisions"]
 
 [node name="TerrainGroup" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup"]
-position = Vector2(-1563, -1157)
+position = Vector2(-1565.5, -1178)
 shape = SubResource("RectangleShape2D_q3dd8")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup" instance=ExtResource("7_usr5o")]
@@ -1002,18 +995,22 @@ position = Vector2(-1586, -1178)
 position = Vector2(-1496, -1178)
 
 [node name="TerrainGroup2" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup2"]
-position = Vector2(-1248, -1050)
+position = Vector2(-1194, -1050)
 shape = SubResource("RectangleShape2D_3lu7l")
 
 [node name="Floor" parent="MapCollisions/Floors/TerrainGroup2" instance=ExtResource("6_h06s7")]
-position = Vector2(-1247, -1050)
+position = Vector2(-1193, -1050)
 
 [node name="TerrainGroup3" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup3"]
-position = Vector2(-925.5, -930.5)
+position = Vector2(-925.5, -949)
 shape = SubResource("RectangleShape2D_vrhyp")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup3" instance=ExtResource("7_usr5o")]
@@ -1023,32 +1020,36 @@ position = Vector2(-936, -949)
 position = Vector2(-851, -949)
 
 [node name="TerrainGroup4" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup4"]
-position = Vector2(-1241, -841.125)
+position = Vector2(-1354, -841.125)
 shape = SubResource("RectangleShape2D_5b58e")
 
 [node name="Floor" parent="MapCollisions/Floors/TerrainGroup4" instance=ExtResource("6_h06s7")]
-position = Vector2(-1240, -841)
+position = Vector2(-1353, -841)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup4"]
-position = Vector2(-1394, -738)
+position = Vector2(-1713, -738)
 shape = SubResource("RectangleShape2D_5b58e")
 
 [node name="Floor2" parent="MapCollisions/Floors/TerrainGroup4" instance=ExtResource("6_h06s7")]
-position = Vector2(-1393, -738)
+position = Vector2(-1712, -738)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup4"]
-position = Vector2(-1551, -626)
+position = Vector2(-1502, -626)
 shape = SubResource("RectangleShape2D_5b58e")
 
 [node name="Floor3" parent="MapCollisions/Floors/TerrainGroup4" instance=ExtResource("6_h06s7")]
-position = Vector2(-1550, -626)
+position = Vector2(-1501, -626)
 
 [node name="TerrainGroup5" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup5"]
-position = Vector2(-1166, -500)
+position = Vector2(-1166, -519)
 shape = SubResource("RectangleShape2D_efqs4")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup5" instance=ExtResource("7_usr5o")]
@@ -1058,6 +1059,8 @@ position = Vector2(-1176, -519)
 position = Vector2(-1092, -519)
 
 [node name="TerrainGroup6" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup6"]
 position = Vector2(-849, -627)
@@ -1067,6 +1070,8 @@ shape = SubResource("RectangleShape2D_cyner")
 position = Vector2(-848, -627)
 
 [node name="TerrainGroup7" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup7"]
 position = Vector2(-871, -353)
@@ -1076,9 +1081,11 @@ shape = SubResource("RectangleShape2D_i34rw")
 position = Vector2(-870, -353)
 
 [node name="TerrainGroup8" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup8"]
-position = Vector2(-1214, -70)
+position = Vector2(-1214, -74)
 shape = SubResource("RectangleShape2D_0qtx4")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup8" instance=ExtResource("7_usr5o")]
@@ -1091,9 +1098,11 @@ position = Vector2(-1245, -75)
 position = Vector2(-1036, -75)
 
 [node name="TerrainGroup9" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup9"]
-position = Vector2(-1459, 222)
+position = Vector2(-1459, 219)
 shape = SubResource("RectangleShape2D_w1p4b")
 
 [node name="FloorWise2" parent="MapCollisions/Floors/TerrainGroup9" instance=ExtResource("7_usr5o")]
@@ -1106,18 +1115,22 @@ position = Vector2(-1576, 219)
 position = Vector2(-1280, 219)
 
 [node name="TerrainGroup10" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup10"]
-position = Vector2(-916, 141)
+position = Vector2(-916, 178)
 shape = SubResource("RectangleShape2D_vvde2")
 
 [node name="Floor" parent="MapCollisions/Floors/TerrainGroup10" instance=ExtResource("6_h06s7")]
-position = Vector2(-915, 141)
+position = Vector2(-915, 178)
 
 [node name="TerrainGroup11" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup11"]
-position = Vector2(-3, 108)
+position = Vector2(-3, 104)
 shape = SubResource("RectangleShape2D_vty8e")
 
 [node name="FloorWise2" parent="MapCollisions/Floors/TerrainGroup11" instance=ExtResource("7_usr5o")]
@@ -1130,6 +1143,8 @@ position = Vector2(-120, 104)
 position = Vector2(176, 104)
 
 [node name="TerrainGroup12" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup12"]
 position = Vector2(-283, -654)
@@ -1139,6 +1154,8 @@ shape = SubResource("RectangleShape2D_acs05")
 position = Vector2(-282, -654)
 
 [node name="TerrainGroup13" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup13"]
 position = Vector2(-399, -926)
@@ -1148,6 +1165,8 @@ shape = SubResource("RectangleShape2D_u5tsw")
 position = Vector2(-398, -926)
 
 [node name="TerrainGroup14" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup14"]
 position = Vector2(-399, -1350)
@@ -1157,15 +1176,19 @@ shape = SubResource("RectangleShape2D_hc6ud")
 position = Vector2(-398, -1350)
 
 [node name="TerrainGroup15" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup15"]
-position = Vector2(-25, -928)
+position = Vector2(-32, -922)
 shape = SubResource("RectangleShape2D_b6e3s")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup15" instance=ExtResource("7_usr5o")]
 position = Vector2(-2, -922)
 
 [node name="TerrainGroup16" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup16"]
 position = Vector2(-188, -1304)
@@ -1180,9 +1203,11 @@ position = Vector2(-189, -1181)
 rotation = 1.5708
 
 [node name="TerrainGroup17" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup17"]
-position = Vector2(183.5, -588)
+position = Vector2(183.5, -592)
 shape = SubResource("RectangleShape2D_wwlvo")
 
 [node name="FloorWise3" parent="MapCollisions/Floors/TerrainGroup17" instance=ExtResource("7_usr5o")]
@@ -1195,9 +1220,11 @@ position = Vector2(68, -592)
 position = Vector2(364, -592)
 
 [node name="TerrainGroup18" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup18"]
-position = Vector2(694, 18)
+position = Vector2(694, -2)
 shape = SubResource("RectangleShape2D_ohhww")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup18" instance=ExtResource("7_usr5o")]
@@ -1207,6 +1234,8 @@ position = Vector2(682, -2)
 position = Vector2(770, -2)
 
 [node name="TerrainGroup19" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup19"]
 position = Vector2(1063, 48)
@@ -1216,15 +1245,19 @@ shape = SubResource("RectangleShape2D_wbkfj")
 position = Vector2(1064, 48)
 
 [node name="TerrainGroup20" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup20"]
-position = Vector2(696, -541.5)
+position = Vector2(712, -541)
 shape = SubResource("RectangleShape2D_kektn")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup20" instance=ExtResource("7_usr5o")]
 position = Vector2(742, -541)
 
 [node name="TerrainGroup21" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup21"]
 position = Vector2(795, -885)
@@ -1248,77 +1281,87 @@ shape = SubResource("RectangleShape2D_20v0b")
 position = Vector2(347, -1066)
 
 [node name="TerrainGroup22" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup22"]
-position = Vector2(523.5, -1314)
+position = Vector2(443, -1309)
 shape = SubResource("RectangleShape2D_b6e74")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup22" instance=ExtResource("7_usr5o")]
 position = Vector2(473, -1309)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup22"]
-position = Vector2(877, -1366)
+position = Vector2(790, -1361)
 shape = SubResource("RectangleShape2D_f7wtb")
 
 [node name="FloorWise2" parent="MapCollisions/Floors/TerrainGroup22" instance=ExtResource("7_usr5o")]
 position = Vector2(820, -1361)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup22"]
-position = Vector2(877, -1164)
+position = Vector2(793, -1159)
 shape = SubResource("RectangleShape2D_d2lnx")
 
 [node name="FloorWise3" parent="MapCollisions/Floors/TerrainGroup22" instance=ExtResource("7_usr5o")]
 position = Vector2(823, -1159)
 
 [node name="TerrainGroup23" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup23"]
-position = Vector2(1117, -1267)
+position = Vector2(1132, -1262)
 shape = SubResource("RectangleShape2D_b0y7a")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup23" instance=ExtResource("7_usr5o")]
 position = Vector2(1162, -1262)
 
 [node name="TerrainGroup24" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup24"]
-position = Vector2(1331, -1168)
+position = Vector2(1472, -1165)
 shape = SubResource("RectangleShape2D_xfma1")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup24" instance=ExtResource("7_usr5o")]
 position = Vector2(1502, -1165)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup24"]
-position = Vector2(1106, -1058)
+position = Vector2(1130, -1055)
 shape = SubResource("RectangleShape2D_h5tsh")
 
 [node name="FloorWise2" parent="MapCollisions/Floors/TerrainGroup24" instance=ExtResource("7_usr5o")]
 position = Vector2(1160, -1055)
 
 [node name="TerrainGroup25" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup25"]
-position = Vector2(1337, -1375)
+position = Vector2(1471, -1379)
 shape = SubResource("RectangleShape2D_npgfm")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup25" instance=ExtResource("7_usr5o")]
 position = Vector2(1501, -1379)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup25"]
-position = Vector2(1791, -1492)
+position = Vector2(1777, -1492)
 shape = SubResource("RectangleShape2D_4lx5q")
 
 [node name="FloorWise2" parent="MapCollisions/Floors/TerrainGroup25" instance=ExtResource("7_usr5o")]
 position = Vector2(1807, -1492)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup25"]
-position = Vector2(2088, -1535)
+position = Vector2(2102, -1537)
 shape = SubResource("RectangleShape2D_3py7b")
 
 [node name="FloorWise3" parent="MapCollisions/Floors/TerrainGroup25" instance=ExtResource("7_usr5o")]
 position = Vector2(2132, -1537)
 
 [node name="TerrainGroup26" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup26"]
 position = Vector2(2399, -1395)
@@ -1328,9 +1371,11 @@ shape = SubResource("RectangleShape2D_mo88b")
 position = Vector2(2400, -1395)
 
 [node name="TerrainGroup27" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup27"]
-position = Vector2(2697, -1408)
+position = Vector2(2693, -1416)
 shape = SubResource("RectangleShape2D_uemog")
 
 [node name="FloorWise2" parent="MapCollisions/Floors/TerrainGroup27" instance=ExtResource("7_usr5o")]
@@ -1340,9 +1385,11 @@ position = Vector2(2743, -1416)
 position = Vector2(2714, -1416)
 
 [node name="TerrainGroup28" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup28"]
-position = Vector2(1965, -1200)
+position = Vector2(1965, -1208)
 shape = SubResource("RectangleShape2D_kvlpo")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup28" instance=ExtResource("7_usr5o")]
@@ -1352,56 +1399,65 @@ position = Vector2(1982, -1208)
 position = Vector2(2013, -1208)
 
 [node name="TerrainGroup29" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup29"]
-position = Vector2(2051, -985)
+position = Vector2(2053, -985)
 shape = SubResource("RectangleShape2D_tqdav")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup29" instance=ExtResource("7_usr5o")]
-position = Vector2(2083, -1049)
+position = Vector2(2083, -1048)
 
 [node name="FloorWise2" parent="MapCollisions/Floors/TerrainGroup29" instance=ExtResource("7_usr5o")]
 position = Vector2(2083, -982)
 
 [node name="FloorWise3" parent="MapCollisions/Floors/TerrainGroup29" instance=ExtResource("7_usr5o")]
-position = Vector2(2083, -917)
+position = Vector2(2023, -922)
+rotation = 3.14159
 
 [node name="TerrainGroup30" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup30"]
-position = Vector2(1745, -727)
+position = Vector2(1522, -764)
 shape = SubResource("RectangleShape2D_4jc62")
 
 [node name="Floor" parent="MapCollisions/Floors/TerrainGroup30" instance=ExtResource("6_h06s7")]
-position = Vector2(1746, -727)
+position = Vector2(1523, -764)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup30"]
-position = Vector2(1944, -727)
+position = Vector2(1944, -691)
 shape = SubResource("RectangleShape2D_omfkl")
 
 [node name="Floor2" parent="MapCollisions/Floors/TerrainGroup30" instance=ExtResource("6_h06s7")]
-position = Vector2(1945, -727)
+position = Vector2(1945, -691)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup30"]
-position = Vector2(2142, -727)
+position = Vector2(2142, -690)
 shape = SubResource("RectangleShape2D_snk34")
 
 [node name="Floor3" parent="MapCollisions/Floors/TerrainGroup30" instance=ExtResource("6_h06s7")]
-position = Vector2(2143, -727)
+position = Vector2(2143, -690)
 
 [node name="TerrainGroup31" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup31"]
-position = Vector2(1079, -866.5)
+position = Vector2(1130, -873)
 shape = SubResource("RectangleShape2D_qsqmx")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup31" instance=ExtResource("7_usr5o")]
-position = Vector2(1116, -860)
+position = Vector2(1160, -873)
 
 [node name="TerrainGroup32" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup32"]
-position = Vector2(1085, -562)
+position = Vector2(1085, -581)
 shape = SubResource("RectangleShape2D_cctmu")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup32" instance=ExtResource("7_usr5o")]
@@ -1411,9 +1467,11 @@ position = Vector2(1070, -581)
 position = Vector2(1162, -581)
 
 [node name="TerrainGroup33" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup33"]
-position = Vector2(1013, -666.438)
+position = Vector2(1013, -667)
 shape = SubResource("RectangleShape2D_kh2a6")
 
 [node name="Floor" parent="MapCollisions/Floors/TerrainGroup33" instance=ExtResource("6_h06s7")]
@@ -1426,9 +1484,11 @@ position = Vector2(1014, -664)
 position = Vector2(1015, -622)
 
 [node name="TerrainGroup34" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup34"]
-position = Vector2(1162, -665.438)
+position = Vector2(1162, -667)
 shape = SubResource("RectangleShape2D_8ofxf")
 
 [node name="Floor" parent="MapCollisions/Floors/TerrainGroup34" instance=ExtResource("6_h06s7")]
@@ -1441,6 +1501,8 @@ position = Vector2(1163, -664)
 position = Vector2(1163, -622)
 
 [node name="TerrainGroup35" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup35"]
 position = Vector2(1426, -749)
@@ -1455,6 +1517,8 @@ position = Vector2(1426, -623)
 rotation = 1.5708
 
 [node name="TerrainGroup36" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup36"]
 position = Vector2(1632, -484)
@@ -1469,9 +1533,11 @@ position = Vector2(1639, -454)
 rotation = 1.5708
 
 [node name="TerrainGroup37" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup37"]
-position = Vector2(1302, -151)
+position = Vector2(1302, -170)
 shape = SubResource("RectangleShape2D_n4vta")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup37" instance=ExtResource("7_usr5o")]
@@ -1481,9 +1547,11 @@ position = Vector2(1286, -170)
 position = Vector2(1382, -170)
 
 [node name="TerrainGroup38" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup38"]
-position = Vector2(1987, -531)
+position = Vector2(1987, -533)
 shape = SubResource("RectangleShape2D_sbf6i")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup38" instance=ExtResource("7_usr5o")]
@@ -1505,6 +1573,8 @@ position = Vector2(2291, -600)
 rotation = 1.5708
 
 [node name="TerrainGroup39" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup39"]
 position = Vector2(1587, -175)
@@ -1514,9 +1584,11 @@ shape = SubResource("RectangleShape2D_yiyxx")
 position = Vector2(1588, -175)
 
 [node name="TerrainGroup40" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup40"]
-position = Vector2(2074, -277)
+position = Vector2(2074, -284)
 shape = SubResource("RectangleShape2D_i0ecb")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup40" instance=ExtResource("7_usr5o")]
@@ -1526,15 +1598,19 @@ position = Vector2(2039, -284)
 position = Vector2(2170, -284)
 
 [node name="TerrainGroup41" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup41"]
-position = Vector2(2406, -175)
+position = Vector2(2406, -153)
 shape = SubResource("RectangleShape2D_0h8k4")
 
 [node name="Floor" parent="MapCollisions/Floors/TerrainGroup41" instance=ExtResource("6_h06s7")]
-position = Vector2(2407, -175)
+position = Vector2(2407, -153)
 
 [node name="TerrainGroup42" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup42"]
 position = Vector2(1411, 244)
@@ -1572,6 +1648,8 @@ shape = SubResource("RectangleShape2D_2s3r1")
 position = Vector2(2350, 134)
 
 [node name="TerrainGroup43" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup43"]
 position = Vector2(2544, 42)
@@ -1581,9 +1659,11 @@ shape = SubResource("RectangleShape2D_wgx7m")
 position = Vector2(2545, 42)
 
 [node name="TerrainGroup44" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup44"]
-position = Vector2(2678, 240)
+position = Vector2(2669, 221)
 shape = SubResource("RectangleShape2D_vrdvv")
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup44" instance=ExtResource("7_usr5o")]
@@ -1592,83 +1672,107 @@ position = Vector2(2660, 221)
 [node name="FloorWise2" parent="MapCollisions/Floors/TerrainGroup44" instance=ExtResource("7_usr5o")]
 position = Vector2(2743, 221)
 
+[node name="TerrainGroup45" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
+
+[node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup45"]
+position = Vector2(1720, -370)
+shape = SubResource("RectangleShape2D_0h8k4")
+
+[node name="Floor" parent="MapCollisions/Floors/TerrainGroup45" instance=ExtResource("6_h06s7")]
+position = Vector2(1721, -370)
+
+[node name="TerrainGroup46" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
+
+[node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup46"]
+position = Vector2(2545, -702)
+shape = SubResource("RectangleShape2D_0h8k4")
+
+[node name="Floor" parent="MapCollisions/Floors/TerrainGroup46" instance=ExtResource("6_h06s7")]
+position = Vector2(2546, -702)
+
+[node name="TerrainGroup47" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
+collision_layer = 4
+collision_mask = 0
+
+[node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup47"]
+position = Vector2(-1713, -443)
+shape = SubResource("RectangleShape2D_i34rw")
+
+[node name="Floor" parent="MapCollisions/Floors/TerrainGroup47" instance=ExtResource("6_h06s7")]
+position = Vector2(-1712, -443)
+
 [node name="Platforms" type="Node2D" parent="MapCollisions"]
 
 [node name="TerrainGroup" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup"]
-position = Vector2(109.5, -8)
+position = Vector2(109.5, -73)
 shape = SubResource("RectangleShape2D_mlovy")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup"]
 offset_left = -7.0
-offset_top = -11.0
+offset_top = -76.0
 offset_right = 230.0
-offset_bottom = -5.0
+offset_bottom = -70.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup"]
-position = Vector2(108.5, -163)
+position = Vector2(108.5, -228)
 shape = SubResource("RectangleShape2D_mlovy")
 one_way_collision = true
 
 [node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup"]
 offset_left = -7.0
-offset_top = -166.0
+offset_top = -231.0
 offset_right = 224.0
-offset_bottom = -160.0
+offset_bottom = -225.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup"]
-position = Vector2(106.75, -325)
+position = Vector2(106.75, -390)
 shape = SubResource("RectangleShape2D_mlovy")
 one_way_collision = true
 
 [node name="ColorRect3" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup"]
 offset_left = -7.0
-offset_top = -328.0
+offset_top = -393.0
 offset_right = 221.0
-offset_bottom = -322.0
-color = Color(0.431373, 0.247059, 0, 1)
-
-[node name="Col4" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup"]
-position = Vector2(105.375, -494)
-shape = SubResource("RectangleShape2D_mlovy")
-one_way_collision = true
-
-[node name="ColorRect4" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup"]
-offset_left = -7.0
-offset_top = -497.0
-offset_right = 221.0
-offset_bottom = -491.0
+offset_bottom = -387.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup2" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup2"]
-position = Vector2(-1640, -859)
+position = Vector2(-1640, -965)
 shape = SubResource("RectangleShape2D_6oy6r")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup2"]
 offset_left = -1741.0
-offset_top = -862.0
+offset_top = -968.0
 offset_right = -1539.0
-offset_bottom = -856.0
+offset_bottom = -962.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup3" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup3"]
-position = Vector2(-1191, -1028)
+position = Vector2(-1253, -1028)
 shape = SubResource("RectangleShape2D_n2exl")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup3"]
-offset_left = -1222.0
+offset_left = -1284.0
 offset_top = -1031.0
-offset_right = -1160.0
+offset_right = -1222.0
 offset_bottom = -1025.0
 color = Color(0.431373, 0.247059, 0, 1)
 
@@ -1685,17 +1789,18 @@ offset_bottom = -1115.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup4" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup4"]
-position = Vector2(-1623, -1372)
+position = Vector2(-1623, -1351)
 shape = SubResource("RectangleShape2D_lkfe1")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup4"]
 offset_left = -1741.0
-offset_top = -1375.0
+offset_top = -1354.0
 offset_right = -1505.0
-offset_bottom = -1369.0
+offset_bottom = -1348.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup4"]
@@ -1711,6 +1816,7 @@ offset_bottom = -1481.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup5" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup5"]
 position = Vector2(-635, 21)
@@ -1725,6 +1831,7 @@ offset_bottom = 24.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup6" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup6"]
 position = Vector2(-716, -208)
@@ -1739,6 +1846,7 @@ offset_bottom = -205.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup7" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup7"]
 position = Vector2(-191, -290)
@@ -1753,6 +1861,7 @@ offset_bottom = -287.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup8" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup8"]
 position = Vector2(-591, -729)
@@ -1767,6 +1876,7 @@ offset_bottom = -726.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup9" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup9"]
 position = Vector2(-739, -1135)
@@ -1781,6 +1891,7 @@ offset_bottom = -1132.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup10" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup10"]
 position = Vector2(-401, -1057)
@@ -1795,6 +1906,7 @@ offset_bottom = -1054.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup11" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup11"]
 position = Vector2(-266, -1163)
@@ -1821,6 +1933,7 @@ offset_bottom = -1267.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup12" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup12"]
 position = Vector2(-267, -1461)
@@ -1835,6 +1948,7 @@ offset_bottom = -1458.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup13" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup13"]
 position = Vector2(-19, -1294)
@@ -1849,15 +1963,15 @@ offset_bottom = -1291.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup13"]
-position = Vector2(211, -1394)
+position = Vector2(211, -1422)
 shape = SubResource("RectangleShape2D_birfd")
 one_way_collision = true
 
 [node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup13"]
 offset_left = 154.0
-offset_top = -1397.0
+offset_top = -1425.0
 offset_right = 268.0
-offset_bottom = -1391.0
+offset_bottom = -1419.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup13"]
@@ -1873,6 +1987,7 @@ offset_bottom = -1181.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup14" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup14"]
 position = Vector2(-18, -1071)
@@ -1887,20 +2002,22 @@ offset_bottom = -1068.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup15" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup15"]
-position = Vector2(-32, -812)
+position = Vector2(-32, -790)
 shape = SubResource("RectangleShape2D_ppe7t")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup15"]
 offset_left = -184.0
-offset_top = -815.0
+offset_top = -793.0
 offset_right = 120.0
-offset_bottom = -809.0
+offset_bottom = -787.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup16" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup16"]
 position = Vector2(142, -698)
@@ -1915,6 +2032,7 @@ offset_bottom = -695.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup17" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup17"]
 position = Vector2(540, -727)
@@ -1941,6 +2059,7 @@ offset_bottom = -723.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup18" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup18"]
 position = Vector2(540, -397)
@@ -1955,44 +2074,31 @@ offset_bottom = -394.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup18"]
-position = Vector2(542, -310)
+position = Vector2(688, -257)
 shape = SubResource("RectangleShape2D_syqls")
 one_way_collision = true
 
 [node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup18"]
-offset_left = 484.0
-offset_top = -313.0
-offset_right = 600.0
-offset_bottom = -307.0
+offset_left = 630.0
+offset_top = -260.0
+offset_right = 746.0
+offset_bottom = -254.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup18"]
-position = Vector2(724, -239)
+position = Vector2(883, -126)
 shape = SubResource("RectangleShape2D_epes4")
 one_way_collision = true
 
 [node name="ColorRect3" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup18"]
-offset_left = 666.0
-offset_top = -242.0
-offset_right = 782.0
-offset_bottom = -236.0
-color = Color(0.431373, 0.247059, 0, 1)
-
-[node name="TerrainGroup19" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
-
-[node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup19"]
-position = Vector2(894, -139)
-shape = SubResource("RectangleShape2D_0r8iy")
-one_way_collision = true
-
-[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup19"]
-offset_left = 836.0
-offset_top = -142.0
-offset_right = 952.0
-offset_bottom = -136.0
+offset_left = 825.0
+offset_top = -129.0
+offset_right = 941.0
+offset_bottom = -123.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup20" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup20"]
 position = Vector2(1163, 234)
@@ -2007,16 +2113,17 @@ offset_bottom = 237.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup21" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup21"]
-position = Vector2(1822, 34)
+position = Vector2(1760, 34)
 shape = SubResource("RectangleShape2D_uckls")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup21"]
-offset_left = 1764.0
+offset_left = 1702.0
 offset_top = 31.0
-offset_right = 1880.0
+offset_right = 1818.0
 offset_bottom = 37.0
 color = Color(0.431373, 0.247059, 0, 1)
 
@@ -2033,6 +2140,7 @@ offset_bottom = -89.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup22" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup22"]
 position = Vector2(1673, -200)
@@ -2047,6 +2155,7 @@ offset_bottom = -197.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup23" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup23"]
 position = Vector2(1546, -344)
@@ -2097,6 +2206,7 @@ offset_bottom = -623.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup24" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup24"]
 position = Vector2(1347, -741)
@@ -2111,34 +2221,37 @@ offset_bottom = -738.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup25" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup25"]
-position = Vector2(1347, -970)
+position = Vector2(1347, -982)
 shape = SubResource("RectangleShape2D_a0nma")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup25"]
 offset_left = 1289.0
-offset_top = -973.0
+offset_top = -985.0
 offset_right = 1405.0
-offset_bottom = -967.0
+offset_bottom = -979.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup26" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup26"]
-position = Vector2(1555, -1292)
+position = Vector2(1670, -949)
 shape = SubResource("RectangleShape2D_kceq0")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup26"]
-offset_left = 1488.0
-offset_top = -1295.0
-offset_right = 1622.0
-offset_bottom = -1289.0
+offset_left = 1603.0
+offset_top = -952.0
+offset_right = 1737.0
+offset_bottom = -946.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup27" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup27"]
 position = Vector2(1752, -1226)
@@ -2153,6 +2266,7 @@ offset_bottom = -1223.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup28" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup28"]
 position = Vector2(1874, -1042)
@@ -2179,29 +2293,30 @@ offset_bottom = -910.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup28"]
-position = Vector2(1944, -813)
+position = Vector2(1944, -762)
 shape = SubResource("RectangleShape2D_ug61s")
 one_way_collision = true
 
 [node name="ColorRect3" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup28"]
 offset_left = 1887.0
-offset_top = -816.0
+offset_top = -765.0
 offset_right = 2001.0
-offset_bottom = -810.0
+offset_bottom = -759.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup29" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup29"]
-position = Vector2(2156, -813)
+position = Vector2(2156, -762)
 shape = SubResource("RectangleShape2D_7jppk")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup29"]
 offset_left = 2099.0
-offset_top = -816.0
+offset_top = -765.0
 offset_right = 2213.0
-offset_bottom = -810.0
+offset_bottom = -759.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup29"]
@@ -2229,46 +2344,22 @@ offset_bottom = -1039.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup30" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup30"]
-position = Vector2(2211, -1300)
+position = Vector2(2211, -1337)
 shape = SubResource("RectangleShape2D_dn4iy")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup30"]
 offset_left = 2154.0
-offset_top = -1303.0
+offset_top = -1340.0
 offset_right = 2268.0
-offset_bottom = -1297.0
-color = Color(0.431373, 0.247059, 0, 1)
-
-[node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup30"]
-position = Vector2(2211, -1382)
-shape = SubResource("RectangleShape2D_ieu0i")
-one_way_collision = true
-
-[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup30"]
-offset_left = 2154.0
-offset_top = -1385.0
-offset_right = 2268.0
-offset_bottom = -1379.0
-color = Color(0.431373, 0.247059, 0, 1)
-
-[node name="TerrainGroup31" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
-
-[node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup31"]
-position = Vector2(2366, -1550)
-shape = SubResource("RectangleShape2D_6h3mg")
-one_way_collision = true
-
-[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup31"]
-offset_left = 2309.0
-offset_top = -1553.0
-offset_right = 2423.0
-offset_bottom = -1547.0
+offset_bottom = -1334.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup32" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup32"]
 position = Vector2(2440, -418)
@@ -2283,6 +2374,7 @@ offset_bottom = -415.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup33" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup33"]
 position = Vector2(2404, -302)
@@ -2297,6 +2389,7 @@ offset_bottom = -299.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup34" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup34"]
 position = Vector2(2537, -199)
@@ -2309,22 +2402,25 @@ offset_top = -202.0
 offset_right = 2594.0
 offset_bottom = -196.0
 color = Color(0.431373, 0.247059, 0, 1)
+metadata/_edit_use_anchors_ = true
 
 [node name="TerrainGroup35" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup35"]
-position = Vector2(2212, -95)
+position = Vector2(2212, -24)
 shape = SubResource("RectangleShape2D_1n6oy")
 one_way_collision = true
 
 [node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup35"]
 offset_left = 2154.0
-offset_top = -98.0
+offset_top = -27.0
 offset_right = 2270.0
-offset_bottom = -92.0
+offset_bottom = -21.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup36" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup36"]
 position = Vector2(2792, -75)
@@ -2351,6 +2447,7 @@ offset_bottom = 62.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="TerrainGroup37" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup37"]
 position = Vector2(573, -1478)
@@ -2364,55 +2461,143 @@ offset_right = 703.0
 offset_bottom = -1475.0
 color = Color(0.431373, 0.247059, 0, 1)
 
+[node name="TerrainGroup38" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
+
+[node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup38"]
+position = Vector2(2550, -562)
+shape = SubResource("RectangleShape2D_d8xx5")
+one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup38"]
+offset_left = 2493.0
+offset_top = -565.0
+offset_right = 2607.0
+offset_bottom = -559.0
+color = Color(0.431373, 0.247059, 0, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="TerrainGroup39" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
+
+[node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup39"]
+position = Vector2(355, -394)
+shape = SubResource("RectangleShape2D_1n6oy")
+one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup39"]
+offset_left = 297.0
+offset_top = -397.0
+offset_right = 413.0
+offset_bottom = -391.0
+color = Color(0.431373, 0.247059, 0, 1)
+
+[node name="TerrainGroup19" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
+
+[node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup19"]
+position = Vector2(-1621, -225)
+shape = SubResource("RectangleShape2D_bh23v")
+one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup19"]
+offset_left = -1741.0
+offset_top = -228.0
+offset_right = -1501.0
+offset_bottom = -222.0
+color = Color(0.431373, 0.247059, 0, 1)
+
+[node name="TerrainGroup31" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
+
+[node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup31"]
+position = Vector2(-573, -886)
+shape = SubResource("RectangleShape2D_rokq0")
+one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup31"]
+offset_left = -631.0
+offset_top = -889.0
+offset_right = -515.0
+offset_bottom = -883.0
+color = Color(0.431373, 0.247059, 0, 1)
+
+[node name="TerrainGroup40" parent="MapCollisions/Platforms" instance=ExtResource("103_rh3ym")]
+collision_mask = 0
+
+[node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/TerrainGroup40"]
+position = Vector2(-18, -1537)
+shape = SubResource("RectangleShape2D_lkcc5")
+one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/TerrainGroup40"]
+offset_left = -166.0
+offset_top = -1540.0
+offset_right = 130.0
+offset_bottom = -1534.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Zones" type="Node2D" parent="."]
 metadata/_edit_lock_ = true
 
 [node name="1" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -1688)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="2" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -1688)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="3" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(555, -1688)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="4" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -1688)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="5" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -1042)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="6" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -1042)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="7" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(555, -1042)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="8" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -1042)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="9" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -396)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="10" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -396)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="11" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(555, -396)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="12" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -396)
+lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="LevelWalls" type="StaticBody2D" parent="."]
