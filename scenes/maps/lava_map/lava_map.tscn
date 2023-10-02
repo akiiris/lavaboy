@@ -1,4 +1,4 @@
-[gd_scene load_steps=116 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=117 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://da4xy24jmwh6l" path="res://scenes/player/player.tscn" id="4_wlk3s"]
 [ext_resource type="PackedScene" uid="uid://o2ha4gcgrkac" path="res://scenes/skeledoor/skeledoor.tscn" id="5_5f1hb"]
 [ext_resource type="PackedScene" uid="uid://bthywae6yhefp" path="res://scenes/zone/zone.tscn" id="6_bqfg3"]
+[ext_resource type="PackedScene" uid="uid://85fshduucm4d" path="res://scenes/platform/platform.tscn" id="6_eb4p7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q3dd8"]
 size = Vector2(376, 84)
@@ -399,7 +400,7 @@ position = Vector2(2722, -1517)
 position = Vector2(1305, -270)
 
 [node name="Player" parent="." instance=ExtResource("4_wlk3s")]
-position = Vector2(1300, -334)
+position = Vector2(-656, -347)
 
 [node name="Camera" type="Camera2D" parent="Player"]
 
@@ -478,6 +479,9 @@ collision_mask = 0
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group7"]
 position = Vector2(-871, -353)
 shape = SubResource("RectangleShape2D_i34rw")
+
+[node name="Platform" parent="MapCollisions/Floors/Group7" instance=ExtResource("6_eb4p7")]
+position = Vector2(-872, -354)
 
 [node name="Group8" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -1240,7 +1244,6 @@ shape = SubResource("RectangleShape2D_eck0n")
 one_way_collision = true
 
 [node name="Zones" type="Node2D" parent="."]
-visible = false
 
 [node name="Zone" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -1688)
