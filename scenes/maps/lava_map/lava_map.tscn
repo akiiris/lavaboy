@@ -47,7 +47,7 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0qtx4"]
-size = Vector2(592, 49)
+size = Vector2(592, 50)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w1p4b"]
 size = Vector2(592, 48)
@@ -155,7 +155,7 @@ size = Vector2(56.5, 129.125)
 size = Vector2(56.5, 129.125)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mw6io"]
-size = Vector2(41.25, 471.563)
+size = Vector2(42, 472)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_saebh"]
 size = Vector2(56, 286)
@@ -173,7 +173,7 @@ size = Vector2(56, 248)
 size = Vector2(56, 56)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i0ecb"]
-size = Vector2(417, 56)
+size = Vector2(416, 56)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0h8k4"]
 size = Vector2(56, 55.75)
@@ -188,166 +188,166 @@ size = Vector2(56, 55.75)
 size = Vector2(383, 80)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mlovy"]
-size = Vector2(238, 5)
+size = Vector2(231, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6oy6r"]
-size = Vector2(230, 5)
+size = Vector2(202, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n2exl"]
-size = Vector2(62, 5)
+size = Vector2(62, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dwuaq"]
-size = Vector2(87, 5)
+size = Vector2(87, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lkfe1"]
-size = Vector2(238, 5)
+size = Vector2(236, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d25bx"]
-size = Vector2(258, 5)
+size = Vector2(258, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bh23v"]
-size = Vector2(241, 5)
+size = Vector2(240, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x1dq4"]
-size = Vector2(242, 4)
+size = Vector2(242, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c1jgj"]
-size = Vector2(240, 5)
+size = Vector2(240, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ijra8"]
-size = Vector2(298, 5)
+size = Vector2(298, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ys0uy"]
-size = Vector2(297, 5)
+size = Vector2(298, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rokq0"]
-size = Vector2(115, 5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g347c"]
-size = Vector2(112.5, 5)
+size = Vector2(112, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fqdiy"]
-size = Vector2(112.5, 5)
+size = Vector2(112, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1yexd"]
-size = Vector2(113.25, 5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7hs1q"]
-size = Vector2(297.625, 5)
+size = Vector2(294, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_birfd"]
-size = Vector2(113, 5.5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pp8ui"]
-size = Vector2(113, 5.5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lkcc5"]
-size = Vector2(300.813, 5)
+size = Vector2(296, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ppe7t"]
-size = Vector2(304.406, 5.5)
+size = Vector2(304, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u3dj4"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_76sgg"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8xhyv"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1qkmi"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_syqls"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_epes4"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0r8iy"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lgqn2"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uckls"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_a1rta"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r6x7f"]
-size = Vector2(115, 6)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_qg0i7"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0biic"]
-size = Vector2(60.625, 5.5)
+size = Vector2(60, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bmsus"]
-size = Vector2(60.625, 5.5)
+size = Vector2(60, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fgo0l"]
-size = Vector2(60.625, 5.5)
+size = Vector2(60, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3uc1b"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_a0nma"]
-size = Vector2(115.25, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kceq0"]
-size = Vector2(134.625, 5.5)
+size = Vector2(134, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fy4oq"]
-size = Vector2(102.313, 5.5)
+size = Vector2(102, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3wq4e"]
-size = Vector2(58.1563, 5.5)
+size = Vector2(58, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ug61s"]
-size = Vector2(114.539, 5.5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7jppk"]
-size = Vector2(114.078, 5.5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_o1uxi"]
-size = Vector2(114.078, 5.5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xnwm7"]
-size = Vector2(59.0195, 5.5)
+size = Vector2(60, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dn4iy"]
-size = Vector2(114.078, 5.5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ieu0i"]
-size = Vector2(114.078, 5.5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6h3mg"]
-size = Vector2(114.078, 5.5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6fqwi"]
-size = Vector2(242.039, 5.5)
+size = Vector2(242, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hmu32"]
-size = Vector2(246.02, 5.5)
+size = Vector2(244, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d8xx5"]
-size = Vector2(114.005, 5.5)
+size = Vector2(114, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1n6oy"]
-size = Vector2(115.002, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tqd5q"]
-size = Vector2(117.501, 5.5)
+size = Vector2(118, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_roylg"]
-size = Vector2(115, 5.5)
+size = Vector2(116, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eck0n"]
-size = Vector2(260.501, 5.5)
+size = Vector2(260, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jlm0g"]
 size = Vector2(4592, 1938)
@@ -589,13 +589,13 @@ position = Vector2(-1214, -70)
 shape = SubResource("RectangleShape2D_0qtx4")
 
 [node name="FloorWise" parent="MapCollisions/Floors/Group8" instance=ExtResource("7_usr5o")]
-position = Vector2(-1328, -74)
+position = Vector2(-1328, -75)
 
 [node name="FloorWise3" parent="MapCollisions/Floors/Group8" instance=ExtResource("7_usr5o")]
-position = Vector2(-1245, -74)
+position = Vector2(-1245, -75)
 
 [node name="FloorWise2" parent="MapCollisions/Floors/Group8" instance=ExtResource("7_usr5o")]
-position = Vector2(-1036, -74)
+position = Vector2(-1036, -75)
 
 [node name="Group9" type="StaticBody2D" parent="MapCollisions/Floors"]
 position = Vector2(2, 0)
@@ -904,7 +904,7 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group29"]
-position = Vector2(2051, -985.5)
+position = Vector2(2051, -985)
 shape = SubResource("RectangleShape2D_tqdav")
 
 [node name="FloorWise" parent="MapCollisions/Floors/Group29" instance=ExtResource("7_usr5o")]
@@ -1005,7 +1005,7 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group35"]
-position = Vector2(1426.38, -748.781)
+position = Vector2(1426, -749)
 shape = SubResource("RectangleShape2D_mw6io")
 
 [node name="FloorWise" parent="MapCollisions/Floors/Group35" instance=ExtResource("7_usr5o")]
@@ -1179,32 +1179,67 @@ position = Vector2(-1734, 71)
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group1"]
-position = Vector2(111.375, -8)
+position = Vector2(109.5, -8)
 shape = SubResource("RectangleShape2D_mlovy")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group1"]
+offset_left = -7.0
+offset_top = -11.0
+offset_right = 230.0
+offset_bottom = -5.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group1"]
-position = Vector2(108, -161)
+position = Vector2(108.5, -163)
 shape = SubResource("RectangleShape2D_mlovy")
 one_way_collision = true
+
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group1"]
+offset_left = -7.0
+offset_top = -166.0
+offset_right = 224.0
+offset_bottom = -160.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/Group1"]
-position = Vector2(104, -325)
+position = Vector2(106.75, -325)
 shape = SubResource("RectangleShape2D_mlovy")
 one_way_collision = true
 
+[node name="ColorRect3" type="ColorRect" parent="MapCollisions/Platforms/Group1"]
+offset_left = -7.0
+offset_top = -328.0
+offset_right = 221.0
+offset_bottom = -322.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col4" type="CollisionShape2D" parent="MapCollisions/Platforms/Group1"]
-position = Vector2(104, -494)
+position = Vector2(105.375, -494)
 shape = SubResource("RectangleShape2D_mlovy")
 one_way_collision = true
+
+[node name="ColorRect4" type="ColorRect" parent="MapCollisions/Platforms/Group1"]
+offset_left = -7.0
+offset_top = -497.0
+offset_right = 221.0
+offset_bottom = -491.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group2" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group2"]
-position = Vector2(-1654, -859)
+position = Vector2(-1640, -859)
 shape = SubResource("RectangleShape2D_6oy6r")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group2"]
+offset_left = -1741.0
+offset_top = -862.0
+offset_right = -1539.0
+offset_bottom = -856.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group3" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1214,10 +1249,24 @@ position = Vector2(-1191, -1028)
 shape = SubResource("RectangleShape2D_n2exl")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group3"]
+offset_left = -1222.0
+offset_top = -1031.0
+offset_right = -1160.0
+offset_bottom = -1025.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group3"]
-position = Vector2(-1346.5, -1114)
+position = Vector2(-1346.5, -1118)
 shape = SubResource("RectangleShape2D_dwuaq")
 one_way_collision = true
+
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group3"]
+offset_left = -1390.0
+offset_top = -1121.0
+offset_right = -1303.0
+offset_bottom = -1115.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group4" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1227,18 +1276,39 @@ position = Vector2(-1623, -1372)
 shape = SubResource("RectangleShape2D_lkfe1")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group4"]
+offset_left = -1741.0
+offset_top = -1375.0
+offset_right = -1505.0
+offset_bottom = -1369.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group4"]
 position = Vector2(-1271, -1484)
 shape = SubResource("RectangleShape2D_d25bx")
 one_way_collision = true
 
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group4"]
+offset_left = -1400.0
+offset_top = -1487.0
+offset_right = -1142.0
+offset_bottom = -1481.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group5" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group5"]
-position = Vector2(-635.5, 21.5)
+position = Vector2(-635, 21)
 shape = SubResource("RectangleShape2D_bh23v")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group5"]
+offset_left = -755.0
+offset_top = 18.0
+offset_right = -515.0
+offset_bottom = 24.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group6" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1248,29 +1318,57 @@ position = Vector2(-716, -208)
 shape = SubResource("RectangleShape2D_x1dq4")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group6"]
+offset_left = -837.0
+offset_top = -211.0
+offset_right = -595.0
+offset_bottom = -205.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group7" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group7"]
-position = Vector2(-191, -290.5)
+position = Vector2(-191, -290)
 shape = SubResource("RectangleShape2D_c1jgj")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group7"]
+offset_left = -311.0
+offset_top = -293.0
+offset_right = -71.0
+offset_bottom = -287.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group8" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group8"]
-position = Vector2(-591, -729.5)
+position = Vector2(-591, -729)
 shape = SubResource("RectangleShape2D_ijra8")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group8"]
+offset_left = -740.0
+offset_top = -732.0
+offset_right = -442.0
+offset_bottom = -726.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group9" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group9"]
-position = Vector2(-739.5, -1135)
+position = Vector2(-739, -1135)
 shape = SubResource("RectangleShape2D_ys0uy")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group9"]
+offset_left = -888.0
+offset_top = -1138.0
+offset_right = -590.0
+offset_bottom = -1132.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group10" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1280,52 +1378,108 @@ position = Vector2(-401, -1057)
 shape = SubResource("RectangleShape2D_rokq0")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group10"]
+offset_left = -459.0
+offset_top = -1060.0
+offset_right = -343.0
+offset_bottom = -1054.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group11" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group11"]
-position = Vector2(-265.75, -1163)
+position = Vector2(-266, -1163)
 shape = SubResource("RectangleShape2D_g347c")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group11"]
+offset_left = -322.0
+offset_top = -1166.0
+offset_right = -210.0
+offset_bottom = -1160.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group11"]
 position = Vector2(-266, -1270)
 shape = SubResource("RectangleShape2D_fqdiy")
 one_way_collision = true
 
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group11"]
+offset_left = -322.0
+offset_top = -1273.0
+offset_right = -210.0
+offset_bottom = -1267.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group12" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group12"]
-position = Vector2(-266.625, -1461)
+position = Vector2(-267, -1461)
 shape = SubResource("RectangleShape2D_1yexd")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group12"]
+offset_left = -324.0
+offset_top = -1464.0
+offset_right = -210.0
+offset_bottom = -1458.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group13" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group13"]
-position = Vector2(-19.1875, -1294)
+position = Vector2(-19, -1294)
 shape = SubResource("RectangleShape2D_7hs1q")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group13"]
+offset_left = -166.0
+offset_top = -1297.0
+offset_right = 128.0
+offset_bottom = -1291.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group13"]
-position = Vector2(211.5, -1393.75)
+position = Vector2(211, -1394)
 shape = SubResource("RectangleShape2D_birfd")
 one_way_collision = true
+
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group13"]
+offset_left = 154.0
+offset_top = -1397.0
+offset_right = 268.0
+offset_bottom = -1391.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/Group13"]
 position = Vector2(209, -1184)
 shape = SubResource("RectangleShape2D_pp8ui")
 one_way_collision = true
 
+[node name="ColorRect3" type="ColorRect" parent="MapCollisions/Platforms/Group13"]
+offset_left = 152.0
+offset_top = -1187.0
+offset_right = 266.0
+offset_bottom = -1181.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group14" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group14"]
-position = Vector2(-20.5938, -1071)
+position = Vector2(-18, -1071)
 shape = SubResource("RectangleShape2D_lkcc5")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group14"]
+offset_left = -166.0
+offset_top = -1074.0
+offset_right = 130.0
+offset_bottom = -1068.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group15" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1335,13 +1489,27 @@ position = Vector2(-32, -812)
 shape = SubResource("RectangleShape2D_ppe7t")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group15"]
+offset_left = -184.0
+offset_top = -815.0
+offset_right = 120.0
+offset_bottom = -809.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group16" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group16"]
-position = Vector2(142.625, -698)
+position = Vector2(142, -698)
 shape = SubResource("RectangleShape2D_u3dj4")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group16"]
+offset_left = 84.0
+offset_top = -701.0
+offset_right = 200.0
+offset_bottom = -695.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group17" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1351,10 +1519,24 @@ position = Vector2(540, -727)
 shape = SubResource("RectangleShape2D_76sgg")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group17"]
+offset_left = 482.0
+offset_top = -730.0
+offset_right = 598.0
+offset_bottom = -724.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group17"]
 position = Vector2(795, -726)
 shape = SubResource("RectangleShape2D_8xhyv")
 one_way_collision = true
+
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group17"]
+offset_left = 737.0
+offset_top = -729.0
+offset_right = 853.0
+offset_bottom = -723.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group18" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1364,15 +1546,36 @@ position = Vector2(540, -397)
 shape = SubResource("RectangleShape2D_1qkmi")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group18"]
+offset_left = 482.0
+offset_top = -400.0
+offset_right = 598.0
+offset_bottom = -394.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group18"]
 position = Vector2(542, -310)
 shape = SubResource("RectangleShape2D_syqls")
 one_way_collision = true
 
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group18"]
+offset_left = 484.0
+offset_top = -313.0
+offset_right = 600.0
+offset_bottom = -307.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/Group18"]
 position = Vector2(724, -239)
 shape = SubResource("RectangleShape2D_epes4")
 one_way_collision = true
+
+[node name="ColorRect3" type="ColorRect" parent="MapCollisions/Platforms/Group18"]
+offset_left = 666.0
+offset_top = -242.0
+offset_right = 782.0
+offset_bottom = -236.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group19" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1382,6 +1585,13 @@ position = Vector2(894, -139)
 shape = SubResource("RectangleShape2D_0r8iy")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group19"]
+offset_left = 836.0
+offset_top = -142.0
+offset_right = 952.0
+offset_bottom = -136.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group20" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
@@ -1389,6 +1599,13 @@ collision_mask = 0
 position = Vector2(1163, 234)
 shape = SubResource("RectangleShape2D_lgqn2")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group20"]
+offset_left = 1105.0
+offset_top = 231.0
+offset_right = 1221.0
+offset_bottom = 237.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group21" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1398,109 +1615,228 @@ position = Vector2(1822, 34)
 shape = SubResource("RectangleShape2D_uckls")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group21"]
+offset_left = 1764.0
+offset_top = 31.0
+offset_right = 1880.0
+offset_bottom = 37.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group21"]
 position = Vector2(1819, -92)
 shape = SubResource("RectangleShape2D_a1rta")
 one_way_collision = true
 
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group21"]
+offset_left = 1761.0
+offset_top = -95.0
+offset_right = 1877.0
+offset_bottom = -89.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group22" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group22"]
-position = Vector2(1672, -200)
+position = Vector2(1673, -200)
 shape = SubResource("RectangleShape2D_r6x7f")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group22"]
+offset_left = 1615.0
+offset_top = -203.0
+offset_right = 1731.0
+offset_bottom = -197.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group23" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group23"]
-position = Vector2(1570, -340)
+position = Vector2(1546, -344)
 shape = SubResource("RectangleShape2D_qg0i7")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group23"]
+offset_left = 1488.0
+offset_top = -347.0
+offset_right = 1604.0
+offset_bottom = -341.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group23"]
 position = Vector2(1477, -425)
 shape = SubResource("RectangleShape2D_0biic")
 one_way_collision = true
 
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group23"]
+offset_left = 1447.0
+offset_top = -428.0
+offset_right = 1507.0
+offset_bottom = -422.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/Group23"]
-position = Vector2(1575, -511)
+position = Vector2(1574, -511)
 shape = SubResource("RectangleShape2D_bmsus")
 one_way_collision = true
 
+[node name="ColorRect3" type="ColorRect" parent="MapCollisions/Platforms/Group23"]
+offset_left = 1544.0
+offset_top = -514.0
+offset_right = 1604.0
+offset_bottom = -508.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col4" type="CollisionShape2D" parent="MapCollisions/Platforms/Group23"]
-position = Vector2(1474, -626)
+position = Vector2(1477, -626)
 shape = SubResource("RectangleShape2D_fgo0l")
 one_way_collision = true
+
+[node name="ColorRect4" type="ColorRect" parent="MapCollisions/Platforms/Group23"]
+offset_left = 1447.0
+offset_top = -629.0
+offset_right = 1507.0
+offset_bottom = -623.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group24" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group24"]
-position = Vector2(1349, -741)
+position = Vector2(1347, -741)
 shape = SubResource("RectangleShape2D_3uc1b")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group24"]
+offset_left = 1289.0
+offset_top = -744.0
+offset_right = 1405.0
+offset_bottom = -738.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group25" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group25"]
-position = Vector2(1349, -970)
+position = Vector2(1347, -970)
 shape = SubResource("RectangleShape2D_a0nma")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group25"]
+offset_left = 1289.0
+offset_top = -973.0
+offset_right = 1405.0
+offset_bottom = -967.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group26" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group26"]
-position = Vector2(1554.69, -1292)
+position = Vector2(1555, -1292)
 shape = SubResource("RectangleShape2D_kceq0")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group26"]
+offset_left = 1488.0
+offset_top = -1295.0
+offset_right = 1622.0
+offset_bottom = -1289.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group27" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group27"]
-position = Vector2(1752.84, -1215)
+position = Vector2(1752, -1215)
 shape = SubResource("RectangleShape2D_fy4oq")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group27"]
+offset_left = 1701.0
+offset_top = -1218.0
+offset_right = 1803.0
+offset_bottom = -1212.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group28" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group28"]
-position = Vector2(1872.92, -1042)
+position = Vector2(1874, -1042)
 shape = SubResource("RectangleShape2D_3wq4e")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group28"]
+offset_left = 1845.0
+offset_top = -1045.0
+offset_right = 1903.0
+offset_bottom = -1039.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group28"]
-position = Vector2(1845.54, -913)
+position = Vector2(1846, -913)
 shape = SubResource("RectangleShape2D_ug61s")
 one_way_collision = true
+
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group28"]
+offset_left = 1789.0
+offset_top = -916.0
+offset_right = 1903.0
+offset_bottom = -910.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/Group28"]
 position = Vector2(1944, -813)
 shape = SubResource("RectangleShape2D_ug61s")
 one_way_collision = true
 
+[node name="ColorRect3" type="ColorRect" parent="MapCollisions/Platforms/Group28"]
+offset_left = 1887.0
+offset_top = -816.0
+offset_right = 2001.0
+offset_bottom = -810.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group29" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group29"]
-position = Vector2(2155.96, -813)
+position = Vector2(2156, -813)
 shape = SubResource("RectangleShape2D_7jppk")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group29"]
+offset_left = 2099.0
+offset_top = -816.0
+offset_right = 2213.0
+offset_bottom = -810.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group29"]
-position = Vector2(2255, -914)
+position = Vector2(2256, -914)
 shape = SubResource("RectangleShape2D_o1uxi")
 one_way_collision = true
 
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group29"]
+offset_left = 2199.0
+offset_top = -917.0
+offset_right = 2313.0
+offset_bottom = -911.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Platforms/Group29"]
-position = Vector2(2228.51, -1042)
+position = Vector2(2229, -1042)
 shape = SubResource("RectangleShape2D_xnwm7")
 one_way_collision = true
+
+[node name="ColorRect3" type="ColorRect" parent="MapCollisions/Platforms/Group29"]
+offset_left = 2199.0
+offset_top = -1045.0
+offset_right = 2259.0
+offset_bottom = -1039.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group30" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1510,10 +1846,24 @@ position = Vector2(2211, -1300)
 shape = SubResource("RectangleShape2D_dn4iy")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group30"]
+offset_left = 2154.0
+offset_top = -1303.0
+offset_right = 2268.0
+offset_bottom = -1297.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group30"]
 position = Vector2(2211, -1382)
 shape = SubResource("RectangleShape2D_ieu0i")
 one_way_collision = true
+
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group30"]
+offset_left = 2154.0
+offset_top = -1385.0
+offset_right = 2268.0
+offset_bottom = -1379.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group31" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1523,21 +1873,42 @@ position = Vector2(2366, -1550)
 shape = SubResource("RectangleShape2D_6h3mg")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group31"]
+offset_left = 2309.0
+offset_top = -1553.0
+offset_right = 2423.0
+offset_bottom = -1547.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group32" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group32"]
-position = Vector2(2439.98, -418)
+position = Vector2(2440, -418)
 shape = SubResource("RectangleShape2D_6fqwi")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group32"]
+offset_left = 2319.0
+offset_top = -421.0
+offset_right = 2561.0
+offset_bottom = -415.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group33" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group33"]
-position = Vector2(2403.01, -297)
+position = Vector2(2404, -297)
 shape = SubResource("RectangleShape2D_hmu32")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group33"]
+offset_left = 2282.0
+offset_top = -300.0
+offset_right = 2526.0
+offset_bottom = -294.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group34" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
@@ -1547,34 +1918,69 @@ position = Vector2(2537, -199)
 shape = SubResource("RectangleShape2D_d8xx5")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group34"]
+offset_left = 2480.0
+offset_top = -202.0
+offset_right = 2594.0
+offset_bottom = -196.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Group35" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group35"]
-position = Vector2(2212.5, -95)
+position = Vector2(2212, -95)
 shape = SubResource("RectangleShape2D_1n6oy")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group35"]
+offset_left = 2154.0
+offset_top = -98.0
+offset_right = 2270.0
+offset_bottom = -92.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group36" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group36"]
-position = Vector2(2792.25, -75)
+position = Vector2(2792, -75)
 shape = SubResource("RectangleShape2D_tqd5q")
 one_way_collision = true
 
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group36"]
+offset_left = 2733.0
+offset_top = -78.0
+offset_right = 2851.0
+offset_bottom = -72.0
+color = Color(0.431373, 0.247059, 0, 1)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Platforms/Group36"]
-position = Vector2(2796.5, 59)
+position = Vector2(2793, 59)
 shape = SubResource("RectangleShape2D_roylg")
 one_way_collision = true
+
+[node name="ColorRect2" type="ColorRect" parent="MapCollisions/Platforms/Group36"]
+offset_left = 2735.0
+offset_top = 56.0
+offset_right = 2851.0
+offset_bottom = 62.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Group37" type="StaticBody2D" parent="MapCollisions/Platforms"]
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Platforms/Group37"]
-position = Vector2(572.749, -1478)
+position = Vector2(573, -1478)
 shape = SubResource("RectangleShape2D_eck0n")
 one_way_collision = true
+
+[node name="ColorRect" type="ColorRect" parent="MapCollisions/Platforms/Group37"]
+offset_left = 443.0
+offset_top = -1481.0
+offset_right = 703.0
+offset_bottom = -1475.0
+color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Zones" type="Node2D" parent="."]
 
