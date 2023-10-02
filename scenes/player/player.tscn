@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://da4xy24jmwh6l"]
+[gd_scene load_steps=22 format=3 uid="uid://da4xy24jmwh6l"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_thwwh"]
 [ext_resource type="Texture2D" uid="uid://csn7wtq4m3bg2" path="res://assets/player/lava_boy_skeleton4_Bone2-equus_hemionus.png" id="2_70hqg"]
@@ -2771,6 +2771,31 @@ _data = {
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vle47"]
 size = Vector2(16, 96)
 
+[sub_resource type="Curve" id="Curve_dl45c"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.105263, 0.960674), 0.0, 0.0, 0, 0, Vector2(0.981693, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_sxnsg"]
+curve = SubResource("Curve_dl45c")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_iguxv"]
+lifetime_randomness = 0.59
+emission_shape = 1
+emission_sphere_radius = 2.0
+particle_flag_disable_z = true
+direction = Vector3(0, 1, 0)
+spread = 10.0
+gravity = Vector3(0, 0, 0)
+initial_velocity_max = 600.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+scale_min = 16.0
+scale_max = 16.0
+scale_curve = SubResource("CurveTexture_sxnsg")
+color = Color(1, 1, 1, 0.592157)
+hue_variation_min = -0.07
+hue_variation_max = 0.01
+
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 2
 collision_mask = 5
@@ -3213,5 +3238,13 @@ collision_mask = 16
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractArea"]
 position = Vector2(8, 8)
 shape = SubResource("RectangleShape2D_vle47")
+
+[node name="BoostParticles" type="GPUParticles2D" parent="."]
+position = Vector2(0, 48)
+emitting = false
+amount = 20
+process_material = SubResource("ParticleProcessMaterial_iguxv")
+one_shot = true
+explosiveness = 0.44
 
 [connection signal="timeout" from="WalkTimer" to="." method="_on_walk_timer_timeout"]

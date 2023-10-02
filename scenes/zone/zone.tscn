@@ -11,7 +11,7 @@ point_count = 4
 curve = SubResource("Curve_2nbyg")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_txnts"]
-size = Vector2(1148, 646)
+size = Vector2(1148, 626)
 
 [node name="Zone" type="Node2D"]
 script = ExtResource("1_juawe")
@@ -22,7 +22,7 @@ collision_layer = 0
 collision_mask = 10
 
 [node name="Col" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(574, 323)
+position = Vector2(574, 313)
 shape = SubResource("RectangleShape2D_txnts")
 disabled = true
 

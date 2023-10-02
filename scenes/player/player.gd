@@ -6,6 +6,7 @@ const death_sound_scene = preload("res://scenes/player/player_death_sound.tscn")
 @onready var model_anim = get_node("SubViewport/lava_boy_skeleton/AnimationPlayer")
 const SPEED = 300.0
 const JUMP_VELOCITY = -575.0
+const BOOST_VELOCITY = -775.0
 var coyote_time = 100
 
 var direction: float = 1
@@ -114,6 +115,13 @@ func move_player(delta):
 	# Jump
 	if Input.is_action_just_pressed("jump") and Time.get_ticks_msec() - last_on_floor <= coyote_time:
 		velocity.y = JUMP_VELOCITY
+		model_anim.play("jump")
+	
+	# Boost
+	if Input.is_action_just_pressed("boost") and wisps > 0:
+		wisps -= 1
+		velocity.y = BOOST_VELOCITY
+		$BoostParticles.restart()
 		model_anim.play("jump")
 	
 	# Gravity
