@@ -26,8 +26,9 @@ func _process(_delta):
 	$SubViewport.size = ws
 	$SprPlayer.scale = Vector2( 1152.0 / ws.x, 648.0 / ws.y)
 	
+	
 	# Lava death
-	if global_position.y > 300:
+	if global_position.y > 310:
 		die()
 
 func _physics_process(delta):
@@ -35,8 +36,10 @@ func _physics_process(delta):
 	
 	if direction == -1:
 		$SprPlayer.flip_h = true
+		$InteractArea/CollisionShape2D.position.x = -8
 	else:
 		$SprPlayer.flip_h = false
+		$InteractArea/CollisionShape2D.position.x = 8
 	var direction = Input.get_axis("left", "right")
 	if is_on_floor() and not model_anim.current_animation == "jump":
 		if model_anim.current_animation != "renderwire" and direction:
@@ -53,6 +56,12 @@ func _physics_process(delta):
 	elif not is_on_floor() and velocity.y > 0 and not model_anim.current_animation == "jump" and not model_anim.current_animation == "Skeleton_001Action":
 		model_anim.play("Skeleton_001Action")
 	
+	if Input.is_action_just_pressed("interact"):
+		for b in $InteractArea.get_overlapping_areas():
+			if b.has_method("interact"):
+				b.interact(self)
+			elif b.get_parent().has_method("interact"):
+				b.get_parent().interact(self)
 	
 	move_and_slide()
 	
@@ -124,6 +133,13 @@ func die():
 
 func collect_wisp():
 	wisps += 1
+	
+
+func try_consume_wisp(num) -> bool:
+	if wisps >= num:
+		wisps -= num
+		return true
+	return false
 
 
 func _on_walk_timer_timeout():

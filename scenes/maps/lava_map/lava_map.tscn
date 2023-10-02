@@ -902,40 +902,40 @@ attenuation = 4.14106
 
 [node name="Shrines" type="Node2D" parent="."]
 
-[node name="Shrine" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="5" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(-1155, -619)
 
-[node name="Shrine2" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="9" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(-722, -288)
 
-[node name="Shrine3" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="1" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(-732, -1215)
 
-[node name="Shrine4" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="4" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(1865, -1309)
 
-[node name="Shrine5" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="8" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(2439, -500)
 
-[node name="Shrine6" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="12" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(2665, 122)
 
-[node name="Shrine7" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="10" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(-16, 4)
 
-[node name="Shrine8" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="11" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(1158, 152)
 
-[node name="Shrine9" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="6" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(144, -779)
 
-[node name="Shrine12" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="7" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(1089, -680)
 
-[node name="Shrine10" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="2" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(-44, -1153)
 
-[node name="Shrine11" parent="Shrines" instance=ExtResource("4_muj75")]
+[node name="3" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(1118, -1362)
 
 [node name="Doors" type="Node2D" parent="."]
@@ -964,6 +964,7 @@ position = Vector2(-656, -347)
 metadata/_edit_lock_ = true
 
 [node name="Score" type="Label" parent="Player/Camera"]
+z_index = 4096
 offset_left = -568.0
 offset_top = -324.0
 offset_right = -528.0
@@ -974,6 +975,7 @@ theme_override_font_sizes/font_size = 36
 metadata/_edit_lock_ = true
 
 [node name="WispCount" type="Label" parent="Player/Camera"]
+z_index = 4096
 offset_left = -568.0
 offset_top = -274.0
 offset_right = -528.0
@@ -2365,51 +2367,51 @@ color = Color(0.431373, 0.247059, 0, 1)
 [node name="Zones" type="Node2D" parent="."]
 metadata/_edit_lock_ = true
 
-[node name="Zone" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="1" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -1688)
 metadata/_edit_lock_ = true
 
-[node name="Zone2" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="2" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -1688)
 metadata/_edit_lock_ = true
 
-[node name="Zone3" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="3" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(555, -1688)
 metadata/_edit_lock_ = true
 
-[node name="Zone4" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="4" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -1688)
 metadata/_edit_lock_ = true
 
-[node name="Zone5" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="5" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -1042)
 metadata/_edit_lock_ = true
 
-[node name="Zone6" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="6" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -1042)
 metadata/_edit_lock_ = true
 
-[node name="Zone7" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="7" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(555, -1042)
 metadata/_edit_lock_ = true
 
-[node name="Zone8" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="8" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -1042)
 metadata/_edit_lock_ = true
 
-[node name="Zone9" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="9" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -396)
 metadata/_edit_lock_ = true
 
-[node name="Zone10" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="10" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -396)
 metadata/_edit_lock_ = true
 
-[node name="Zone11" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="11" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(555, -396)
 metadata/_edit_lock_ = true
 
-[node name="Zone12" parent="Zones" instance=ExtResource("6_bqfg3")]
+[node name="12" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -396)
 metadata/_edit_lock_ = true
 
