@@ -1,4 +1,4 @@
-[gd_scene load_steps=123 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=124 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
