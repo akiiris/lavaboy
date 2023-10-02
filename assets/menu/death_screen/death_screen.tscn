@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://cc6jufr0drb7p"]
+[gd_scene load_steps=8 format=3 uid="uid://cc6jufr0drb7p"]
 
 [ext_resource type="Script" path="res://assets/menu/death_screen/death_screen.gd" id="1_gcf1o"]
 [ext_resource type="Texture2D" uid="uid://bj8dgl2bdqo4s" path="res://assets/menu/death_screen/youdiedloser.png" id="2_4k2xj"]
 [ext_resource type="Texture2D" uid="uid://dnh132t8eblwh" path="res://assets/menu/death_screen/lb_you_died.png" id="2_n1otq"]
+[ext_resource type="FontFile" uid="uid://62rq13v02wss" path="res://assets/menu/inferno.ttf" id="3_h4oj1"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xmj2d"]
 bg_color = Color(0.168627, 0.027451, 0.0392157, 1)
@@ -65,6 +66,7 @@ offset_right = 367.5
 offset_bottom = 156.5
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_h4oj1")
 theme_override_font_sizes/font_size = 100
 text = "100.521 s"
 horizontal_alignment = 1
@@ -99,6 +101,7 @@ offset_right = 124.5
 offset_bottom = -66.0
 grow_horizontal = 2
 grow_vertical = 0
+theme_override_fonts/font = ExtResource("3_h4oj1")
 theme_override_font_sizes/font_size = 60
 theme_override_styles/normal = SubResource("StyleBoxFlat_xmj2d")
 theme_override_styles/hover = SubResource("StyleBoxFlat_pgx2q")

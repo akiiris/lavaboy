@@ -1,10 +1,11 @@
-[gd_scene load_steps=122 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=123 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
 [ext_resource type="PackedScene" uid="uid://dqqo4cy2gtay8" path="res://scenes/shrine/shrine.tscn" id="4_muj75"]
 [ext_resource type="PackedScene" uid="uid://da4xy24jmwh6l" path="res://scenes/player/player.tscn" id="4_wlk3s"]
 [ext_resource type="PackedScene" uid="uid://o2ha4gcgrkac" path="res://scenes/skeledoor/skeledoor.tscn" id="5_5f1hb"]
+[ext_resource type="FontFile" uid="uid://62rq13v02wss" path="res://assets/menu/inferno.ttf" id="6_6evis"]
 [ext_resource type="PackedScene" uid="uid://bthywae6yhefp" path="res://scenes/zone/zone.tscn" id="6_bqfg3"]
 [ext_resource type="PackedScene" uid="uid://85fshduucm4d" path="res://scenes/platform/floor.tscn" id="6_h06s7"]
 [ext_resource type="PackedScene" uid="uid://bydyddi1ngc6t" path="res://scenes/platform/floor_wide.tscn" id="7_usr5o"]
@@ -458,6 +459,7 @@ offset_top = -324.0
 offset_right = -528.0
 offset_bottom = -274.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("6_6evis")
 theme_override_font_sizes/font_size = 36
 
 [node name="WispCount" type="Label" parent="Player/Camera"]
@@ -466,6 +468,7 @@ offset_top = -274.0
 offset_right = -528.0
 offset_bottom = -224.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("6_6evis")
 theme_override_font_sizes/font_size = 36
 
 [node name="MapCollisions" type="Node2D" parent="."]
