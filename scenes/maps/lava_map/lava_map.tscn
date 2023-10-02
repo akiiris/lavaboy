@@ -349,7 +349,7 @@ metadata/_edit_lock_ = true
 position = Vector2(-1155, -619)
 
 [node name="Shrine2" parent="Shrines" instance=ExtResource("4_muj75")]
-position = Vector2(-722, -300)
+position = Vector2(-722, -288)
 
 [node name="Shrine3" parent="Shrines" instance=ExtResource("4_muj75")]
 position = Vector2(-732, -1215)
