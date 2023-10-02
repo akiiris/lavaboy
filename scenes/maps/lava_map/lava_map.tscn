@@ -2546,62 +2546,50 @@ metadata/_edit_lock_ = true
 
 [node name="1" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -1688)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="2" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -1688)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="3" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(555, -1688)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="4" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -1688)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="5" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -1042)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="6" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -1042)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="7" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(555, -1042)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="8" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -1042)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="9" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -396)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="10" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -396)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="11" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(555, -396)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="12" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -396)
-lock_alpha_curve = null
 metadata/_edit_lock_ = true
 
 [node name="LevelWalls" type="StaticBody2D" parent="."]

@@ -1,21 +1,15 @@
-[gd_scene load_steps=6 format=3 uid="uid://bthywae6yhefp"]
+[gd_scene load_steps=5 format=3 uid="uid://bthywae6yhefp"]
 
 [ext_resource type="Script" path="res://scenes/zone/zone.gd" id="1_juawe"]
 [ext_resource type="Texture2D" uid="uid://cg43p6lmkryr7" path="res://assets/bg/fog2-square.png" id="2_j7uua"]
-
-[sub_resource type="Curve" id="Curve_2nbyg"]
-_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.0170576, 0.501995), 1.79828, 1.79828, 0, 0, Vector2(0.249467, 0), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
-point_count = 4
-
-[sub_resource type="CurveTexture" id="CurveTexture_jm6np"]
-curve = SubResource("Curve_2nbyg")
+[ext_resource type="Texture2D" uid="uid://47g3blhhgo2y" path="res://scenes/zone/zone_curve.tres" id="2_sv810"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_txnts"]
 size = Vector2(1148, 626)
 
 [node name="Zone" type="Node2D"]
 script = ExtResource("1_juawe")
-lock_alpha_curve = SubResource("CurveTexture_jm6np")
+lock_alpha_curve = ExtResource("2_sv810")
 
 [node name="Area2D" type="Area2D" parent="."]
 collision_layer = 0
