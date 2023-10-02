@@ -29,19 +29,19 @@ func _physics_process(delta):
 		$SprPlayer.flip_h = true
 	else:
 		$SprPlayer.flip_h = false
-		
-	if is_on_floor() and not model_anim.is_playing() and not model_anim.current_animation == "jump":
-		if Input.is_action_pressed("left") or Input.is_action_pressed("right"):
+	var direction = Input.get_axis("left", "right")
+	if is_on_floor() and not model_anim.current_animation == "jump":
+		if model_anim.current_animation != "renderwire" and direction:
 			model_anim.play("renderwire")
-		else:
+		elif not direction and not model_anim.current_animation == "renderwire_001":
+			model_anim.play("renderwire_001")
+	elif is_on_floor() and model_anim.current_animation == "Skeleton_001Action":
+		if direction:
 			model_anim.play("renderwire")
-			model_anim.stop()
-	elif is_on_floor() and model_anim.is_playing() and model_anim.current_animation == "Skeleton_001Action" and not direction:
-		model_anim.play("renderwire")
-		model_anim.stop()
-	elif is_on_floor() and model_anim.is_playing() and model_anim.current_animation == "renderwire" and not direction:
-		model_anim.play("renderwire")
-		model_anim.stop()
+		elif not model_anim.current_animation == "renderwire_001":
+			model_anim.play("renderwire_001")
+	elif is_on_floor() and model_anim.current_animation == "renderwire" and not model_anim.current_animation == "renderwire_001" and not direction:
+		model_anim.play("renderwire_001")
 	elif not is_on_floor() and velocity.y > 0 and not model_anim.current_animation == "jump" and not model_anim.current_animation == "Skeleton_001Action":
 		model_anim.play("Skeleton_001Action")
 	
