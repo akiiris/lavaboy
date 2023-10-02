@@ -384,6 +384,7 @@ offset_top = -1817.0
 offset_right = -1743.0
 offset_bottom = 1506.0
 color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
 
 [node name="RightWall" type="ColorRect" parent="LevelWalls"]
 offset_left = 2851.0
@@ -391,6 +392,7 @@ offset_top = -1742.0
 offset_right = 4470.0
 offset_bottom = 1581.0
 color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
 
 [node name="RightWall2" type="ColorRect" parent="LevelWalls"]
 offset_left = -2752.0
@@ -398,6 +400,7 @@ offset_top = -5010.0
 offset_right = 4667.0
 offset_bottom = -1687.0
 color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
 
 [node name="Shrines" type="Node2D" parent="."]
 
@@ -464,7 +467,7 @@ offset_left = -568.0
 offset_top = -324.0
 offset_right = -528.0
 offset_bottom = -274.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("6_6evis")
 theme_override_font_sizes/font_size = 36
 
@@ -473,7 +476,7 @@ offset_left = -568.0
 offset_top = -274.0
 offset_right = -528.0
 offset_bottom = -224.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("6_6evis")
 theme_override_font_sizes/font_size = 36
 
