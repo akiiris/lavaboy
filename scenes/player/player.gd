@@ -24,6 +24,10 @@ func _process(_delta):
 	var ws = DisplayServer.window_get_size()
 	$SubViewport.size = ws
 	$SprPlayer.scale = Vector2( 1152.0 / ws.x, 648.0 / ws.y)
+	
+	# Lava death
+	if global_position.y > 300:
+		die()
 
 func _physics_process(delta):
 	move_player(delta)
