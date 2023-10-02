@@ -173,7 +173,7 @@ func move_player(delta):
 	# Sprint input
 	if is_on_floor():
 		sprinting = false
-		if Input.is_action_pressed("boost"):
+		if Input.is_action_pressed("sprint"):
 			sprinting = true
 	
 	# Gravity
