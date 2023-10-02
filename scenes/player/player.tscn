@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://da4xy24jmwh6l"]
+[gd_scene load_steps=19 format=3 uid="uid://da4xy24jmwh6l"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_thwwh"]
 [ext_resource type="Texture2D" uid="uid://csn7wtq4m3bg2" path="res://assets/player/lava_boy_skeleton4_Bone2-equus_hemionus.png" id="2_70hqg"]
@@ -2769,6 +2769,9 @@ _data = {
 "talk01_kunti": SubResource("Animation_uw6ct")
 }
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vle47"]
+size = Vector2(16, 96)
+
 [node name="Player" type="CharacterBody2D"]
 collision_layer = 2
 collision_mask = 5
@@ -3203,5 +3206,13 @@ max_polyphony = 10
 [node name="WalkTimer" type="Timer" parent="."]
 wait_time = 0.28
 autostart = true
+
+[node name="InteractArea" type="Area2D" parent="."]
+collision_layer = 2
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractArea"]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_vle47")
 
 [connection signal="timeout" from="WalkTimer" to="." method="_on_walk_timer_timeout"]

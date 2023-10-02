@@ -963,6 +963,7 @@ position = Vector2(-656, -347)
 metadata/_edit_lock_ = true
 
 [node name="Score" type="Label" parent="Player/Camera"]
+z_index = 4096
 offset_left = -568.0
 offset_top = -324.0
 offset_right = -528.0
@@ -973,6 +974,7 @@ theme_override_font_sizes/font_size = 36
 metadata/_edit_lock_ = true
 
 [node name="WispCount" type="Label" parent="Player/Camera"]
+z_index = 4096
 offset_left = -568.0
 offset_top = -274.0
 offset_right = -528.0

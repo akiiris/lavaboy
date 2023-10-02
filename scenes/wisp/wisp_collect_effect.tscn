@@ -1,7 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://dknm7uaxq28si"]
+[gd_scene load_steps=9 format=3 uid="uid://dknm7uaxq28si"]
 
 [ext_resource type="Script" path="res://scenes/wisp/wisp_collect_effect.gd" id="1_dns8g"]
 [ext_resource type="AudioStream" uid="uid://cthj6bxqs6p3o" path="res://assets/wisp/collect.wav" id="1_e8vu2"]
+[ext_resource type="AudioStream" uid="uid://bs10oky74gjqk" path="res://assets/player/kuntichant.mp3" id="3_7ockq"]
 
 [sub_resource type="Gradient" id="Gradient_s37ap"]
 offsets = PackedFloat32Array(0.687764, 1)
@@ -49,6 +50,12 @@ autostart = true
 
 [node name="CollectSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("1_e8vu2")
+volume_db = -11.556
+pitch_scale = 1.2
+autoplay = true
+
+[node name="CollectSound2" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_7ockq")
 volume_db = -11.556
 pitch_scale = 1.2
 autoplay = true
