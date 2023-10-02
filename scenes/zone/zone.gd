@@ -1,15 +1,28 @@
 extends Node2D
 
+@export var lock_alpha_curve: CurveTexture
 
 func _ready():
-	$LockTimer.wait_time = randf_range(0, 30)
-	#$LockTimer.start()
+	$LockTimer.wait_time = randf_range(30, 120)
+	$LockTimer.start()
+
+
+func _process(delta):
+	var s = lock_alpha_curve.curve.sample(get_percent())
+	$Sprite2D.visible = true
+	$Sprite2D.modulate.a = s
+
 
 func _on_lock_timer_timeout():
-	var tween = create_tween()
-	tween.tween_property($Sprite2D, "modulate", Color("ec646097"), 2.0)
-	$Sprite2D.visible = true
 	$Area2D/Col.disabled = false
+
+
+func add_time(amt):
+	$LockTimer.start($LockTimer.time_left + amt)
+
+
+func get_percent():
+	return $LockTimer.time_left / $LockTimer.wait_time
 
 
 func _on_area_2d_body_entered(body):
@@ -17,3 +30,4 @@ func _on_area_2d_body_entered(body):
 		body.die()
 	if body.is_in_group("delete_on_exit_bounds"):
 		body.queue_free()
+
