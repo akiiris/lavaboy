@@ -15,10 +15,17 @@ var direction: float = 1
 var acceleration: float = 600
 var deceleration: float = 3
 var speed_cap: float = 300
+var sprint_acceleration: float = 1200
+var sprint_speed_cap: float = 600
+var is_in_boost: bool = false
+var sprinting: bool = false
+
+var fastfall: bool = false
+var fastfall_multiplier: float = 1.2
 
 var last_on_floor: int = 0
 
-var wisps: int = 0
+var wisps: float = 0
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
@@ -72,6 +79,9 @@ func _physics_process(delta):
 
 
 func move_player(delta):
+	if is_on_floor():
+		is_in_boost = false
+	
 	# Drop through platforms
 	if Input.is_action_pressed("down"):
 		set_collision_mask_value(1, false)
@@ -85,30 +95,55 @@ func move_player(delta):
 		direction = 1
 	
 	# Move left/right
-	if Input.is_action_pressed("left") and direction == -1:
-		velocity.x -= acceleration * delta
-	if Input.is_action_pressed("right") and direction == 1:
-		velocity.x += acceleration * delta
+	if not sprinting:
+		if Input.is_action_pressed("left") and direction == -1:
+			velocity.x -= acceleration * delta
+		if Input.is_action_pressed("right") and direction == 1:
+			velocity.x += acceleration * delta
+	else:
+		if Input.is_action_pressed("left") and direction == -1:
+			velocity.x -= sprint_acceleration * delta
+		if Input.is_action_pressed("right") and direction == 1:
+			velocity.x += sprint_acceleration * delta
 	
-	# Cap horizontal speed
-	if velocity.x > speed_cap:
-		velocity.x = speed_cap
-	if velocity.x < -speed_cap:
-		velocity.x = -speed_cap
+	if not is_in_boost:
+		# Cap horizontal speed
+		if not sprinting:
+			if velocity.x > speed_cap:
+				velocity.x = speed_cap
+			if velocity.x < -speed_cap:
+				velocity.x = -speed_cap
+		else:
+			if velocity.x > sprint_speed_cap:
+				velocity.x = sprint_speed_cap
+			if velocity.x < -sprint_speed_cap:
+				velocity.x = -sprint_speed_cap
 	
-	# Decelerate toward 0 when not holding left
-	if not Input.is_action_pressed("left") or direction == 1:
-		if velocity.x > -acceleration * deceleration * delta and velocity.x < 0:
-			velocity.x = 0
-		if velocity.x <= -acceleration * deceleration * delta:
-			velocity.x += acceleration * deceleration * delta
-	
-	# Decelerate toward 0 when not holding right
-	if not Input.is_action_pressed("right") or direction == -1:
-		if velocity.x < acceleration * deceleration * delta and velocity.x > 0:
-			velocity.x = 0
-		if velocity.x >= acceleration * deceleration * delta:
-			velocity.x -= acceleration * deceleration * delta
+	if not sprinting:
+		# Decelerate toward 0 when not holding left
+		if not Input.is_action_pressed("left") or direction == 1:
+			if velocity.x > -acceleration * deceleration * delta and velocity.x < 0:
+				velocity.x = 0
+			if velocity.x <= -acceleration * deceleration * delta:
+				velocity.x += acceleration * deceleration * delta
+		# Decelerate toward 0 when not holding right
+		if not Input.is_action_pressed("right") or direction == -1:
+			if velocity.x < acceleration * deceleration * delta and velocity.x > 0:
+				velocity.x = 0
+			if velocity.x >= acceleration * deceleration * delta:
+				velocity.x -= acceleration * deceleration * delta
+	else:
+		if not Input.is_action_pressed("left") or direction == 1:
+			if velocity.x > -sprint_acceleration * deceleration * delta and velocity.x < 0:
+				velocity.x = 0
+			if velocity.x <= -sprint_acceleration * deceleration * delta:
+				velocity.x += sprint_acceleration * deceleration * delta
+		# Decelerate toward 0 when not holding right
+		if not Input.is_action_pressed("right") or direction == -1:
+			if velocity.x < sprint_acceleration * deceleration * delta and velocity.x > 0:
+				velocity.x = 0
+			if velocity.x >= sprint_acceleration * deceleration * delta:
+				velocity.x -= sprint_acceleration * deceleration * delta
 	
 	# Coyote time
 	if is_on_floor():
@@ -118,22 +153,40 @@ func move_player(delta):
 	if Input.is_action_just_pressed("jump") and Time.get_ticks_msec() - last_on_floor <= coyote_time:
 		velocity.y = JUMP_VELOCITY
 		model_anim.play("jump")
+		$JumpSound.play()
 	elif is_on_floor() and Time.get_ticks_msec() - jump_buffer_time < JUMP_BUFFER_TIME:
 		velocity.y = JUMP_VELOCITY
 		model_anim.play("jump")
+		$JumpSound.play()
 	elif Input.is_action_just_pressed("jump"):
 		jump_buffer_time = Time.get_ticks_msec()
 	
 	# Boost
-	if Input.is_action_just_pressed("boost") and wisps > 0:
-		wisps -= 1
-		velocity.y = BOOST_VELOCITY
+	if Input.is_action_just_pressed("boost") and not is_on_floor() and wisps > 0:
+		wisps -= 0.5
+		velocity = BOOST_VELOCITY * Input.get_vector("right", "left", "down", "up")
 		$BoostParticles.restart()
+		is_in_boost = true
 		model_anim.play("jump")
+		$BoostSound.play()
+	
+	# Sprint input
+	if is_on_floor():
+		sprinting = false
+		if Input.is_action_pressed("boost"):
+			sprinting = true
 	
 	# Gravity
 	if not is_on_floor():
 		velocity.y += gravity * delta
+		
+	# Fastfall
+	if Input.is_action_just_pressed("down") and not is_on_floor():
+		fastfall = true
+	if not Input.is_action_pressed("down") or is_on_floor():
+		fastfall = false
+	if fastfall:
+		velocity.y += gravity * fastfall_multiplier * delta
 
 func die():
 	var time = get_tree().root.get_node("Game/LavaMap").time_score_thing
