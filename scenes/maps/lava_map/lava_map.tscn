@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://bthywae6yhefp" path="res://scenes/zone/zone.tscn" id="6_bqfg3"]
 [ext_resource type="PackedScene" uid="uid://85fshduucm4d" path="res://scenes/platform/floor.tscn" id="6_h06s7"]
 [ext_resource type="PackedScene" uid="uid://bydyddi1ngc6t" path="res://scenes/platform/floor_wide.tscn" id="7_usr5o"]
+[ext_resource type="PackedScene" uid="uid://7wnjumm2wv35" path="res://assets/map/plat3.glb" id="9_gfk70"]
+[ext_resource type="PackedScene" uid="uid://73ypxefimjai" path="res://assets/map/platsq.glb" id="10_w2t3v"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_hfrd3"]
 normal = Vector2(1, 0)
@@ -35,7 +37,7 @@ size = Vector2(383, 79)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_efqs4"]
-size = Vector2(384, 79.875)
+size = Vector2(384, 80)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cyner"]
 size = Vector2(56, 55.75)
@@ -44,16 +46,16 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0qtx4"]
-size = Vector2(592, 48.875)
+size = Vector2(592, 49)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w1p4b"]
-size = Vector2(592, 48.875)
+size = Vector2(592, 48)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vvde2"]
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vty8e"]
-size = Vector2(592, 48.875)
+size = Vector2(592, 50)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_acs05"]
 size = Vector2(56, 55.75)
@@ -65,16 +67,16 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b6e3s"]
-size = Vector2(226, 29.875)
+size = Vector2(226, 30)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5bo6r"]
 size = Vector2(44, 472)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wwlvo"]
-size = Vector2(593, 48.9375)
+size = Vector2(593, 50)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ohhww"]
-size = Vector2(383.25, 81.4688)
+size = Vector2(383, 82)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wbkfj"]
 size = Vector2(56, 55.75)
@@ -92,16 +94,16 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b6e74"]
-size = Vector2(141, 31.5)
+size = Vector2(141, 32)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f7wtb"]
-size = Vector2(141, 31.5)
+size = Vector2(141, 32)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d2lnx"]
-size = Vector2(141, 31.5)
+size = Vector2(141, 32)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b0y7a"]
-size = Vector2(141, 31.5)
+size = Vector2(141, 32)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xfma1"]
 size = Vector2(141, 31.5)
@@ -110,9 +112,6 @@ size = Vector2(141, 31.5)
 size = Vector2(198, 31.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_npgfm"]
-size = Vector2(141, 31.5)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_n73gb"]
 size = Vector2(141, 31.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4lx5q"]
@@ -125,10 +124,10 @@ size = Vector2(141, 31.5)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uemog"]
-size = Vector2(324, 56.875)
+size = Vector2(324, 58)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kvlpo"]
-size = Vector2(324, 57.4375)
+size = Vector2(324, 58)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tqdav"]
 size = Vector2(296, 169)
@@ -146,7 +145,7 @@ size = Vector2(56, 55.75)
 size = Vector2(198, 29)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cctmu"]
-size = Vector2(385, 80.5)
+size = Vector2(385, 80)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kh2a6"]
 size = Vector2(56.5, 129.125)
@@ -158,22 +157,22 @@ size = Vector2(56.5, 129.125)
 size = Vector2(41.25, 471.563)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_saebh"]
-size = Vector2(55, 285.5)
+size = Vector2(56, 286)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n4vta"]
-size = Vector2(383.25, 79.875)
+size = Vector2(383, 80)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sbf6i"]
-size = Vector2(537.813, 46.4688)
+size = Vector2(538, 46)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xgfv4"]
-size = Vector2(56, 247.617)
+size = Vector2(56, 248)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yiyxx"]
 size = Vector2(56, 56)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_i0ecb"]
-size = Vector2(417, 55.75)
+size = Vector2(417, 56)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0h8k4"]
 size = Vector2(56, 55.75)
@@ -185,7 +184,7 @@ size = Vector2(56, 55.75)
 size = Vector2(56, 55.75)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vrdvv"]
-size = Vector2(383, 80.875)
+size = Vector2(383, 80)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mlovy"]
 size = Vector2(238, 5)
@@ -483,6 +482,12 @@ collision_mask = 0
 position = Vector2(-1563, -1157)
 shape = SubResource("RectangleShape2D_q3dd8")
 
+[node name="FloorWise" parent="MapCollisions/Floors/Group1" instance=ExtResource("7_usr5o")]
+position = Vector2(-1586, -1178)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group1" instance=ExtResource("7_usr5o")]
+position = Vector2(-1496, -1178)
+
 [node name="Group2" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
@@ -501,6 +506,12 @@ collision_mask = 0
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group3"]
 position = Vector2(-925.5, -930.5)
 shape = SubResource("RectangleShape2D_vrhyp")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group3" instance=ExtResource("7_usr5o")]
+position = Vector2(-936, -949)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group3" instance=ExtResource("7_usr5o")]
+position = Vector2(-851, -949)
 
 [node name="Group4" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -532,8 +543,14 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group5"]
-position = Vector2(-1166, -499.938)
+position = Vector2(-1166, -500)
 shape = SubResource("RectangleShape2D_efqs4")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group5" instance=ExtResource("7_usr5o")]
+position = Vector2(-1176, -519)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group5" instance=ExtResource("7_usr5o")]
+position = Vector2(-1092, -519)
 
 [node name="Group6" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -562,22 +579,35 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group8"]
-position = Vector2(-1214, -70.4375)
+position = Vector2(-1214, -70)
 shape = SubResource("RectangleShape2D_0qtx4")
 
 [node name="FloorWise" parent="MapCollisions/Floors/Group8" instance=ExtResource("7_usr5o")]
-position = Vector2(-1312, -74)
+position = Vector2(-1328, -74)
+
+[node name="FloorWise3" parent="MapCollisions/Floors/Group8" instance=ExtResource("7_usr5o")]
+position = Vector2(-1245, -74)
 
 [node name="FloorWise2" parent="MapCollisions/Floors/Group8" instance=ExtResource("7_usr5o")]
-position = Vector2(-1047, -74)
+position = Vector2(-1036, -74)
 
 [node name="Group9" type="StaticBody2D" parent="MapCollisions/Floors"]
+position = Vector2(2, 0)
 collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group9"]
-position = Vector2(-1459, 223)
+position = Vector2(-1459, 222)
 shape = SubResource("RectangleShape2D_w1p4b")
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group9" instance=ExtResource("7_usr5o")]
+position = Vector2(-1489, 219)
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group9" instance=ExtResource("7_usr5o")]
+position = Vector2(-1576, 219)
+
+[node name="FloorWise3" parent="MapCollisions/Floors/Group9" instance=ExtResource("7_usr5o")]
+position = Vector2(-1280, 219)
 
 [node name="Group10" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -597,6 +627,15 @@ collision_mask = 0
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group11"]
 position = Vector2(-3, 108)
 shape = SubResource("RectangleShape2D_vty8e")
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group11" instance=ExtResource("7_usr5o")]
+position = Vector2(-11, 104)
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group11" instance=ExtResource("7_usr5o")]
+position = Vector2(-120, 104)
+
+[node name="FloorWise3" parent="MapCollisions/Floors/Group11" instance=ExtResource("7_usr5o")]
+position = Vector2(176, 104)
 
 [node name="Group12" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -636,8 +675,11 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group15"]
-position = Vector2(-25, -927.938)
+position = Vector2(-25, -928)
 shape = SubResource("RectangleShape2D_b6e3s")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group15" instance=ExtResource("7_usr5o")]
+position = Vector2(-2, -922)
 
 [node name="Group16" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -647,21 +689,44 @@ collision_mask = 0
 position = Vector2(-188, -1304)
 shape = SubResource("RectangleShape2D_5bo6r")
 
+[node name="FloorWise" parent="MapCollisions/Floors/Group16" instance=ExtResource("7_usr5o")]
+position = Vector2(-189, -1429)
+rotation = -1.5708
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group16" instance=ExtResource("7_usr5o")]
+position = Vector2(-189, -1181)
+rotation = 1.5708
+
 [node name="Group17" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group17"]
-position = Vector2(183.5, -588.469)
+position = Vector2(183.5, -588)
 shape = SubResource("RectangleShape2D_wwlvo")
+
+[node name="FloorWise3" parent="MapCollisions/Floors/Group17" instance=ExtResource("7_usr5o")]
+position = Vector2(173, -592)
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group17" instance=ExtResource("7_usr5o")]
+position = Vector2(68, -592)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group17" instance=ExtResource("7_usr5o")]
+position = Vector2(364, -592)
 
 [node name="Group18" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group18"]
-position = Vector2(694.375, 18)
+position = Vector2(694, 18)
 shape = SubResource("RectangleShape2D_ohhww")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group18" instance=ExtResource("7_usr5o")]
+position = Vector2(682, -2)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group18" instance=ExtResource("7_usr5o")]
+position = Vector2(770, -2)
 
 [node name="Group19" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -681,6 +746,9 @@ collision_mask = 0
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group20"]
 position = Vector2(696, -541.5)
 shape = SubResource("RectangleShape2D_kektn")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group20" instance=ExtResource("7_usr5o")]
+position = Vector2(742, -541)
 
 [node name="Group21" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -712,16 +780,25 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group22"]
-position = Vector2(523.5, -1313.75)
+position = Vector2(523.5, -1314)
 shape = SubResource("RectangleShape2D_b6e74")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group22" instance=ExtResource("7_usr5o")]
+position = Vector2(473, -1309)
 
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/Group22"]
 position = Vector2(877, -1366)
 shape = SubResource("RectangleShape2D_f7wtb")
 
+[node name="FloorWise2" parent="MapCollisions/Floors/Group22" instance=ExtResource("7_usr5o")]
+position = Vector2(820, -1361)
+
 [node name="Col3" type="CollisionShape2D" parent="MapCollisions/Floors/Group22"]
 position = Vector2(877, -1164)
 shape = SubResource("RectangleShape2D_d2lnx")
+
+[node name="FloorWise3" parent="MapCollisions/Floors/Group22" instance=ExtResource("7_usr5o")]
+position = Vector2(823, -1159)
 
 [node name="Group23" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -731,6 +808,9 @@ collision_mask = 0
 position = Vector2(1117, -1267)
 shape = SubResource("RectangleShape2D_b0y7a")
 
+[node name="FloorWise" parent="MapCollisions/Floors/Group23" instance=ExtResource("7_usr5o")]
+position = Vector2(1162, -1262)
+
 [node name="Group24" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
@@ -739,9 +819,15 @@ collision_mask = 0
 position = Vector2(1331, -1168)
 shape = SubResource("RectangleShape2D_xfma1")
 
+[node name="FloorWise" parent="MapCollisions/Floors/Group24" instance=ExtResource("7_usr5o")]
+position = Vector2(1502, -1165)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/Group24"]
 position = Vector2(1106, -1058)
 shape = SubResource("RectangleShape2D_h5tsh")
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group24" instance=ExtResource("7_usr5o")]
+position = Vector2(1160, -1055)
 
 [node name="Group25" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -751,17 +837,22 @@ collision_mask = 0
 position = Vector2(1337, -1375)
 shape = SubResource("RectangleShape2D_npgfm")
 
-[node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/Group25"]
-position = Vector2(1570, -1433)
-shape = SubResource("RectangleShape2D_n73gb")
+[node name="FloorWise" parent="MapCollisions/Floors/Group25" instance=ExtResource("7_usr5o")]
+position = Vector2(1501, -1379)
 
-[node name="Col3" type="CollisionShape2D" parent="MapCollisions/Floors/Group25"]
+[node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/Group25"]
 position = Vector2(1791, -1492)
 shape = SubResource("RectangleShape2D_4lx5q")
 
-[node name="Col4" type="CollisionShape2D" parent="MapCollisions/Floors/Group25"]
+[node name="FloorWise2" parent="MapCollisions/Floors/Group25" instance=ExtResource("7_usr5o")]
+position = Vector2(1807, -1492)
+
+[node name="Col3" type="CollisionShape2D" parent="MapCollisions/Floors/Group25"]
 position = Vector2(2088, -1535)
 shape = SubResource("RectangleShape2D_3py7b")
+
+[node name="FloorWise3" parent="MapCollisions/Floors/Group25" instance=ExtResource("7_usr5o")]
+position = Vector2(2132, -1537)
 
 [node name="Group26" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -779,8 +870,14 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group27"]
-position = Vector2(2697, -1408.44)
+position = Vector2(2697, -1408)
 shape = SubResource("RectangleShape2D_uemog")
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group27" instance=ExtResource("7_usr5o")]
+position = Vector2(2743, -1416)
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group27" instance=ExtResource("7_usr5o")]
+position = Vector2(2714, -1416)
 
 [node name="Group28" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -790,6 +887,12 @@ collision_mask = 0
 position = Vector2(1965, -1200)
 shape = SubResource("RectangleShape2D_kvlpo")
 
+[node name="FloorWise" parent="MapCollisions/Floors/Group28" instance=ExtResource("7_usr5o")]
+position = Vector2(1982, -1208)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group28" instance=ExtResource("7_usr5o")]
+position = Vector2(2013, -1208)
+
 [node name="Group29" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
@@ -797,6 +900,15 @@ collision_mask = 0
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group29"]
 position = Vector2(2051, -985.5)
 shape = SubResource("RectangleShape2D_tqdav")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group29" instance=ExtResource("7_usr5o")]
+position = Vector2(2083, -1049)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group29" instance=ExtResource("7_usr5o")]
+position = Vector2(2083, -982)
+
+[node name="FloorWise3" parent="MapCollisions/Floors/Group29" instance=ExtResource("7_usr5o")]
+position = Vector2(2083, -917)
 
 [node name="Group30" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -831,13 +943,22 @@ collision_mask = 0
 position = Vector2(1079, -866.5)
 shape = SubResource("RectangleShape2D_qsqmx")
 
+[node name="FloorWise" parent="MapCollisions/Floors/Group31" instance=ExtResource("7_usr5o")]
+position = Vector2(1116, -860)
+
 [node name="Group32" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group32"]
-position = Vector2(1084.5, -561.25)
+position = Vector2(1085, -562)
 shape = SubResource("RectangleShape2D_cctmu")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group32" instance=ExtResource("7_usr5o")]
+position = Vector2(1070, -581)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group32" instance=ExtResource("7_usr5o")]
+position = Vector2(1162, -581)
 
 [node name="Group33" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -847,6 +968,15 @@ collision_mask = 0
 position = Vector2(1013, -666.438)
 shape = SubResource("RectangleShape2D_kh2a6")
 
+[node name="Floor" parent="MapCollisions/Floors/Group33" instance=ExtResource("6_h06s7")]
+position = Vector2(1014, -706)
+
+[node name="Floor2" parent="MapCollisions/Floors/Group33" instance=ExtResource("6_h06s7")]
+position = Vector2(1014, -664)
+
+[node name="Floor3" parent="MapCollisions/Floors/Group33" instance=ExtResource("6_h06s7")]
+position = Vector2(1015, -622)
+
 [node name="Group34" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
@@ -854,6 +984,15 @@ collision_mask = 0
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group34"]
 position = Vector2(1162, -665.438)
 shape = SubResource("RectangleShape2D_8ofxf")
+
+[node name="Floor" parent="MapCollisions/Floors/Group34" instance=ExtResource("6_h06s7")]
+position = Vector2(1163, -706)
+
+[node name="Floor2" parent="MapCollisions/Floors/Group34" instance=ExtResource("6_h06s7")]
+position = Vector2(1163, -664)
+
+[node name="Floor3" parent="MapCollisions/Floors/Group34" instance=ExtResource("6_h06s7")]
+position = Vector2(1163, -622)
 
 [node name="Group35" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -863,33 +1002,69 @@ collision_mask = 0
 position = Vector2(1426.38, -748.781)
 shape = SubResource("RectangleShape2D_mw6io")
 
+[node name="FloorWise" parent="MapCollisions/Floors/Group35" instance=ExtResource("7_usr5o")]
+position = Vector2(1427, -874)
+rotation = -1.5708
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group35" instance=ExtResource("7_usr5o")]
+position = Vector2(1426, -623)
+rotation = 1.5708
+
 [node name="Group36" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group36"]
-position = Vector2(1632.5, -483.75)
+position = Vector2(1632, -484)
 shape = SubResource("RectangleShape2D_saebh")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group36" instance=ExtResource("7_usr5o")]
+position = Vector2(1625, -515)
+rotation = -1.5708
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group36" instance=ExtResource("7_usr5o")]
+position = Vector2(1639, -454)
+rotation = 1.5708
 
 [node name="Group37" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group37"]
-position = Vector2(1302.38, -150.938)
+position = Vector2(1302, -151)
 shape = SubResource("RectangleShape2D_n4vta")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group37" instance=ExtResource("7_usr5o")]
+position = Vector2(1286, -170)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group37" instance=ExtResource("7_usr5o")]
+position = Vector2(1382, -170)
 
 [node name="Group38" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group38"]
-position = Vector2(1987.09, -530.766)
+position = Vector2(1987, -531)
 shape = SubResource("RectangleShape2D_sbf6i")
 
+[node name="FloorWise" parent="MapCollisions/Floors/Group38" instance=ExtResource("7_usr5o")]
+position = Vector2(1894, -533)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group38" instance=ExtResource("7_usr5o")]
+position = Vector2(2150, -533)
+
 [node name="Col2" type="CollisionShape2D" parent="MapCollisions/Floors/Group38"]
-position = Vector2(2284, -631.191)
+position = Vector2(2284, -631)
 shape = SubResource("RectangleShape2D_xgfv4")
+
+[node name="FloorWise3" parent="MapCollisions/Floors/Group38" instance=ExtResource("7_usr5o")]
+position = Vector2(2277, -661)
+rotation = -1.5708
+
+[node name="FloorWise4" parent="MapCollisions/Floors/Group38" instance=ExtResource("7_usr5o")]
+position = Vector2(2291, -600)
+rotation = 1.5708
 
 [node name="Group39" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -907,8 +1082,14 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group40"]
-position = Vector2(2073.5, -277)
+position = Vector2(2074, -277)
 shape = SubResource("RectangleShape2D_i0ecb")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group40" instance=ExtResource("7_usr5o")]
+position = Vector2(2039, -284)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group40" instance=ExtResource("7_usr5o")]
+position = Vector2(2170, -284)
 
 [node name="Group41" type="StaticBody2D" parent="MapCollisions/Floors"]
 collision_layer = 4
@@ -976,8 +1157,14 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/Group44"]
-position = Vector2(2678.5, 240.563)
+position = Vector2(2678, 240)
 shape = SubResource("RectangleShape2D_vrdvv")
+
+[node name="FloorWise" parent="MapCollisions/Floors/Group44" instance=ExtResource("7_usr5o")]
+position = Vector2(2660, 221)
+
+[node name="FloorWise2" parent="MapCollisions/Floors/Group44" instance=ExtResource("7_usr5o")]
+position = Vector2(2743, 221)
 
 [node name="Platforms" type="Node2D" parent="MapCollisions"]
 
@@ -1457,6 +1644,34 @@ metadata/_edit_lock_ = true
 position = Vector2(555, -719)
 shape = SubResource("RectangleShape2D_jlm0g")
 metadata/_edit_lock_ = true
+
+[node name="FloorWideSV" type="SubViewport" parent="."]
+own_world_3d = true
+transparent_bg = true
+size = Vector2i(1152, 648)
+
+[node name="Camera3D" type="Camera3D" parent="FloorWideSV"]
+transform = Transform3D(-4.36848e-08, -1.52551e-09, -1, -0.0348995, 0.999391, 0, 0.999391, 0.0348995, -4.37114e-08, -2.865, -0.143, 0.194)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="FloorWideSV"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+
+[node name="plat3" parent="FloorWideSV" instance=ExtResource("9_gfk70")]
+transform = Transform3D(0.51446, -0.17345, 0, 0.104604, 0.852015, -0.0465908, 0.00365287, 0.029753, 1.33419, 0, -0.01, 0)
+
+[node name="FloorSV" type="SubViewport" parent="."]
+own_world_3d = true
+transparent_bg = true
+size = Vector2i(1152, 648)
+
+[node name="Camera3D" type="Camera3D" parent="FloorSV"]
+transform = Transform3D(-4.36848e-08, -1.52551e-09, -1, -0.0348995, 0.999391, 0, 0.999391, 0.0348995, -4.37114e-08, -4.488, -0.085, 0.194)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="FloorSV"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0)
+
+[node name="platsq" parent="FloorSV" instance=ExtResource("10_w2t3v")]
+transform = Transform3D(1, 0, 0, 0, 1.65, 0, 0, 0, 1, 0, 0, 0)
 
 [connection signal="timeout" from="WispSpawning/WispSpawnTimer" to="." method="_on_wisp_spawn_timer_timeout"]
 [connection signal="body_exited" from="Bounds" to="." method="_on_bounds_body_exited"]
