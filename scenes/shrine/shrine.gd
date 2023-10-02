@@ -26,7 +26,7 @@ func activate():
 	$ActivateSound.play()
 	$SubViewport/ActivateParticles.restart()
 	$SubViewport/ActivateParticles.emitting = true
-	zone.add_time(40)
+	zone.add_time(60)
 
 
 func _on_interact_area_area_entered(area):

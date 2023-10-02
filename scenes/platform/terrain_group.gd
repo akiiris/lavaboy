@@ -3,7 +3,7 @@ extends StaticBody2D
 # For all intents and purposes, show_behind_parent is equivalent to visible
 
 func _ready():
-	$Timer.start(randf_range(5.0, 55.0))
+	$Timer.start(randf_range(55.0, 115.0))
 
 # 5 seconds left
 func _on_timer_timeout():

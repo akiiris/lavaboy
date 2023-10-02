@@ -1,4 +1,4 @@
-[gd_scene load_steps=219 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=220 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
@@ -108,6 +108,7 @@
 [ext_resource type="Texture2D" uid="uid://4wc1ljdfesy8" path="res://assets/map/lava_test/lava_test091.png" id="95_35vo8"]
 [ext_resource type="PackedScene" uid="uid://cayhlnjf1yv5w" path="res://scenes/platform/terrain_group.tscn" id="103_rh3ym"]
 [ext_resource type="AudioStream" uid="uid://d1gw1hh43l3xf" path="res://assets/map/lowontime2.mp3" id="107_841f2"]
+[ext_resource type="PackedScene" uid="uid://bq4u7wgi2xf8a" path="res://scenes/hazard/saw.tscn" id="109_atb45"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_i5w6l"]
 animations = [{
@@ -950,6 +951,35 @@ other_door_np = NodePath("../BS")
 position = Vector2(1305, -270)
 other_door_np = NodePath("../AP")
 
+[node name="Saws" type="Node2D" parent="."]
+
+[node name="Saw" parent="Saws" instance=ExtResource("109_atb45")]
+position = Vector2(390, -614)
+
+[node name="Saw2" parent="Saws" instance=ExtResource("109_atb45")]
+position = Vector2(-28, -949)
+
+[node name="Saw3" parent="Saws" instance=ExtResource("109_atb45")]
+position = Vector2(-1464, -1363)
+
+[node name="Saw4" parent="Saws" instance=ExtResource("109_atb45")]
+position = Vector2(-166, 71)
+
+[node name="Saw5" parent="Saws" instance=ExtResource("109_atb45")]
+position = Vector2(2503, 202)
+
+[node name="Saw6" parent="Saws" instance=ExtResource("109_atb45")]
+position = Vector2(1477, -1375)
+
+[node name="Saw8" parent="Saws" instance=ExtResource("109_atb45")]
+position = Vector2(-153, -1292)
+
+[node name="Saw9" parent="Saws" instance=ExtResource("109_atb45")]
+position = Vector2(-1388, -1136)
+
+[node name="Saw7" parent="Saws" instance=ExtResource("109_atb45")]
+position = Vector2(1785, -1486)
+
 [node name="Effects" type="Node2D" parent="."]
 
 [node name="Player" parent="." instance=ExtResource("4_wlk3s")]
@@ -979,6 +1009,81 @@ theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("6_6evis")
 theme_override_font_sizes/font_size = 36
 metadata/_edit_lock_ = true
+
+[node name="GridContainer" type="GridContainer" parent="Player/Camera"]
+z_index = 4000
+offset_left = 400.0
+offset_top = -322.0
+offset_right = 572.0
+offset_bottom = -248.0
+columns = 4
+
+[node name="1" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="2" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="3" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="4" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="5" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="6" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="7" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="8" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="9" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="10" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="11" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="12" type="ColorRect" parent="Player/Camera/GridContainer"]
+custom_minimum_size = Vector2(40, 22)
+layout_mode = 2
+color = Color(1, 1, 1, 0.431373)
+
+[node name="PlayerMarker" type="ColorRect" parent="Player/Camera"]
+z_index = 4096
+offset_left = 442.0
+offset_top = -296.0
+offset_right = 449.0
+offset_bottom = -289.0
 
 [node name="MapCollisions" type="Node2D" parent="."]
 
@@ -2544,10 +2649,6 @@ color = Color(0.431373, 0.247059, 0, 1)
 [node name="Zones" type="Node2D" parent="."]
 metadata/_edit_lock_ = true
 
-[node name="1" parent="Zones" instance=ExtResource("6_bqfg3")]
-position = Vector2(-1741, -1688)
-metadata/_edit_lock_ = true
-
 [node name="2" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-593, -1688)
 metadata/_edit_lock_ = true
@@ -2590,6 +2691,10 @@ metadata/_edit_lock_ = true
 
 [node name="12" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -396)
+metadata/_edit_lock_ = true
+
+[node name="1" parent="Zones" instance=ExtResource("6_bqfg3")]
+position = Vector2(-1741, -1688)
 metadata/_edit_lock_ = true
 
 [node name="LevelWalls" type="StaticBody2D" parent="."]
@@ -2700,7 +2805,12 @@ stream = ExtResource("107_841f2")
 volume_db = -20.0
 
 [node name="MeteorTimer" type="Timer" parent="."]
-wait_time = 10.0
+wait_time = 600000.0
+autostart = true
+
+[node name="SawActivateDelay" type="Timer" parent="."]
+wait_time = 300.0
+one_shot = true
 autostart = true
 
 [node name="MeteorStrikes" type="Node2D" parent="."]
@@ -2709,3 +2819,4 @@ autostart = true
 [connection signal="body_exited" from="Bounds" to="." method="_on_bounds_body_exited"]
 [connection signal="timeout" from="Music/Timer" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="MeteorTimer" to="." method="_on_meteor_timer_timeout"]
+[connection signal="timeout" from="SawActivateDelay" to="." method="_on_saw_activate_delay_timeout"]

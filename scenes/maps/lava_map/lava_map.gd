@@ -19,6 +19,19 @@ func _process(delta):
 	time_score_thing = (Time.get_ticks_msec()-time_started)/1000.0
 	get_node("Player/Camera/Score").text = str(time_score_thing).pad_decimals(0) + "s"
 	$Player/Camera/WispCount.text = str($Player.wisps)
+	
+	for c in $Player/Camera/GridContainer.get_children():
+		var p = $Zones.get_node(str(c.name)).get_percent()
+		c.color = Color(p, p, p, c.color.a)
+	
+	var topleft = $"Zones/1".global_position
+	var botright = $"Zones/12".global_position + Vector2(1148, 646)
+	var ppos = $Player.global_position - topleft
+	var diag = botright - topleft
+	var xp = ppos.x / diag.x
+	var yp = ppos.y / diag.y
+	$Player/Camera/PlayerMarker.position.x = $Player/Camera/GridContainer.position.x + xp * $Player/Camera/GridContainer.size.x
+	$Player/Camera/PlayerMarker.position.y = $Player/Camera/GridContainer.position.y + yp * $Player/Camera/GridContainer.size.y
 
 
 func spawn_wisp():
@@ -50,3 +63,8 @@ func _on_meteor_timer_timeout():
 	$MeteorStrikes.add_child(mi)
 	mi.global_position = $Player.global_position
 	
+
+
+func _on_saw_activate_delay_timeout():
+	for s in $Saws.get_children():
+		s.activate()
