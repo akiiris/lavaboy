@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://da4xy24jmwh6l"]
+[gd_scene load_steps=26 format=3 uid="uid://da4xy24jmwh6l"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_thwwh"]
 [ext_resource type="Texture2D" uid="uid://csn7wtq4m3bg2" path="res://assets/player/lava_boy_skeleton4_Bone2-equus_hemionus.png" id="2_70hqg"]
@@ -6,6 +6,7 @@
 [ext_resource type="AudioStream" uid="uid://cbff8e6pljoo5" path="res://assets/player/kuntijump.mp3" id="4_upnyg"]
 [ext_resource type="AudioStream" uid="uid://bwarp2hxt3evk" path="res://assets/player/kuntiboost.mp3" id="5_ux7v2"]
 [ext_resource type="AudioStream" uid="uid://hyq14l0i5dnw" path="res://assets/creak.mp3" id="6_rx6m6"]
+[ext_resource type="FontFile" uid="uid://62rq13v02wss" path="res://assets/menu/inferno.ttf" id="7_yo5dq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uxixv"]
 size = Vector2(12, 106)
@@ -3272,5 +3273,19 @@ process_thread_messages = 3
 wait_time = 0.3
 one_shot = true
 
+[node name="WispSpend" type="Label" parent="."]
+z_index = 4000
+offset_left = -20.0
+offset_top = -100.0
+offset_right = 20.0
+offset_bottom = -59.0
+theme_override_fonts/font = ExtResource("7_yo5dq")
+theme_override_font_sizes/font_size = 36
+horizontal_alignment = 1
+
+[node name="WispSpendTimer" type="Timer" parent="."]
+one_shot = true
+
 [connection signal="timeout" from="WalkTimer" to="." method="_on_walk_timer_timeout"]
 [connection signal="timeout" from="DeathTimer" to="." method="_on_death_timer_timeout"]
+[connection signal="timeout" from="WispSpendTimer" to="." method="_on_wisp_spend_timer_timeout"]
