@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/titlescreen2_1-2.ogg-03d0c2002028fe5ef7150a8f
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

@@ -32,3 +32,7 @@ func _on_wisp_spawn_timer_timeout():
 func _on_bounds_body_exited(body):
 	if body.is_in_group("delete_on_exit_bounds"):
 		body.queue_free()
+
+
+func _on_timer_timeout():
+	$Music.play()

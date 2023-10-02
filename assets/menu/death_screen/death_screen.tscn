@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://cc6jufr0drb7p"]
+[gd_scene load_steps=9 format=3 uid="uid://cc6jufr0drb7p"]
 
 [ext_resource type="Script" path="res://assets/menu/death_screen/death_screen.gd" id="1_gcf1o"]
 [ext_resource type="Texture2D" uid="uid://bj8dgl2bdqo4s" path="res://assets/menu/death_screen/youdiedloser.png" id="2_4k2xj"]
 [ext_resource type="Texture2D" uid="uid://dnh132t8eblwh" path="res://assets/menu/death_screen/lb_you_died.png" id="2_n1otq"]
 [ext_resource type="FontFile" uid="uid://62rq13v02wss" path="res://assets/menu/inferno.ttf" id="3_h4oj1"]
+[ext_resource type="AudioStream" uid="uid://cx4ath1jpa8c4" path="res://assets/menu/death_screen/deathscreen1.ogg" id="5_qr1gw"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xmj2d"]
 bg_color = Color(0.168627, 0.027451, 0.0392157, 1)
@@ -113,5 +114,9 @@ visible = false
 position = Vector2(598, 132)
 scale = Vector2(3.22308, 3.22308)
 texture = ExtResource("2_n1otq")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_qr1gw")
+autoplay = true
 
 [connection signal="button_up" from="AgainButton" to="." method="_on_again_button_button_up"]
