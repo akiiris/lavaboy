@@ -1,0 +1,196 @@
+[gd_scene load_steps=11 format=3 uid="uid://cxioalif6x7hi"]
+
+[ext_resource type="Script" path="res://scenes/hazard/meteor_strike.gd" id="1_xk1qq"]
+[ext_resource type="Texture2D" uid="uid://dybucquqhs47k" path="res://assets/hazards/meteor_indicate.png" id="2_0v0wk"]
+[ext_resource type="AudioStream" uid="uid://pc0vt0prpr2u" path="res://assets/hazards/explosion.wav" id="3_22c0o"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_atoah"]
+radius = 450.0
+
+[sub_resource type="Animation" id="Animation_55705"]
+resource_name = "strike_imminent"
+length = 5.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.80933, 1, 1.20933, 1.4, 1.60933, 1.8, 2.00933, 2.2, 2.40933, 2.6, 2.80933, 3, 3.2, 3.4, 3.5, 4.1, 4.3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 0.498039), Color(1, 1, 1, 0), Color(1, 1, 1, 0.498039), Color(1, 1, 1, 0), Color(1, 1, 1, 0.498039), Color(1, 1, 1, 0), Color(1, 1, 1, 0.498039), Color(1, 1, 1, 0), Color(1, 1, 1, 0.498039), Color(1, 1, 1, 0), Color(1, 1, 1, 0.498039), Color(1, 1, 1, 0), Color(1, 1, 1, 0.498039), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Area2D/CollisionShape2D:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 4, 4.18924),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [true, false, true]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(4.1, 5),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [],
+"method": &"boom"
+}, {
+"args": [],
+"method": &"queue_free"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("AudioStreamPlayer2D:playing")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(4),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("GPUParticles2D:emitting")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(4),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_wu7k6"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Area2D/CollisionShape2D:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("AudioStreamPlayer2D:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("GPUParticles2D:emitting")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kkclc"]
+_data = {
+"RESET": SubResource("Animation_wu7k6"),
+"strike_imminent": SubResource("Animation_55705")
+}
+
+[sub_resource type="Curve" id="Curve_hhv11"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.393593, 0.106742), -0.323034, -0.323034, 0, 0, Vector2(1, 0), 0.099799, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_jklwj"]
+curve = SubResource("Curve_hhv11")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_cw3co"]
+emission_shape = 6
+emission_ring_axis = Vector3(0, 0, 1)
+emission_ring_height = 800.0
+emission_ring_radius = 400.0
+emission_ring_inner_radius = 0.0
+particle_flag_disable_z = true
+spread = 176.9
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = 500.0
+initial_velocity_max = 500.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+scale_min = 50.0
+scale_max = 100.0
+scale_curve = SubResource("CurveTexture_jklwj")
+color = Color(1, 0, 0, 1)
+hue_variation_min = -0.01
+hue_variation_max = 0.14
+
+[node name="MeteorStrike" type="Node2D"]
+script = ExtResource("1_xk1qq")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 10
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_atoah")
+disabled = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0)
+scale = Vector2(0.988281, 0.988281)
+texture = ExtResource("2_0v0wk")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_kkclc")
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_22c0o")
+volume_db = 10.0
+attenuation = 2.73208
+area_mask = 0
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+emitting = false
+amount = 300
+process_material = SubResource("ParticleProcessMaterial_cw3co")
+one_shot = true
+explosiveness = 1.0
+visibility_rect = Rect2(-700, -700, 1400, 1400)
