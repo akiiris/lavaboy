@@ -1,5 +1,6 @@
 extends Node2D
 
+
 func _ready():
 	$LockTimer.wait_time = randf_range(0, 30)
 	#$LockTimer.start()
@@ -14,3 +15,5 @@ func _on_lock_timer_timeout():
 func _on_area_2d_body_entered(body):
 	if body.has_method("die"):
 		body.die()
+	if body.is_in_group("delete_on_exit_bounds"):
+		body.queue_free()

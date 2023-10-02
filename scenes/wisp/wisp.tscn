@@ -38,8 +38,8 @@ scale_max = 4.0
 scale_curve = SubResource("CurveTexture_xdqbc")
 color_ramp = SubResource("GradientTexture1D_0kpbn")
 
-[node name="Wisp" type="CharacterBody2D"]
-collision_layer = 0
+[node name="Wisp" type="CharacterBody2D" groups=["delete_on_exit_bounds"]]
+collision_layer = 8
 collision_mask = 0
 script = ExtResource("1_j1fse")
 

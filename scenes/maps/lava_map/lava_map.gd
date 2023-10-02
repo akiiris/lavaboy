@@ -14,8 +14,8 @@ func _ready():
 
 func _process(delta):
 	time_score_thing = (Time.get_ticks_msec()-time_started)/1000.0
-	get_node("Player/Camera/Score").text = str(time_score_thing) + "s"
-	print($Wisps.get_children().size())
+	get_node("Player/Camera/Score").text = str(time_score_thing).pad_decimals(0) + "s"
+	$Player/Camera/WispCount.text = str($Player.wisps)
 
 
 func spawn_wisp():
@@ -27,3 +27,9 @@ func spawn_wisp():
 func _on_wisp_spawn_timer_timeout():
 	if $Wisps.get_children().size() < WISP_SPAWN_CAP:
 		spawn_wisp()
+
+
+func _on_bounds_body_exited(body):
+	print(body)
+	if body.is_in_group("delete_on_exit_bounds"):
+		body.queue_free()
