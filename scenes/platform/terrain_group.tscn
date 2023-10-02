@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://cayhlnjf1yv5w"]
+
+[ext_resource type="Script" path="res://scenes/platform/terrain_group.gd" id="1_he5n4"]
+
+[node name="TerrainGroup" type="StaticBody2D"]
+script = ExtResource("1_he5n4")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="FiveSecondTimer" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="FiveSecondTimer" to="." method="_on_five_second_timer_timeout"]
