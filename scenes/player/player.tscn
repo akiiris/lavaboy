@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://da4xy24jmwh6l"]
 
 [ext_resource type="Script" path="res://scenes/player/player.gd" id="1_thwwh"]
-[ext_resource type="PackedScene" uid="uid://ch6xgpm84hglf" path="res://scenes/player/player_model.tscn" id="2_q8i1j"]
+[ext_resource type="PackedScene" uid="uid://c1vhyopm4nfvg" path="res://assets/player/lava_boy_skeleton4.glb" id="2_rj1hb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uxixv"]
 size = Vector2(12, 106)
@@ -47,4 +47,12 @@ transparent_bg = true
 msaa_3d = 2
 size = Vector2i(1152, 648)
 
-[node name="PlayerModel" parent="SubViewport" instance=ExtResource("2_q8i1j")]
+[node name="Camera3D" type="Camera3D" parent="SubViewport"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.41879, 36.2336)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="SubViewport"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5)
+metadata/_edit_lock_ = true
+
+[node name="lava_boy_skeleton" parent="SubViewport" instance=ExtResource("2_rj1hb")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
