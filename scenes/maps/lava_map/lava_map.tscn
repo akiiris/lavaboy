@@ -1,4 +1,4 @@
-[gd_scene load_steps=125 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=126 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://bydyddi1ngc6t" path="res://scenes/platform/floor_wide.tscn" id="7_usr5o"]
 [ext_resource type="PackedScene" uid="uid://7wnjumm2wv35" path="res://assets/map/plat3.glb" id="9_gfk70"]
 [ext_resource type="PackedScene" uid="uid://73ypxefimjai" path="res://assets/map/platsq.glb" id="10_w2t3v"]
+[ext_resource type="AudioStream" uid="uid://ckrrgo1bhdhn5" path="res://assets/map/ingame1.ogg" id="13_ipnvk"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_hfrd3"]
 normal = Vector2(1, 0)
@@ -1679,5 +1680,13 @@ transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 
 [node name="platsq" parent="FloorSV" instance=ExtResource("10_w2t3v")]
 transform = Transform3D(1, 0, 0, 0, 1.65, 0, 0, 0, 1, 0, 0, 0)
 
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_ipnvk")
+
+[node name="Timer" type="Timer" parent="Music"]
+one_shot = true
+autostart = true
+
 [connection signal="timeout" from="WispSpawning/WispSpawnTimer" to="." method="_on_wisp_spawn_timer_timeout"]
 [connection signal="body_exited" from="Bounds" to="." method="_on_bounds_body_exited"]
+[connection signal="timeout" from="Music/Timer" to="." method="_on_timer_timeout"]
