@@ -1,0 +1,73 @@
+[gd_scene load_steps=10 format=3 uid="uid://bjdpb5rosta1l"]
+
+[ext_resource type="Script" path="res://scenes/wisp/wisp.gd" id="1_j1fse"]
+[ext_resource type="PackedScene" uid="uid://bgfeyv8lxyfdw" path="res://scenes/wisp/lb_wisp.tscn" id="2_svbrq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_iub71"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lhvbq"]
+radius = 18.0
+
+[sub_resource type="Gradient" id="Gradient_xh2tu"]
+offsets = PackedFloat32Array(0.522388, 0.820895)
+colors = PackedColorArray(0.693563, 0.843994, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_0kpbn"]
+gradient = SubResource("Gradient_xh2tu")
+
+[sub_resource type="Curve" id="Curve_nxt26"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.265432, 1), 0.0, 0.0, 0, 0, Vector2(0.5, 0.164835), 0.0, 0.0, 0, 0, Vector2(0.716049, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 5
+
+[sub_resource type="CurveTexture" id="CurveTexture_xdqbc"]
+curve = SubResource("Curve_nxt26")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7ooda"]
+lifetime_randomness = 0.5
+emission_shape = 1
+emission_sphere_radius = 14.47
+particle_flag_disable_z = true
+spread = 180.0
+gravity = Vector3(0, 0, 0)
+initial_velocity_max = 21.05
+angular_velocity_min = -234.95
+angular_velocity_max = 234.94
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+scale_max = 4.0
+scale_curve = SubResource("CurveTexture_xdqbc")
+color_ramp = SubResource("GradientTexture1D_0kpbn")
+
+[node name="Wisp" type="CharacterBody2D"]
+collision_layer = 0
+collision_mask = 0
+script = ExtResource("1_j1fse")
+
+[node name="SubViewport" type="SubViewport" parent="."]
+own_world_3d = true
+transparent_bg = true
+size = Vector2i(1152, 648)
+
+[node name="Camera3D" type="Camera3D" parent="SubViewport"]
+transform = Transform3D(0.601556, 0.288655, -0.744855, -0.00203605, 0.932982, 0.359916, 0.798828, -0.214993, 0.561829, -12.5962, 6.10072, 9.42866)
+
+[node name="lb_wisp" parent="SubViewport" instance=ExtResource("2_svbrq")]
+
+[node name="Col" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_iub71")
+
+[node name="CollectionRadius" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 2
+
+[node name="Col" type="CollisionShape2D" parent="CollectionRadius"]
+shape = SubResource("CircleShape2D_lhvbq")
+
+[node name="Particles" type="GPUParticles2D" parent="."]
+amount = 64
+process_material = SubResource("ParticleProcessMaterial_7ooda")
+lifetime = 5.0
+
+[node name="SprWisp" type="Sprite2D" parent="."]
+
+[connection signal="body_entered" from="CollectionRadius" to="." method="_on_collection_radius_body_entered"]
