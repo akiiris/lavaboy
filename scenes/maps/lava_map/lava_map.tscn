@@ -1343,3 +1343,19 @@ metadata/_edit_lock_ = true
 [node name="Zone12" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(1703, -396)
 metadata/_edit_lock_ = true
+
+[node name="WispSpawning" type="Node2D" parent="."]
+
+[node name="Marker1" type="Marker2D" parent="WispSpawning"]
+position = Vector2(-1541, 50)
+
+[node name="Marker2" type="Marker2D" parent="WispSpawning"]
+position = Vector2(2651, -1488)
+
+[node name="WispSpawnTimer" type="Timer" parent="WispSpawning"]
+wait_time = 3.0
+autostart = true
+
+[node name="Wisps" type="Node2D" parent="."]
+
+[connection signal="timeout" from="WispSpawning/WispSpawnTimer" to="." method="_on_wisp_spawn_timer_timeout"]
