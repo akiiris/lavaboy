@@ -3264,4 +3264,13 @@ stream = ExtResource("6_rx6m6")
 volume_db = 5.0
 max_polyphony = 2
 
+[node name="DeathTimer" type="Timer" parent="."]
+process_mode = 3
+process_thread_group = 1
+process_thread_group_order = 0
+process_thread_messages = 3
+wait_time = 0.3
+one_shot = true
+
 [connection signal="timeout" from="WalkTimer" to="." method="_on_walk_timer_timeout"]
+[connection signal="timeout" from="DeathTimer" to="." method="_on_death_timer_timeout"]
