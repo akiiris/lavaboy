@@ -1,4 +1,4 @@
-[gd_scene load_steps=220 format=3 uid="uid://c2lj2s6b37ov4"]
+[gd_scene load_steps=221 format=3 uid="uid://c2lj2s6b37ov4"]
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
@@ -106,6 +106,7 @@
 [ext_resource type="Texture2D" uid="uid://s4lgijimqfg4" path="res://assets/map/lava_test/lava_test089.png" id="93_x05tl"]
 [ext_resource type="Texture2D" uid="uid://bey7qk1oqse3i" path="res://assets/map/lava_test/lava_test090.png" id="94_t67qf"]
 [ext_resource type="Texture2D" uid="uid://4wc1ljdfesy8" path="res://assets/map/lava_test/lava_test091.png" id="95_35vo8"]
+[ext_resource type="AudioStream" uid="uid://d1gw1hh43l3xf" path="res://assets/map/lowontime2.mp3" id="107_841f2"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_i5w6l"]
 animations = [{
@@ -2642,6 +2643,7 @@ one_shot = true
 autostart = true
 
 [node name="LowOnTimeSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("107_841f2")
 volume_db = -20.0
 
 [connection signal="timeout" from="WispSpawning/WispSpawnTimer" to="." method="_on_wisp_spawn_timer_timeout"]

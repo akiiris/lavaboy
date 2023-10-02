@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 const death_screen = preload("res://assets/menu/death_screen/death_screen.tscn")
+const death_sound_scene = preload("res://scenes/player/player_death_sound.tscn")
 
 @onready var model_anim = get_node("SubViewport/lava_boy_skeleton/AnimationPlayer")
 const SPEED = 300.0
@@ -116,6 +117,10 @@ func die():
 	var dsi = death_screen.instantiate()
 	dsi.get_node("Time").text = str(time) + " s"
 	get_tree().root.add_child(dsi)
+	var dsoundi = death_sound_scene.instantiate()
+	get_tree().root.add_child(dsoundi)
+	
+	
 
 func collect_wisp():
 	wisps += 1

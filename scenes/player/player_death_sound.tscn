@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbai3snjcsgjf"]
+
+[ext_resource type="Script" path="res://scenes/player/player_death_sound.gd" id="1_h0kxy"]
+[ext_resource type="AudioStream" uid="uid://cnns3o2vlavk1" path="res://assets/player/kunti-die.mp3" id="1_kly5n"]
+
+[node name="PlayerDeathSound" type="Node2D"]
+script = ExtResource("1_h0kxy")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_kly5n")
+volume_db = -10.0
+autoplay = true
+
+[connection signal="finished" from="AudioStreamPlayer" to="." method="_on_audio_stream_player_finished"]
