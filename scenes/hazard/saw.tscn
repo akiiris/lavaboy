@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://bq4u7wgi2xf8a"]
+[gd_scene load_steps=11 format=3 uid="uid://bq4u7wgi2xf8a"]
 
 [ext_resource type="Script" path="res://scenes/hazard/saw.gd" id="1_odayl"]
+[ext_resource type="AudioStream" uid="uid://urtpuhdbslba" path="res://assets/hazards/saw1.mp3" id="2_xvbxb"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_foiiq"]
 resource_name = "Aluminum_-_Anodized_Glossy_(Grey)"
@@ -78,6 +79,18 @@ tracks/2/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [true]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../AudioStreamPlayer2D:playing")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
 }
 
 [sub_resource type="Animation" id="Animation_27d4w"]
@@ -175,6 +188,18 @@ tracks/2/keys = {
 "update": 1,
 "values": [false]
 }
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("../AudioStreamPlayer2D:playing")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_5ivhe"]
 _data = {
@@ -195,7 +220,7 @@ transparent_bg = true
 size = Vector2i(1152, 648)
 
 [node name="saw" type="MeshInstance3D" parent="SubViewport"]
-transform = Transform3D(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 0, 0)
 mesh = SubResource("ArrayMesh_1k280")
 skeleton = NodePath("")
 
@@ -218,6 +243,12 @@ collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_sr2vt")
-disabled = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_xvbxb")
+pitch_scale = 0.9
+max_distance = 1000.0
+attenuation = 3.03143
+max_polyphony = 2
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

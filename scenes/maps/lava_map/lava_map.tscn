@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scenes/maps/lava_map/lava_map.gd" id="1_6y1m7"]
 [ext_resource type="Texture2D" uid="uid://shadrdijn4rx" path="res://assets/trace_image.png" id="2_h760f"]
-[ext_resource type="Texture2D" uid="uid://0vaflj1t8tsw" path="res://assets/bg/kuntibackground5.png" id="3_ybcf1"]
+[ext_resource type="Texture2D" uid="uid://cq0mu5vkirdd5" path="res://assets/bg/kuntibackground8.png" id="3_sasoc"]
 [ext_resource type="Texture2D" uid="uid://etptfwb0laaf" path="res://assets/map/lava_test/lava_test000.png" id="4_hojor"]
 [ext_resource type="PackedScene" uid="uid://dqqo4cy2gtay8" path="res://scenes/shrine/shrine.tscn" id="4_muj75"]
 [ext_resource type="PackedScene" uid="uid://da4xy24jmwh6l" path="res://scenes/player/player.tscn" id="4_wlk3s"]
@@ -734,10 +734,10 @@ texture = ExtResource("2_h760f")
 metadata/_edit_lock_ = true
 
 [node name="Kuntibackground5" type="Sprite2D" parent="."]
+modulate = Color(0.470588, 0.470588, 0.470588, 1)
 position = Vector2(554, -952)
 scale = Vector2(0.766, 0.766)
-texture = ExtResource("3_ybcf1")
-metadata/_edit_lock_ = true
+texture = ExtResource("3_sasoc")
 
 [node name="Lava" type="Node2D" parent="."]
 
