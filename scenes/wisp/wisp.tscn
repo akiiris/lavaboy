@@ -65,9 +65,11 @@ collision_mask = 2
 shape = SubResource("CircleShape2D_lhvbq")
 
 [node name="Particles" type="GPUParticles2D" parent="."]
+emitting = false
 amount = 64
 process_material = SubResource("ParticleProcessMaterial_7ooda")
 lifetime = 5.0
+one_shot = true
 
 [node name="SprWisp" type="Sprite2D" parent="."]
 

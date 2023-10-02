@@ -10,6 +10,8 @@ const WISP_SPAWN_CAP: int = 10
 
 func _ready():
 	time_started = Time.get_ticks_msec()
+	for a in $Lava/Sprites.get_children():
+		a.play("default")
 
 
 func _process(delta):

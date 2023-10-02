@@ -119,3 +119,9 @@ func die():
 
 func collect_wisp():
 	wisps += 1
+
+
+func _on_walk_timer_timeout():
+	if is_on_floor() and abs(velocity.x) > 0.1:
+		print("play")
+		$WalkSound.play()
