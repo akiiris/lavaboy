@@ -931,20 +931,24 @@ position = Vector2(1118, -1362)
 
 [node name="Doors" type="Node2D" parent="."]
 
-[node name="Skeledoor" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="BS" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(-193, -373)
+other_door_np = NodePath("../BP")
 
-[node name="Skeledoor2" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="AP" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(-1273, -1567)
+other_door_np = NodePath("../AS")
 
-[node name="Skeledoor3" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="LP" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(572, -1561)
 
-[node name="Skeledoor4" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="BP" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(2722, -1517)
+other_door_np = NodePath("../BS")
 
-[node name="Skeledoor5" parent="Doors" instance=ExtResource("5_5f1hb")]
+[node name="AS" parent="Doors" instance=ExtResource("5_5f1hb")]
 position = Vector2(1305, -270)
+other_door_np = NodePath("../AP")
 
 [node name="Effects" type="Node2D" parent="."]
 
@@ -2707,6 +2711,13 @@ autostart = true
 stream = ExtResource("107_841f2")
 volume_db = -20.0
 
+[node name="MeteorTimer" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[node name="MeteorStrikes" type="Node2D" parent="."]
+
 [connection signal="timeout" from="WispSpawning/WispSpawnTimer" to="." method="_on_wisp_spawn_timer_timeout"]
 [connection signal="body_exited" from="Bounds" to="." method="_on_bounds_body_exited"]
 [connection signal="timeout" from="Music/Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="MeteorTimer" to="." method="_on_meteor_timer_timeout"]

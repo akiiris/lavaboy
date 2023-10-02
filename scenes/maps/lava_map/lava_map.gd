@@ -1,6 +1,7 @@
 extends Node2D
 
 var wisp_scene: PackedScene = preload("res://scenes/wisp/wisp.tscn")
+var meteor_scene: PackedScene = preload("res://scenes/hazard/meteor_strike.tscn")
 
 var time_started
 var time_score_thing
@@ -23,7 +24,11 @@ func _process(delta):
 func spawn_wisp():
 	var wisp_instance = wisp_scene.instantiate()
 	$Wisps.add_child(wisp_instance)
-	wisp_instance.global_position = Vector2(randf_range($WispSpawning/Marker1.global_position.x, $WispSpawning/Marker2.global_position.x), randf_range($WispSpawning/Marker1.global_position.y, $WispSpawning/Marker2.global_position.y))
+	wisp_instance.global_position = get_random_inner_map_pos()
+
+
+func get_random_inner_map_pos():
+	return Vector2(randf_range($WispSpawning/Marker1.global_position.x, $WispSpawning/Marker2.global_position.x), randf_range($WispSpawning/Marker1.global_position.y, $WispSpawning/Marker2.global_position.y))
 
 
 func _on_wisp_spawn_timer_timeout():
@@ -38,3 +43,10 @@ func _on_bounds_body_exited(body):
 
 func _on_timer_timeout():
 	$Music.play()
+
+
+func _on_meteor_timer_timeout():
+	var mi = meteor_scene.instantiate()
+	$MeteorStrikes.add_child(mi)
+	mi.global_position = $Player.global_position
+	

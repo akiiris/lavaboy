@@ -34,6 +34,10 @@ func _physics_process(delta):
 	move_and_slide()
 
 
+func die():
+	queue_free()
+
+
 func _on_collection_radius_body_entered(body):
 	if body.get_collision_layer_value(2):
 		player.collect_wisp()
@@ -44,4 +48,4 @@ func _on_collection_radius_body_entered(body):
 
 
 func _on_despawn_timer_timeout():
-	queue_free()
+	die()
