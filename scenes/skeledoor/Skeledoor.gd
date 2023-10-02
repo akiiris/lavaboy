@@ -7,7 +7,6 @@ func _ready():
 	other_door = get_node(other_door_np)
 
 func interact(user):
-	print("I'm a door!")
 	user.global_position = other_door.global_position
 
 func _process(_delta):
