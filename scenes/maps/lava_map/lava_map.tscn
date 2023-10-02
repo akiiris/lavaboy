@@ -366,17 +366,22 @@ metadata/_edit_lock_ = true
 position = Vector2(554, -952)
 scale = Vector2(0.766, 0.766)
 texture = ExtResource("3_ybcf1")
+metadata/_edit_lock_ = true
 
 [node name="LevelWalls" type="StaticBody2D" parent="."]
+metadata/_edit_lock_ = true
 
 [node name="FarLeft" type="CollisionShape2D" parent="LevelWalls"]
 shape = SubResource("WorldBoundaryShape2D_hfrd3")
+metadata/_edit_lock_ = true
 
 [node name="FarRight" type="CollisionShape2D" parent="LevelWalls"]
 shape = SubResource("WorldBoundaryShape2D_isgf4")
+metadata/_edit_lock_ = true
 
 [node name="FarAbove" type="CollisionShape2D" parent="LevelWalls"]
 shape = SubResource("WorldBoundaryShape2D_py0dd")
+metadata/_edit_lock_ = true
 
 [node name="LeftWall" type="ColorRect" parent="LevelWalls"]
 offset_left = -3362.0
@@ -461,6 +466,7 @@ position = Vector2(1305, -270)
 position = Vector2(-656, -347)
 
 [node name="Camera" type="Camera2D" parent="Player"]
+metadata/_edit_lock_ = true
 
 [node name="Score" type="Label" parent="Player/Camera"]
 offset_left = -568.0
@@ -470,6 +476,7 @@ offset_bottom = -274.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("6_6evis")
 theme_override_font_sizes/font_size = 36
+metadata/_edit_lock_ = true
 
 [node name="WispCount" type="Label" parent="Player/Camera"]
 offset_left = -568.0
@@ -479,6 +486,7 @@ offset_bottom = -224.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("6_6evis")
 theme_override_font_sizes/font_size = 36
+metadata/_edit_lock_ = true
 
 [node name="MapCollisions" type="Node2D" parent="."]
 
@@ -1987,6 +1995,7 @@ offset_bottom = -1475.0
 color = Color(0.431373, 0.247059, 0, 1)
 
 [node name="Zones" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
 
 [node name="Zone" parent="Zones" instance=ExtResource("6_bqfg3")]
 position = Vector2(-1741, -1688)
@@ -2037,18 +2046,22 @@ position = Vector2(1703, -396)
 metadata/_edit_lock_ = true
 
 [node name="WispSpawning" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
 
 [node name="Marker1" type="Marker2D" parent="WispSpawning"]
 position = Vector2(-1541, 50)
+metadata/_edit_lock_ = true
 
 [node name="Marker2" type="Marker2D" parent="WispSpawning"]
 position = Vector2(2651, -1488)
+metadata/_edit_lock_ = true
 
 [node name="WispSpawnTimer" type="Timer" parent="WispSpawning"]
 wait_time = 3.0
 autostart = true
 
 [node name="Wisps" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
 
 [node name="Bounds" type="Area2D" parent="."]
 visible = false
