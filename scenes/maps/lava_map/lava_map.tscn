@@ -388,7 +388,7 @@ texture = ExtResource("3_sasoc")
 [node name="Audio" type="Node2D" parent="Lava"]
 
 [node name="LavaAudio" type="AudioStreamPlayer2D" parent="Lava/Audio"]
-position = Vector2(-955, 325)
+position = Vector2(-956, 325)
 stream = ExtResource("14_xdfvn")
 volume_db = 15.0
 pitch_scale = 0.2
@@ -397,7 +397,7 @@ max_distance = 1000.0
 attenuation = 4.14106
 
 [node name="LavaAudio2" type="AudioStreamPlayer2D" parent="Lava/Audio"]
-position = Vector2(-431, 318)
+position = Vector2(-432, 318)
 stream = ExtResource("14_xdfvn")
 volume_db = 15.0
 pitch_scale = 0.2
@@ -406,7 +406,7 @@ max_distance = 1000.0
 attenuation = 4.14106
 
 [node name="LavaAudio3" type="AudioStreamPlayer2D" parent="Lava/Audio"]
-position = Vector2(178, 313)
+position = Vector2(177, 313)
 stream = ExtResource("14_xdfvn")
 volume_db = 15.0
 pitch_scale = 0.2
@@ -442,7 +442,7 @@ max_distance = 1000.0
 attenuation = 4.14106
 
 [node name="LavaAudio7" type="AudioStreamPlayer2D" parent="Lava/Audio"]
-position = Vector2(2039, 313)
+position = Vector2(2041, 313)
 stream = ExtResource("14_xdfvn")
 volume_db = 15.0
 pitch_scale = 0.2
@@ -451,7 +451,7 @@ max_distance = 1000.0
 attenuation = 4.14106
 
 [node name="LavaAudio8" type="AudioStreamPlayer2D" parent="Lava/Audio"]
-position = Vector2(2667, 313)
+position = Vector2(2669, 313)
 stream = ExtResource("14_xdfvn")
 volume_db = 15.0
 pitch_scale = 0.2
@@ -460,7 +460,7 @@ max_distance = 1000.0
 attenuation = 4.14106
 
 [node name="LavaAudio9" type="AudioStreamPlayer2D" parent="Lava/Audio"]
-position = Vector2(-1424, 313)
+position = Vector2(-1425, 313)
 stream = ExtResource("14_xdfvn")
 volume_db = 15.0
 pitch_scale = 0.2
@@ -470,54 +470,54 @@ attenuation = 4.14106
 
 [node name="NewLava2" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = -1744.0
+offset_left = -1747.0
 offset_top = 353.0
-offset_right = -1096.0
+offset_right = -1099.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava3" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = -1422.0
+offset_left = -1423.0
 offset_top = 353.0
-offset_right = -774.0
+offset_right = -775.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava4" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = -1098.0
+offset_left = -1099.0
 offset_top = 353.0
-offset_right = -450.0
+offset_right = -451.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava5" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = -774.0
+offset_left = -775.0
 offset_top = 353.0
-offset_right = -126.0
+offset_right = -127.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava6" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = -450.0
+offset_left = -451.0
 offset_top = 353.0
-offset_right = 198.0
+offset_right = 197.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava7" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = -126.0
+offset_left = -127.0
 offset_top = 353.0
-offset_right = 522.0
+offset_right = 521.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
@@ -569,90 +569,90 @@ color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava13" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 1814.0
+offset_left = 1816.0
 offset_top = 353.0
-offset_right = 2462.0
+offset_right = 2464.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava14" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 2138.0
+offset_left = 2140.0
 offset_top = 353.0
-offset_right = 2786.0
+offset_right = 2788.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava15" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 2462.0
+offset_left = 2464.0
 offset_top = 353.0
-offset_right = 3110.0
+offset_right = 3112.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava16" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 2786.0
+offset_left = 2788.0
 offset_top = 353.0
-offset_right = 3434.0
+offset_right = 3436.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava17" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = -1744.0
+offset_left = -1746.0
 offset_top = 570.0
-offset_right = -1096.0
+offset_right = -1098.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava18" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = -1422.0
+offset_left = -1423.0
 offset_top = 570.0
-offset_right = -774.0
+offset_right = -775.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava19" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = -1098.0
+offset_left = -1099.0
 offset_top = 570.0
-offset_right = -450.0
+offset_right = -451.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava20" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = -774.0
+offset_left = -775.0
 offset_top = 570.0
-offset_right = -126.0
+offset_right = -127.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava21" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = -450.0
+offset_left = -451.0
 offset_top = 570.0
-offset_right = 198.0
+offset_right = 197.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava22" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = -126.0
+offset_left = -127.0
 offset_top = 570.0
-offset_right = 522.0
+offset_right = 521.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
@@ -704,36 +704,36 @@ color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava28" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = 1814.0
+offset_left = 1816.0
 offset_top = 570.0
-offset_right = 2462.0
+offset_right = 2464.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava29" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = 2138.0
+offset_left = 2140.0
 offset_top = 570.0
-offset_right = 2786.0
+offset_right = 2788.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava30" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = 2462.0
+offset_left = 2464.0
 offset_top = 570.0
-offset_right = 3110.0
+offset_right = 3112.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
 
 [node name="NewLava31" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")
-offset_left = 2786.0
+offset_left = 2788.0
 offset_top = 570.0
-offset_right = 3434.0
+offset_right = 3436.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
@@ -1056,17 +1056,17 @@ collision_layer = 4
 collision_mask = 0
 
 [node name="Col" type="CollisionShape2D" parent="MapCollisions/Floors/TerrainGroup9"]
-position = Vector2(-1459, 219)
+position = Vector2(-1460, 219)
 shape = SubResource("RectangleShape2D_w1p4b")
 
 [node name="FloorWise2" parent="MapCollisions/Floors/TerrainGroup9" instance=ExtResource("7_usr5o")]
-position = Vector2(-1489, 219)
+position = Vector2(-1490, 219)
 
 [node name="FloorWise" parent="MapCollisions/Floors/TerrainGroup9" instance=ExtResource("7_usr5o")]
-position = Vector2(-1576, 219)
+position = Vector2(-1577, 219)
 
 [node name="FloorWise3" parent="MapCollisions/Floors/TerrainGroup9" instance=ExtResource("7_usr5o")]
-position = Vector2(-1280, 219)
+position = Vector2(-1281, 219)
 
 [node name="TerrainGroup10" parent="MapCollisions/Floors" instance=ExtResource("103_rh3ym")]
 collision_layer = 4
