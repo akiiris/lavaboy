@@ -1,0 +1,21 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=3 uid="uid://clsjiofj8krs1"]
+
+[ext_resource type="Shader" path="res://assets/shader/lava_top.gdshader" id="1_forfl"]
+[ext_resource type="Texture2D" uid="uid://c3wa50analqmc" path="res://assets/shader/noise_combined.png" id="2_qntsk"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_xnjh3"]
+seed = 12
+frequency = 0.008
+fractal_type = 2
+fractal_lacunarity = 1.55
+fractal_gain = 0.45
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_coyer"]
+seamless = true
+seamless_blend_skirt = 0.535
+noise = SubResource("FastNoiseLite_xnjh3")
+
+[resource]
+shader = ExtResource("1_forfl")
+shader_parameter/noise_img = ExtResource("2_qntsk")
+shader_parameter/texture_2 = SubResource("NoiseTexture2D_coyer")
