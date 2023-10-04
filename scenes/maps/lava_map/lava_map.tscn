@@ -9,8 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://o2ha4gcgrkac" path="res://scenes/skeledoor/skeledoor.tscn" id="5_5f1hb"]
 [ext_resource type="FontFile" uid="uid://62rq13v02wss" path="res://assets/menu/inferno.ttf" id="6_6evis"]
 [ext_resource type="PackedScene" uid="uid://bthywae6yhefp" path="res://scenes/zone/zone.tscn" id="6_bqfg3"]
-[ext_resource type="Shader" path="res://assets/shader/lava_full.gdshader" id="6_cataw"]
 [ext_resource type="PackedScene" uid="uid://85fshduucm4d" path="res://scenes/platform/floor.tscn" id="6_h06s7"]
+[ext_resource type="Shader" path="res://assets/shader/lava_top.gdshader" id="6_jpmpn"]
 [ext_resource type="Texture2D" uid="uid://c3wa50analqmc" path="res://assets/shader/noise_combined.png" id="7_ncbo0"]
 [ext_resource type="PackedScene" uid="uid://bydyddi1ngc6t" path="res://scenes/platform/floor_wide.tscn" id="7_usr5o"]
 [ext_resource type="PackedScene" uid="uid://7wnjumm2wv35" path="res://assets/map/plat3.glb" id="9_gfk70"]
@@ -34,7 +34,8 @@ seamless_blend_skirt = 0.535
 noise = SubResource("FastNoiseLite_xnjh3")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_nxhyb"]
-shader = ExtResource("6_cataw")
+shader = ExtResource("6_jpmpn")
+shader_parameter/wavy = null
 shader_parameter/noise_img = ExtResource("7_ncbo0")
 shader_parameter/texture_2 = SubResource("NoiseTexture2D_coyer")
 
@@ -476,7 +477,6 @@ offset_top = 353.0
 offset_right = -1099.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava3" type="ColorRect" parent="Lava"]
@@ -486,7 +486,6 @@ offset_top = 353.0
 offset_right = -775.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava4" type="ColorRect" parent="Lava"]
@@ -496,7 +495,6 @@ offset_top = 353.0
 offset_right = -451.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava5" type="ColorRect" parent="Lava"]
@@ -506,7 +504,6 @@ offset_top = 353.0
 offset_right = -127.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava6" type="ColorRect" parent="Lava"]
@@ -516,7 +513,6 @@ offset_top = 353.0
 offset_right = 197.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava7" type="ColorRect" parent="Lava"]
@@ -526,7 +522,6 @@ offset_top = 353.0
 offset_right = 521.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava8" type="ColorRect" parent="Lava"]
@@ -536,7 +531,6 @@ offset_top = 353.0
 offset_right = 844.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava9" type="ColorRect" parent="Lava"]
@@ -546,7 +540,6 @@ offset_top = 353.0
 offset_right = 1168.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava10" type="ColorRect" parent="Lava"]
@@ -556,7 +549,6 @@ offset_top = 353.0
 offset_right = 1492.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava11" type="ColorRect" parent="Lava"]
@@ -566,7 +558,6 @@ offset_top = 353.0
 offset_right = 1816.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava12" type="ColorRect" parent="Lava"]
@@ -576,7 +567,6 @@ offset_top = 353.0
 offset_right = 2140.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava13" type="ColorRect" parent="Lava"]
@@ -586,7 +576,6 @@ offset_top = 353.0
 offset_right = 2464.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava14" type="ColorRect" parent="Lava"]
@@ -596,7 +585,6 @@ offset_top = 353.0
 offset_right = 2788.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava15" type="ColorRect" parent="Lava"]
@@ -606,7 +594,6 @@ offset_top = 353.0
 offset_right = 3112.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava16" type="ColorRect" parent="Lava"]
@@ -616,7 +603,6 @@ offset_top = 353.0
 offset_right = 3436.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
-color = Color(0.909804, 0, 0.247059, 1)
 metadata/_edit_lock_ = true
 
 [node name="NewLava17" type="ColorRect" parent="Lava"]
@@ -657,7 +643,6 @@ offset_right = -127.0
 offset_bottom = 1004.0
 scale = Vector2(0.5, 0.5)
 color = Color(0.909804, 0, 0.247059, 1)
-metadata/_edit_lock_ = true
 
 [node name="NewLava21" type="ColorRect" parent="Lava"]
 material = SubResource("ShaderMaterial_nxhyb")

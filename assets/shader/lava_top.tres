@@ -17,5 +17,6 @@ noise = SubResource("FastNoiseLite_xnjh3")
 
 [resource]
 shader = ExtResource("1_forfl")
+shader_parameter/wavy = true
 shader_parameter/noise_img = ExtResource("2_qntsk")
 shader_parameter/texture_2 = SubResource("NoiseTexture2D_coyer")

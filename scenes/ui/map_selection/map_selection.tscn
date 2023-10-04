@@ -2826,16 +2826,19 @@ height = 0.1
 script = ExtResource("1_g7fqc")
 
 [node name="KuntisInfernoTitle" type="Sprite2D" parent="."]
+texture_filter = 2
 position = Vector2(-7.62939e-06, -227)
 scale = Vector2(1.35577, 1.80769)
 texture = ExtResource("5_okxtn")
 
 [node name="KuntisInfernoTitle2" type="Sprite2D" parent="."]
+texture_filter = 2
 position = Vector2(16, 272)
 scale = Vector2(1.16778, 2.8464)
 texture = ExtResource("5_okxtn")
 
 [node name="KuntisInfernoTitle3" type="Sprite2D" parent="."]
+texture_filter = 2
 position = Vector2(16, 272)
 scale = Vector2(-1.00256, 4.31693)
 texture = ExtResource("5_okxtn")
