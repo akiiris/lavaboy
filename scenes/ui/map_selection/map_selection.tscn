@@ -1,10 +1,23 @@
-[gd_scene load_steps=26 format=3 uid="uid://bqt5782yuqc58"]
+[gd_scene load_steps=29 format=3 uid="uid://bqt5782yuqc58"]
 
 [ext_resource type="Script" path="res://scenes/ui/map_selection/map_selection.gd" id="1_g7fqc"]
 [ext_resource type="FontFile" uid="uid://62rq13v02wss" path="res://assets/menu/inferno.ttf" id="3_u304v"]
 [ext_resource type="AudioStream" uid="uid://biuwxtnfh6o5w" path="res://assets/menu/titlescreen2_1-2.ogg" id="4_4oace"]
 [ext_resource type="Texture2D" uid="uid://csn7wtq4m3bg2" path="res://assets/player/lava_boy_skeleton4_Bone2-equus_hemionus.png" id="5_mshwl"]
 [ext_resource type="Texture2D" uid="uid://dntxvsw07gvll" path="res://assets/menu/kuntis_inferno_title.png" id="5_okxtn"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_srvtl"]
+device = -1
+keycode = 32
+unicode = 32
+
+[sub_resource type="InputEventKey" id="InputEventKey_ec0lo"]
+device = -1
+keycode = 82
+unicode = 114
+
+[sub_resource type="Shortcut" id="Shortcut_gfh8m"]
+events = [SubResource("InputEventKey_srvtl"), SubResource("InputEventKey_ec0lo")]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kr22p"]
 resource_name = "Skeleton"
@@ -2838,6 +2851,7 @@ offset_right = -338.0
 offset_bottom = -36.0
 theme_override_fonts/font = ExtResource("3_u304v")
 theme_override_font_sizes/font_size = 72
+shortcut = SubResource("Shortcut_gfh8m")
 text = "PLAY"
 
 [node name="BtnQuit" type="Button" parent="."]
