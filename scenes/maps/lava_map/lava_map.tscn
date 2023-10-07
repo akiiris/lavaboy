@@ -526,81 +526,81 @@ metadata/_edit_lock_ = true
 
 [node name="NewLava8" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 196.0
+offset_left = 197.0
 offset_top = 353.0
-offset_right = 844.0
+offset_right = 845.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 metadata/_edit_lock_ = true
 
 [node name="NewLava9" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 520.0
+offset_left = 521.0
 offset_top = 353.0
-offset_right = 1168.0
+offset_right = 1169.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 metadata/_edit_lock_ = true
 
 [node name="NewLava10" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 844.0
+offset_left = 845.0
 offset_top = 353.0
-offset_right = 1492.0
+offset_right = 1493.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 metadata/_edit_lock_ = true
 
 [node name="NewLava11" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 1168.0
+offset_left = 1169.0
 offset_top = 353.0
-offset_right = 1816.0
+offset_right = 1817.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 metadata/_edit_lock_ = true
 
 [node name="NewLava12" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 1492.0
+offset_left = 1493.0
 offset_top = 353.0
-offset_right = 2140.0
+offset_right = 2141.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 metadata/_edit_lock_ = true
 
 [node name="NewLava13" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 1816.0
+offset_left = 1817.0
 offset_top = 353.0
-offset_right = 2464.0
+offset_right = 2465.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 metadata/_edit_lock_ = true
 
 [node name="NewLava14" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 2140.0
+offset_left = 2141.0
 offset_top = 353.0
-offset_right = 2788.0
+offset_right = 2789.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 metadata/_edit_lock_ = true
 
 [node name="NewLava15" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 2464.0
+offset_left = 2465.0
 offset_top = 353.0
-offset_right = 3112.0
+offset_right = 3113.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 metadata/_edit_lock_ = true
 
 [node name="NewLava16" type="ColorRect" parent="Lava"]
 material = ExtResource("5_4s8tf")
-offset_left = 2788.0
+offset_left = 2789.0
 offset_top = 353.0
-offset_right = 3436.0
+offset_right = 3437.0
 offset_bottom = 787.0
 scale = Vector2(0.5, 0.5)
 metadata/_edit_lock_ = true
