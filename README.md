@@ -7,8 +7,8 @@ https://ldjam.com/events/ludum-dare/54/kuntis-inferno
 
 ## Contributors
 
-Jivvy - design, coding
+Jivvy - design, development
 
-Akiiris/Duckwings - design, coding
+Akiiris/Duckwings - design, development
 
 Lightvgm - music, sound, art
